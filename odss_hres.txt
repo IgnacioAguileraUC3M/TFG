@@ -1,0 +1,86 @@
+{
+    "ODS1": [
+        "https://sdgs.un.org/es/topics/poverty-eradication"
+    ],
+    "ODS2": [
+        "https://sdgs.un.org/es/topics/rural-development",
+        "https://sdgs.un.org/es/topics/small-island-developing-states",
+        "https://sdgs.un.org/es/topics/food-security-and-nutrition-and-sustainable-agriculture"
+    ],
+    "ODS3": [
+        "https://sdgs.un.org/es/topics/national-sustainable-development-strategies",
+        "https://sdgs.un.org/es/topics/health-and-population"
+    ],
+    "ODS4": [
+        "https://sdgs.un.org/es/topics/education"
+    ],
+    "ODS5": [
+        "https://sdgs.un.org/es/topics/gender-equality-and-womens-empowerment",
+        "https://sdgs.un.org/es/topics/small-island-developing-states"
+    ],
+    "ODS6": [
+        "https://sdgs.un.org/es/topics/water-and-sanitation",
+        "https://sdgs.un.org/es/topics/small-island-developing-states"
+    ],
+    "ODS7": [
+        "https://sdgs.un.org/es/topics/energy",
+        "https://sdgs.un.org/es/topics/small-island-developing-states"
+    ],
+    "ODS8": [
+        "https://sdgs.un.org/es/topics/green-economy",
+        "https://sdgs.un.org/es/topics/employment-decent-work-all-and-social-protection",
+        "https://sdgs.un.org/es/topics/sustainable-tourism"
+    ],
+    "ODS9": [
+        "https://sdgs.un.org/es/topics/industry"
+    ],
+    "ODS10": [
+        "https://sdgs.un.org/es/topics/africa"
+    ],
+    "ODS11": [
+        "https://sdgs.un.org/es/topics/sustainable-cities-and-human-settlements",
+        "https://sdgs.un.org/es/topics/national-sustainable-development-strategies",
+        "https://sdgs.un.org/es/topics/disaster-risk-reduction",
+        "https://sdgs.un.org/es/topics/sustainable-transport"
+    ],
+    "ODS12": [
+        "https://sdgs.un.org/es/topics/sustainable-consumption-and-production",
+        "https://sdgs.un.org/es/topics/small-island-developing-states",
+        "https://sdgs.un.org/es/topics/chemicals-and-waste"
+    ],
+    "ODS13": [
+        "https://sdgs.un.org/es/topics/climate-change",
+        "https://sdgs.un.org/es/topics/national-sustainable-development-strategies",
+        "https://sdgs.un.org/es/topics/small-island-developing-states"
+    ],
+    "ODS14": [
+        "https://sdgs.un.org/es/topics/oceans-and-seas",
+        "https://sdgs.un.org/es/topics/small-island-developing-states"
+    ],
+    "ODS15": [
+        "https://sdgs.un.org/es/topics/biodiversity-and-ecosystems",
+        "https://sdgs.un.org/es/topics/forests",
+        "https://sdgs.un.org/es/topics/desertification-land-degradation-and-drought",
+        "https://sdgs.un.org/es/topics/national-sustainable-development-strategies",
+        "https://sdgs.un.org/es/topics/mountains",
+        "https://sdgs.un.org/es/topics/small-island-developing-states"
+    ],
+    "ODS16": [
+        "https://sdgs.un.org/es/topics/national-sustainable-development-strategies",
+        "https://sdgs.un.org/es/topics/information-integrated-decision-making-and-participation",
+        "https://sdgs.un.org/es/topics/institutional-frameworks-and-international-cooperation-sustainable-development",
+        "https://sdgs.un.org/es/topics/violence-against-children"
+    ],
+    "ODS17": [
+        "https://sdgs.un.org/es/topics/multi-stakeholder-partnerships-and-voluntary-commitments",
+        "https://sdgs.un.org/es/topics/science",
+        "https://sdgs.un.org/es/topics/trade",
+        "https://sdgs.un.org/es/topics/technical-cooperation",
+        "https://sdgs.un.org/es/topics/capacity-development",
+        "https://sdgs.un.org/es/topics/national-sustainable-development-strategies",
+        "https://sdgs.un.org/es/topics/finance",
+        "https://sdgs.un.org/es/topics/indicators",
+        "https://sdgs.un.org/es/topics/small-island-developing-states",
+        "https://sdgs.un.org/es/topics/technology"
+    ]
+}
