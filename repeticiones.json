@@ -1,0 +1,126 @@
+{
+    "https://sdgs.un.org/es/topics/oceans-and-seas": [
+        "ODS14"
+    ],
+    "https://sdgs.un.org/es/topics/technical-cooperation": [
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/multi-stakeholder-partnerships-and-voluntary-commitments": [
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/finance": [
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/health-and-population": [
+        "ODS3"
+    ],
+    "https://sdgs.un.org/es/topics/energy": [
+        "ODS7"
+    ],
+    "https://sdgs.un.org/es/topics/gender-equality-and-womens-empowerment": [
+        "ODS5"
+    ],
+    "https://sdgs.un.org/es/topics/trade": [
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/science": [
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/capacity-development": [
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/disaster-risk-reduction": [
+        "ODS11"
+    ],
+    "https://sdgs.un.org/es/topics/violence-against-children": [
+        "ODS16"
+    ],
+    "https://sdgs.un.org/es/topics/employment-decent-work-all-and-social-protection": [
+        "ODS8"
+    ],
+    "https://sdgs.un.org/es/topics/chemicals-and-waste": [
+        "ODS12"
+    ],
+    "https://sdgs.un.org/es/topics/green-economy": [
+        "ODS8"
+    ],
+    "https://sdgs.un.org/es/topics/forests": [
+        "ODS15"
+    ],
+    "https://sdgs.un.org/es/topics/desertification-land-degradation-and-drought": [
+        "ODS15"
+    ],
+    "https://sdgs.un.org/es/topics/mountains": [
+        "ODS15"
+    ],
+    "https://sdgs.un.org/es/topics/institutional-frameworks-and-international-cooperation-sustainable-development": [
+        "ODS16"
+    ],
+    "https://sdgs.un.org/es/topics/technology": [
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/food-security-and-nutrition-and-sustainable-agriculture": [
+        "ODS2"
+    ],
+    "https://sdgs.un.org/es/topics/information-integrated-decision-making-and-participation": [
+        "ODS16"
+    ],
+    "https://sdgs.un.org/es/topics/national-sustainable-development-strategies": [
+        "ODS3",
+        "ODS11",
+        "ODS13",
+        "ODS15",
+        "ODS16",
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/education": [
+        "ODS4"
+    ],
+    "https://sdgs.un.org/es/topics/sustainable-consumption-and-production": [
+        "ODS12"
+    ],
+    "https://sdgs.un.org/es/topics/rural-development": [
+        "ODS2"
+    ],
+    "https://sdgs.un.org/es/topics/industry": [
+        "ODS9"
+    ],
+    "https://sdgs.un.org/es/topics/sustainable-cities-and-human-settlements": [
+        "ODS11"
+    ],
+    "https://sdgs.un.org/es/topics/water-and-sanitation": [
+        "ODS6"
+    ],
+    "https://sdgs.un.org/es/topics/poverty-eradication": [
+        "ODS1"
+    ],
+    "https://sdgs.un.org/es/topics/small-island-developing-states": [
+        "ODS2",
+        "ODS5",
+        "ODS6",
+        "ODS7",
+        "ODS12",
+        "ODS13",
+        "ODS14",
+        "ODS15",
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/biodiversity-and-ecosystems": [
+        "ODS15"
+    ],
+    "https://sdgs.un.org/es/topics/sustainable-tourism": [
+        "ODS8"
+    ],
+    "https://sdgs.un.org/es/topics/africa": [
+        "ODS10"
+    ],
+    "https://sdgs.un.org/es/topics/sustainable-transport": [
+        "ODS11"
+    ],
+    "https://sdgs.un.org/es/topics/indicators": [
+        "ODS17"
+    ],
+    "https://sdgs.un.org/es/topics/climate-change": [
+        "ODS13"
+    ]
+}
