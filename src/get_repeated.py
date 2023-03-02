@@ -1,5 +1,5 @@
 import json
-with open('./odss_hres.json', 'r') as file:
+with open('./dss_hrefs_2.json', 'r') as file:
     links = json.load(file)
 
 enlaces = []
@@ -17,9 +17,5 @@ for enlace in unique_links:
         if enlace in links[ods]:
             repeated_links[enlace].append(ods) 
 
-with open('./repeticiones.json', 'w') as file:
-    json.dump(repeated_links, file, indent=4)
-
-
-
-    
+with open('./data/repeticiones_2.json', 'w') as file:
+    json.dump(repeated_links, file, indent=4)    

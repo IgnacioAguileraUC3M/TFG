@@ -57,5 +57,5 @@ for x in range(1,18):
             break
 
 print(links)
-with open('odss_hrefs.txt', 'w') as file:
+with open('./data/odss_hrefs.txt', 'w') as file:
     json.dump(links, file, indent=4)
