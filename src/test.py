@@ -6,15 +6,15 @@ import json
 # with open('./dss_hrefs_2.1.json', 'w') as fp:
 #     json.dump(js, fp, indent=4)
 
-# with open('./data/repeticiones_2.json', 'r') as fp:
-#     js = json.load(fp)
+with open('./data/repeticiones_2.json', 'r') as fp:
+    js = json.load(fp)
 
 
-# for x in js:
-#     if len(js[x]) == 16:
-#         print(f"href: {x}, ODS: {js[x]}")
+for x in js:
+    if len(js[x]) == 1:
+        print(f"href: {x}, ODS: {js[x]}")
 
-
+exit()
 import requests
 from bs4 import BeautifulSoup
 

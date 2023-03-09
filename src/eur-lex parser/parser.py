@@ -42,7 +42,7 @@ for href in documents_hrefs:
     driver.get(en_html.get_attribute('href'))
     aim = driver.find_element(By.TAG_NAME, 'body').text
     print(aim)
-    break
+    # break
 # /html/body/h2[4]
 
 # print(len(titles))
