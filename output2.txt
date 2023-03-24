@@ -1,0 +1,631 @@
+ The impact of climate change has been alarming for the crop growth. The
+extreme weather conditions can stress the crops and reduce the yield of major
+crops belonging to Poaceae family too, that sustains 50% of the world’s food
+calorie and 20% of protein intake. Computational approaches, such as artificial
+intelligence-based techniques have become the forefront of prediction-based
+data interpretation and plant stress responses. In this study, we proposed a
+novel activation function, namely, Gaussian Error Linear Unit with Sigmoid
+(SIELU) which was implemented in the development of a Deep Learning (DL) model
+along with other hyper parameters for classification of unknown abiotic stress
+protein sequences from crops of Poaceae family. To develop this models, data
+pertaining to four different abiotic stress (namely, cold, drought, heat and
+salinity) responsive proteins of the crops belonging to poaceae family were
+retrieved from public domain. It was observed that efficiency of the DL models
+with our proposed novel SIELU activation function outperformed the models as
+compared to GeLU activation function, SVM and RF with 95.11%, 80.78%, 94.97%,
+and 81.69% accuracy for cold, drought, heat and salinity, respectively. Also, a
+web-based tool, named DeepAProt (http://login1.cabgrid.res.in:5500/) was
+developed using flask API, along with its mobile app. This server/App will
+provide researchers a convenient tool, which is rapid and economical in
+identification of proteins for abiotic stress management in crops Poaceae
+family, in endeavour of higher production for food security and combating
+hunger, ensuring UN SDG goal 2.0. Copyright © 2023 Ahmed, Haque, Iquebal,
+Jaiswal, Angadi, Kumar and Rai.
+ ODS13
+
+ ================================
+ The marine environment represents an important resource for the promotion of
+sustainable development. The Sustainable Development Goal (SDG) 14, Life Below
+Water, highlights the need to balance the economic, social, and environmental
+dimensions when using the World's oceans. However, trade-offs arise between the
+implementation of SDG goals and the well-being of different groups of people.
+The use of justice mechanisms is critical for achieving social equity outcomes
+from ocean use. Trade-offs in implementation between SDG14 and other SDGs in
+the Seychelles are examined through the lens of distributive and procedural
+justice. Content analysis of grey and policy literature and qualitative data
+derived from stakeholder workshops and focus group discussions are used to
+examine trade-offs between expanding marine protection through the Blue Economy
+initiative and Marine Spatial Planning (MSP), and the livelihoods and
+well-being of artisanal fishers. MSP limit fishers’ access to marine resources
+through spatial, temporal, and permanent prohibitions on access to key fishing
+areas and gear use that negatively impact upon food security, subsistence
+livelihoods and well-being. These trade-offs reduce capacity to attain other
+SDG goals linked to alleviating poverty, hunger and good health and well-being.
+Consultation processes, by not giving adequate voice to fishers concerns and
+local knowledge, raise issues of procedural fairness. Trade-offs are largely
+borne by weaker socio-economic groups, leading to a failure to address issues
+of distributive fairness. Our research shows that the promotion of sustainable
+futures in the Seychelles remains elusive unless matters in relation to
+distributive justice are addressed and procedural fairness is provided. How
+justice mechanisms can be used in pursuit of social equity from ocean use is
+explained, and avenues for further research outlined. © 2022 The Authors
+ ODS9
+
+ ================================
+ Background: United Nations SDG-2 and SDG-3 pledges to end hunger, achieve food
+security, improve nutrition and reduce premature deaths of children persisting
+amongst 821 million people globally. Chickpeas, the second largest food legume
+in the world, are important due to dietary, therapeutic and health values since
+Roman times and are ideal source of protein, carbohydrate, minerals and
+β-carotene. Therefore, it is central to alleviate malnutrition and ensuring
+good health. Methods: We conducted experiments during Rabi crop season 2018-19
+and 2019-20 and studied proximate nutritional compositions such as protein, its
+bioavailability enhancement procedures, optimum sprouting stage and potential
+genotypes. The present series experiment as 6th one was undertaken to find out
+the impacts of varying seed seedlings germination stages at 0, 3 and 6 days on
+observed estimates of protein contents in 12 potential genotypes of chickpea
+including Pusa-256 as standard (control) check. Result: We noticed erosion of
+reserved seed nutrients activating seedling growth and enhancing nutritional
+values, observed protein in the range of 18.96 to 28.69%, discovered 6 days
+sprouts giving highest digestible protein and identified genotypes BG-1092,
+ICC-11378, JG-74 as potential resources to be utilized in breeding programmes
+for harnessing their genetic potentials for enriching protein and other
+nutritional components. © 2022, Agricultural Research Communication Centre. All
+rights reserved.
+ ODS5
+
+ ================================
+ Due to their highly perishable characteristics, vegetables have the highest
+levels of losses in the post-harvest phase. The 2030 Agenda for Sustainable
+Development defines SDG 12, which seeks to ensure sustainable production and
+consumption patterns, and to reduce by half the per capita food waste in the
+world, in addition to reducing food losses throughout the entire production
+chain and supplies. Improving the production chain for these products plays an
+important role in health, food safety and the fight against hunger. In this
+sense, this study aims to investigate anti-loss practices in the post-harvest
+phase in a vegetable supply chain in a municipality in the interior of São
+Paulo, given the importance of family farming in Brazil and the urgency to
+reduce food losses. The methodology used was qualitative research, with
+literature and document review, using the single case study method, carried out
+with a family farmer, and a questionnaire to collect primary data on the
+subject. Among the results obtained, it was found that the anti-loss actions
+carried out in the chain come from the main member (producer), who constantly
+requests greater attention regarding the way in which the products are
+presented to the consumer, harvesting as close as possible to the time of
+delivery to the markets, and collaboration with partners regarding the delivery
+of quantities according to what is absorbed by the market, avoiding losses in
+cold chambers. © 2022 University Center of Maringa. All rights reserved.
+ ODS16
+
+ ================================
+ Food production for human consumption is a leading cause of environmental
+damage in the world and yet over two billion people suffer from malnutrition.
+Several studies have presented evidence that changes in dietary patterns across
+the world can lead to win-win outcomes for environmental and social
+sustainability and can complement ongoing technological and policy efforts to
+improve the efficiency of agricultural production. However, the existing
+evidence have been compiled in “silos” by a large range of researchers across
+several disciplines using different indicators. The aim of this quantitative
+review is to bring together the existing knowledge on heterogeneity of current
+dietary patterns across the world and how a transition toward healthy diets in
+different countries can aid in progress toward multiple global Sustainable
+Development Goals (SDGs). We first summarize the nutritional quality, economic
+cost, and environmental footprint of current diets of over 150 countries using
+multiple indicators. Next, we review which shifts in dietary patterns across
+different world regions can help toward achievement of SDG2 (Zero hunger), SDG3
+(Good health and wellbeing), SDG 6 (Clean water and sanitation), SDG13 (Climate
+action), SDG14 (Life below water), and SDG15 (Life on land). Finally, we
+briefly discuss how to enable the shift toward sustainable dietary patterns and
+identify the research and data gaps that need to be filled through future
+efforts. Our analysis reveals that dietary change is necessary in all countries
+as each one has unique priorities and action items. For regions such as
+Sub-Saharan Africa and South Asia, increased intake of nutrient dense foods is
+needed to address deficiency of essential nutrients like folate, potassium, and
+vitamin A. For North America and Europe, shifting toward more plant-based diets
+would be healthier and simultaneously reduce the per capita environmental
+footprints. The results can be useful for policymakers in designing
+country-specific strategies for adoption of sustainable dietary behaviors and
+for food industry to ensure the supply of sustainable food items customized
+with regions' need. Copyright © 2022 Chen, Chaudhary and Mathys.
+ ODS16
+
+ ================================
+ The state of food security in the world, including that of Europe and Central
+Asia (ECA), was highlighted in 2020 by the outbreak of the COVID-19 pandemic,
+when the fact that the food security status of millions of people in ECA,
+particularly the most vulnerable and those living in fragile contexts, would
+deteriorate if swift action was not taken as soon as possible became apparent.
+Improving cereal yield is the key for the ECA to achieve the Sustainable
+Development Goal (SDG) Target 2.1 to end hunger by 2030. Impressive cereal
+yield growth has been witnessed within the ECA from 1991 to 2020, but there is
+still significant variation across the five sub-regions. This paper aimed to
+analyze the evolutionary trends and convergence of cereal yield in countries of
+the ECA from 1991 to 2020 for four major cereals: wheat, maize, barley and
+oats. The findings show that there is strong evidence of σ-convergence and
+absolute and conditional β-convergence for cereal yield in the ECA, which
+indicates that countries with low yield in the initial stages have totally
+experienced higher growth rate, and yield in countries farther away from the
+steady-state have to have faster growth rate to converge to the steady-state.
+The presence of club convergence is also identified in terms of geographic
+location and income level, simultaneously. Therefore, cereal yield in the ECA
+has converged to the whole and to different groups at the same time, which
+provides some evidence of agricultural technology spillover effect in the
+region. © 2022 by the authors.
+ ODS2
+
+ ================================
+ Women contribute decisively to the economy and have an important participation
+in agricultural exploitation in the world, providing their labor. But if they
+had better access to technology and training in a more equitable way, they
+could contribute much more. In effect, the rapid technological changes that
+have occurred in the sector pose an even greater challenge to achieve
+equalizing the role of women to that of men in the agri-food sector. The
+limitation of the female gender to training and empowerment prevents them from
+taking advantage of the technology that are contributing to the achievement of
+a world free of hunger and malnutrition, which is one of the sustainable
+development goals (SDG). Therefore, this work analyzes the world situation in
+terms of training and gender gaps to see if these elements affect the
+achievement of four of the sustainable development goals (SDG 2, 4, 5 10) in 87
+countries. The results of the multiple linear regression show the existence of
+a positive relationship between these elements is demonstrated. Then, as a real
+example, Spain is chosen as a country reference and analyzed in terms of
+training by gender, digital gender gap and labor gap. Finally, some advice and
+recommendations that allow the achievement of the inclusion of women in the
+improvement of the countries are suggested. © 2022, Bononia University Press.
+All rights reserved.
+ ODS16
+
+ ================================
+ This study developed a marginal abatement cost curve to identify a mix of
+least-cost investment options with the highest potential for hunger reduction,
+hunger here defined by the undernourishment concept of the Food and Agriculture
+Organization. Twenty-two different interventions are considered for reducing
+undernourishment relying on information drawn from best available
+evidence-based literature, including model- and large-scale intervention
+studies. Ending hunger by 2030 would require annual investments of about US$ 39
+to 50 billion until 2030 to lift about 840 to 909 million people out of hunger,
+which is the 2020 estimate of hunger projection in 2030, also considering the
+effects of COVID-19. Investing in agricultural R&D, agricultural extension
+services, ICT - Agricultural information systems, small-scale irrigation
+expansion in Africa and female literacy improvement are low cost options that
+have a relatively large hunger-reduction potential. To achieve the goal of
+ending hunger by 2030, not only is it urgent not to lose any more time, but
+also to optimally phase investments. Investments that have more long-term
+impacts should be frontloaded in the decade in order to reap their benefits
+soon before 2030. A balanced approach is needed to reach the hungry soon –
+including those adversely affected by COVID-19 with social protection and
+nutrition programs. © 2021 The Authors
+ ODS9
+
+ ================================
+ Sustainable development has become a central and key goal for humanity (1 UN:
+Millenium Development Goals, 2 SDGs). There is no scientific or political
+consensus, however, about the root cause of unsustainability, so an effective
+cure is impossible. Nevertheless, unlimited inequality among nations and
+individuals, extreme poverty, and hunger are always among the most significant
+problems. It is also often claimed that the world’s current food production
+would be sufficient to feed all 7.7 billion people on Earth (see Appendix A 1)
+with a better (more even, ‘just’) distribution. Others use food hunger and
+poverty data to support claims for increased food production and agricultural
+output. In this paper we examine the first claim with real data, but from a
+theoretical perspective: is it true, theoretically, that if all of the produced
+and wasted food were made available to feed the extremely poor and hungry, we
+could reach zero hunger-related deaths? We will use food waste, hunger-related
+(+thirst) death, obesity, and calorie consumption data from the “happy” and
+“unhappy” parts of the Earth. The cause of food waste is dissonant in different
+economic systems, so its macro-and microeconomic approach is also completely
+different in different countries. The relationship between obesity, hunger, and
+food waste has not yet been explored in a structured framework; data are
+available but scattered. In this paper we propose a unified framework of
+comparable data as a first step in mapping the biggest missing, or at least
+wobbling circle of modern bio-economy: global food supply. Thinking globally is
+a first step toward progress development in food justice and a solution to UN
+sustainable development goals (SDG 2, 1, 3, and 10). © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+ ODS9
+
+ ================================
+ Being critical to achieving Sustainable Development Goals (SDGs) of the United
+Nations, strengthening understanding of the properties and processes of soil at
+national and regional scales is imperative. The necessity to realize SDGs by
+2030 also inspires a greater sense of responsibility and care for soils.
+Sustainable management of soil health is important to achieving several SDGs.
+Pertinent SDGs intricately connected with soil health include SDG 1 (End
+Poverty), 2 (Zero Hunger), 3 (Good Health and Wellbeing), 5 (Gender Equality),
+6 (Clean Water and Sanitation), 7 (Affordable and Clean Energy), 9 (Industry
+Innovation and Infrastructure), 11 (Sustainable Cities and Communities), 12
+(Responsible Consumption and Production), 13 (Climate Action), and 15 (Life on
+Land). Some of these SDGs rely considerably on plant production and others
+depend on soil processes. Pertinent among soil processes are water movement,
+heat transfer, sorption and physical filtration, ion exchange, and biochemical
+and biophysical transformations. In terms of specific accomplishments, 130
+countries have aligned with the Zero Hunger Challenge, the globally available
+fresh water has decreased to 71% of needs, Technosols (soils whose formation is
+influenced by anthropogenic based materials) are used in urban ecosystems, food
+wastes are composted, specific targets of Land Degradation Neutrality have been
+signed by several countries, and soil C sequestration targets are widely
+implemented through initiatives such as the 4 Per Thousand (4P1000) initiative,
+Platform on Climate Action in Americas (PLACA), Adapting African Agriculture
+(AAA), Living Soils of the Americas (LiSAM), etc. In addition, policy and
+regulatory frameworks being widely promoted by several U.N. agencies (e.g.,
+U.N. SDGs,limiting global warming to 1.5°C or 2 °C) can be supported by
+innovations in soil science including forensic soil science, remote sensing and
+other innovations. Soil health is becoming a central element of the research
+and innovation program of the EU, aiming to reach a 75% of healthy soils by
+2030. In addition, the importance of soil health to human health and
+environmental issues is being widely promoted through educational books on soil
+science and secondary schools, as well as the revision of curricula. With
+continuous progress in movement into the digital world, transfer and
+communication of knowledge of the soil sciences can improve for the end users,
+policymakers, and the general public but additional efforts are needed. Soil
+science knowledge and research forms a significant contribution to specific
+aspects of food and nutritional security, human wellbeing, nature conservancy,
+and global peace and harmony. Achieving critical SDGs by 2030 can be
+facilitated by soil restoration and sustainable management. © 2021
+ ODS12
+
+ ================================
+ This is the first review to examine progress and barriers towards achieving
+food security in Melanesia as defined by United Nations Sustainable Development
+Goal 2: Zero Hunger and its component targets. Globally, Indigenous Peoples
+makeup ~5% of the global population and are responsible for protecting ~80% of
+the world's biodiversity. Indigenous Melanesians live within one of the most
+biodiverse regions in the world, however our findings suggest that traditional
+agrobiodiversity and food system knowledge are being lost to urbanization,
+lifestyle changes, imported foods, and deforestation. While progress has been
+made in reducing stunting and wasting, considerable efforts are still required
+to reverse the rising rates of NCDs and achieve food security in Melanesia.
+Future strategies should focus on promoting nutrition education, improved
+education for women, increasing agrobiodiversity within food systems,
+sustainable seafood production, diversification of protein sources, equitable
+market opportunities, and crafting trade agreements with insights from public
+health professionals to encourage health over profits. Strong participatory
+strategies inclusive of traditional knowledge are essential if Melanesia aims
+to progress towards the targets outlined in SDG 2: Zero Hunger. © 2021 Elsevier
+B.V.
+ ODS17
+
+ ================================
+ Target 2.1 of the Sustainable Development Goals (SDG) calls to end hunger in
+all its forms by 2030. Measuring food security among children under age 15, who
+represent a quarter of the world's population, remains a challenge and is
+infeasible for global monitoring. The SDG framework has agreed to use the Food
+Insecurity Experience Scale (FIES) to measure moderate and severe food
+insecurity. Using nationally-representative data from the Gallup World Poll
+(GWP) survey in 2014–15, we provide the first global and regional estimates of
+food insecurity among households with children under age 15. In addition, we
+test the robustness of the FIES against 1) monetary poverty and 2) the Negative
+Experience Index, a measure of well-being. Finally, we explore trends in per
+capita income as a determinant of food security (2006–15) to observe how this
+relationship fluctuated during the Great Recession. We find that across 147
+countries and four territories, 41% of households with children under age 15
+suffer from moderate or severe food insecurity, 19% from severe food
+insecurity, and 45% reported not having enough money to buy food in the
+previous 12 months. The relationship between food insecurity, poverty, and
+well-being varies by region, demonstrating that definitions of food insecurity
+depend on regional context, and encompass more than monetary poverty alone. Our
+findings will ideally encourage and provide motivation for continued global
+efforts to address food insecurity and monitor progress towards SDGs. © 2020
+ ODS1
+
+ ================================
+ Fisheries play a significant role in the livelihoods of the world population,
+while the dependence on fisheries is acute in developing countries. Fisheries
+are consequently a critical element for meeting the sustainable development
+(SDG) and FAO goals to reduce poverty, hunger and improve health and
+well-being. However, 90% of global marine fish stocks are fully or
+overexploited. The amount of biologically unsustainable stocks increased from
+10% in 1975 to 33% in 2015. Freshwater ecosystems are the most endangered
+ecosystems and freshwater fish stocks are worldwide in a state of crisis. The
+continuous fish stock decline indicates that the world is still far from
+achieving SDG 14 (Life Below Water), FAO’s Blue Growth Initiative goal and SDG
+15 (Life on Land, including freshwater systems). Failure to effectively manage
+world fish stocks can have disastrous effects on biodiversity and the
+livelihoods and socio-economic conditions of millions of people. Therefore,
+management strategies that successfully conserve the stocks and provide optimal
+sustainable yields are urgently needed. However, successful management is only
+possible when the necessary data are obtained and decision-makers are well
+informed. The main problem for the management of fisheries, particularly in
+developing countries, is the lack of information on the past and current status
+of the fish stocks. Sound data collection and validation methods are,
+therefore, important. Stock assessment models, which support sustainable
+fisheries, require life history traits as input parameters. In order to provide
+accurate estimates of these life history traits, standardized methods for
+otolith preparation and validation of the rate of growth zone deposition are
+essential. This review aims to assist researchers and fisheries managers,
+working on marine and freshwater fish species, in understanding concepts and
+processes related to stock assessment and population dynamics. Although most
+examples and case studies originate from developing countries in the African
+continent, the review remains of great value to many other countries. © 2021 by
+the authors. Licensee MDPI, Basel, Switzerland.
+ ODS17
+
+ ================================
+ With ever-increasing population of the world, which has now reached 7.75
+billion, it has become a major challenge for world to meet the sustainable
+development goal (SDG) of zero hunger via meeting demand for food, feed, and
+other agricultural products especially in developing countries. Therefore,
+improving and sustaining agricultural crops yield without posing negative
+impact on environment should be the ultimate goal to meet food and nutritional
+requirement around the world. Application of chemical fertilizers although has
+increased the crop productivity but simultaneously has posed serious threat to
+human and environmental health. Therefore, biofertilizers from microorganisms
+have potential to replace these chemical fertilizers in sustaining agricultural
+productivity and maintaining environmental health. Moreover biofertilizers are
+easy to use and less expensive than chemical fertilizers. Biofertilizers
+includes one or more beneficial microbes that facilitate better nutrient
+uptake, greater production of growth hormone and beneficial phytochemicals in
+crops leading to higher quantity as well quality crop production.
+Nitrogen-fixing microbes, phosphate-solubilizing bacteria (PSB),
+sulfur-solubilizing bacteria (SSB), potassium-solubilizing bacteria (KSB), and
+vesicular-arbuscular mycorrhiza (VAM) etc. are already being utilized in
+combination for making biofertilizers formulations for enhancing crop
+production but on small scale. Thus, large scale exploitation of agriculturally
+important microbes for sustaining agricultural productivity is the need of the
+hour. This chapter highlights the types, quality control measures, inoculation
+techniques of microbial biofertilizers; their role in sustaining agricultural
+productionand challenges as well as ways forward to promote the use of
+biofertilizers in order to achieve sustainable agricultural production to meet
+out the SDG of zero hunger. © 2021 Elsevier Inc. All rights reserved.
+ ODS16
+
+ ================================
+ The natural world has multiple, sometimes conflicting, sometimes synergistic,
+values to society when viewed through the lens of the Sustainable Development
+Goals (SDGs), Spatial mapping of nature's contributions to the SDGs has the
+potential to support the implementation of SDG strategies through sustainable
+land management and conservation of ecosystem services. Such mapping requires a
+range of spatial data. This paper examines the use of remote sensing and
+spatial ecosystem service modelling to examine nature's contribution to targets
+under SDG 6, also highlighting synergies with other key SDGs and trade-offs
+with agriculture. We use a wide range of remotely sensed and globally available
+datasets (for land cover, climate, soil, population, agriculture) alongside the
+existing and widely used spatial ecosystem services assessment tool,
+Co$tingNature. With these we identify priority areas for sustainable management
+to realise targets under SDG 6 (water) at the country scale for Madagascar and
+at the basin scale for the Volta basin, though the application developed can be
+applied to any country or major basin in the world. Within this SDG 6 priority
+areas footprint, we assess the synergies and trade-offs provided by this land
+for SDG 15 (biodiversity) and SDG 13 (climate action) as well as SDG 2 (zero
+hunger). Results highlight the co-benefits of sustainably managing nature's
+contribution to SDG 6, such as the protection of forest cover (for SDG target
+15.2), carbon storage as a contribution to the Paris climate agreement and
+nationally determined contributions (SDG 13) and biodiversity (for SDG target
+15.5) but also trade-offs with the zero hunger goal (for SDG 2). Such analyses
+allow for better understanding of land management requirements for realising
+multiple SDGs through protection and restoration of green infrastructure. We
+provide a freely available tool, within the Co$tingNature platform, based on a
+variety of remotely sensed products, that can be used by SDG practitioners to
+carry out similar analyses and inform decision-making at national or
+sub-national levels globally. © 2020 Elsevier Inc.
+ ODS16
+
+ ================================
+ In his 1941 State of the Union address, Franklin D. Roosevelt articulated four
+fundamental freedoms that people "everywhere in the world"should enjoy - of
+speech and of worship, and from fear and from want. Food ("freedom from want")
+is a fundamental human right, and it is acknowledged that there is enough
+sustenance in the world to feed everyone. Yet, some 800 million people are
+hungry. Why? It is due to a combination of inequitable distribution and morally
+indefensible destruction of excess crops to keep market prices attractive for
+producers and "big-agro"industry. In addition, one third of food is lost or
+wasted from "farm to fork."The world financial and food crisis in 2008 led to
+an additional short-term dimension to food security - stability. Sustainability
+may be regarded as the long-term time element combining environmental
+protection, sociocultural, and economic development. To emphasize the
+interrelations between economics and sustainable diets, the first two of the 17
+Sustainable Development Goals (SDG) are: (1) No Poverty and (2) Zero Hunger.
+Every country has marginalized populations with food insecurity, aggravated by
+natural and man-made disasters and whose numbers are always underestimates. We
+have developed a Global Nutrition Index to track the triple burden of
+malnutrition and it seems that the problems of obesity and the food industry
+are even greater than those of hunger. However, there is an essential
+difference: while people never choose to be hungry, there are elements of
+socioeconomic inequalities, personal choice, and parental responsibility in the
+development of obesity, especially in children. Nutrition, economics, and
+education are essential for improving human capital and come together in SDG 3
+- Good Health and Well-Being - since "a well-fed nation is a healthy nation is
+a productive and sustainable nation." © 2020 S. Karger AG, Basel. Copyright:
+All rights reserved.
+ ODS16
+
+ ================================
+ The international community has adopted and endorsed an ambitious global
+development agenda for the period 2015–2030 in the Sustainable Development
+Goals (SDGs). SDG 2 seeks to end hunger, achieve food security and improved
+nutrition, and promote sustainable agriculture. This reflects a broad
+international consensus on the unacceptability of hunger articulated previously
+at the 1996 World Food Summit and reiterated at the 2008 High-Level Conference
+on World Food Security. In 2009, at their L’Aquila Summit, the G8 heads of
+state and government pledged a significant expansion of aid to agriculture, in
+order to address the global food-price spike of the preceding year. However,
+serious global policy incoherence severely undermines this apparent political
+will to end hunger and boost developing-country agriculture. In particular,
+although official development assistance to agriculture in Sub-Saharan Africa
+(hunger’s center of gravity) doubled between 2003 and 2012, the share of total
+global aid going to agriculture, at just 5% in 2014, is well below the 20%
+share of the mid-1980s. In addition, donor-country agricultural trade and
+security policies often undercut support for agricultural development in the
+Global South. Furthermore, there is incoherence within donor policies on aid to
+agriculture, which tend to focus more on promoting commercialization and
+exports than on boosting smallholder productivity and the economic empowerment
+of women farmers. For their part, developing-country governments have not
+fulfilled pledges to increase their own agricultural development budgets (as
+seen in the African Union Declarations of Maputo and Malabo), and the bulk of
+those budgets go to recurrent expenditure rather than development investments.
+In Sub-Saharan Africa, military expenditures account for a greater share of
+public funds. This paper suggests that while policy makers in both the Global
+South and North treat food security and agricultural development as priorities,
+these remain in a relatively low position on policy agendas because other
+concerns respond to much stronger constituencies. © 2019, The Author(s).
+ ODS16
+
+ ================================
+ Sustainable Development Goal 2 is hinged on achieving zero hunger, worldwide,
+by the year 2030. Many developing countries, especially African countries, are
+faced with extreme hunger often caused or compounded by bad governance,
+conflicts and climate change. In this paper, we review patterns of Global
+Hunger Index scores across Africa from 2000 to 2018 noting advances and
+setbacks in the fight against hunger in relation to the underlying causes of
+hunger in these nations, using Nigeria, the poverty capital of the world, as a
+case study. We also review selected policies of the Nigerian government and
+development partners aimed at reducing hunger in Nigeria and proffer solutions
+that can help actualise the target of zero hunger by 2030. © 2019 Elsevier B.V.
+ ODS17
+
+ ================================
+ In a world of 9 billion people and a widening income gap between the rich and
+poor, it is time to rethink how aquaculture can strengthen its contribution to
+the second UN Sustainable Development Goal (SDG) of zero hunger in our
+generation. The disparity in the level of sustainable aquaculture development
+at present, between and within countries, especially regarding human access to
+farmed aquatic food remains highly variable across the globe. This paper offers
+a fresh look at the opportunities from using systems thinking and new open
+innovation measuring tools to grow sustainable aquaculture. Political will in
+many nations is the main constraint to aquaculture in realising its potential
+as an: accessible source of micronutrients and nutritious protein; aid to
+meeting conservation goals; economic prosperity generator where benefits extend
+to locals and provider of indirect social benefits such as access to education
+and well-being, among others. Resources to enable strong partnerships (SDG 17)
+between academia, civic society, government and industry should be prioritised
+by governments to build a sustainable aquatic food system, accessible to all,
+forever. © 2019 The Fisheries Society of the British Isles
+ ODS9
+
+ ================================
+ The world has made strides in reducing hunger and protein malnutrition but
+considerable progress is required to reduce micronutrient (vitamins and
+minerals) malnutrition, which is estimated to affect the health of up to two
+billion people. This need is recognized in UN Sustainable Development Goal 2
+(SDG2) – “End hunger, achieve food security and improved nutrition, and promote
+sustainable agriculture”. To this end, research and development institutions
+such as the Global Horticultural Initiative (GHI) and the World Vegetable
+Center have embraced the concept of Horticulture for Sustainable Development
+(H4sD) with the aim of reducing micronutrient deficiency through the increased
+production and consumption of fruit and vegetables. Increased fruit and
+vegetable production brings many other benefits to people, such as enhanced
+income for smallholder farmers and other value chain participants, employment
+opportunities throughout the value chain, empowerment of women, and more
+sustainable agriculture when it is incorporated as part of an agricultural
+diversification program. Thus, fruit and vegetable horticulture has great
+potential to contribute directly to several of the Sustainable Development
+Goals (SDGs), particularly SDG 2 (Zero hunger) and SDG 12 (“Responsible
+consumption and production”). This paper showcases recent evidence for the
+impact of international vegetable research and development done by the World
+Vegetable Center in collaboration with its partners, notably those in the GHI
+and in the public and private sectors. It highlights the impact of three major
+areas of the Center’s work: breeding improved lines of globally important and
+traditional niche vegetables; developing improved production technologies, such
+as those aimed at off-season vegetable production; and training poor rural
+women in household gardening and nutrition. The paper ends with a discussion of
+challenges and priorities for increasing the medium and long-term impact of
+international vegetable research and development.
+ ODS16
+
+ ================================
+ Combatting malnutrition in all its forms-undernutrition, micronutrient
+deficiencies, overweight, and obesity-is one of the greatest challenges that
+countries are facing. Much has happened in less than 10 years to redefine the
+international nutrition landscape and place nutrition at the heart of global
+development efforts. The food crises of 2008 and the Lancet first series on
+maternal and child undernutrition helped galvanize world attention. The
+enormous health and economic consequences of malnutrition were recognized, and
+far more attention began to be paid to the multiple burdens of malnutrition. In
+2014, the Second International Conference on Nutrition (ICN2) endorsed 2
+outcome documents, committing world leaders to establishing national policies
+aimed at eliminating malnutrition in all its forms, including hidden hunger,
+and transforming food systems to make nutritious diets available to all. In
+2015, 193 Member States of the United Nations adopted the 2030 Agenda for
+Sustainable Development and its 17 Sustainable Development Goals (SDGs), global
+objectives to guide the actions of the international community over the next 15
+years (2016-2030). Member States placed high priority on addressing
+malnutrition in all its forms by committing, under SDG 2, to "end hunger,
+achieve food security and improved nutrition, and promote sustainable
+agriculture." However, nutrition has also a role to play in achieving other
+goals of the 2030 Agenda, including goals related to poverty, health,
+education, social protection, gender, water, work, growth, inequality, and
+climate change. In 2016, the United Nations General Assembly endorsed the ICN2
+outcome documents and proclaimed the years 2016-2025 as the United Nations
+Decade of Action on Nutrition. The Nutrition Decade reaffirmed the commitments
+under the ICN2 and the 2030 Agenda to end malnutrition in all its forms.
+Together, the ICN2, the 2030 Agenda, and the Nutrition Decade have placed
+nutrition firmly at the heart of the development agenda with the recognition
+that transformed food systems have a fundamental role to play in promoting
+healthy diets and improving nutrition. This paper reviews the major
+international nutrition system changes called for, and provides an analysis of
+recent governance initiatives to address malnutrition in all its forms,
+including hidden hunger problems. © 2018 FAO. Published by S. Karger AG, Basel.
+All rights reserved.
+ ODS16
+
+ ================================
+ Having enough and sufficiently nutritious food is an inalienable human right.
+Every child, every woman, and every man has the right to live on healthy,
+diverse, and affordable food. It is the premise of a healthy, productive, and
+self-determined life. Yet, there are not only 800 million people going to bed
+hungry every day, there are also 2 billion people who suffer from hidden
+hunger, lacking valuable micronutrients like vitamins, zinc, or iron. They are
+more often ill, too weak to work in the fields, or to go to school. Of these,
+80% of the people live in rural areas, 26% of children under 5 years are
+stunted, and 3 million children die every year as a consequence of hidden
+hunger. The causes of hidden hunger are as diverse as the consequences:
+Cultivating monocultures depletes soils of nutrients and people in poverty want
+to fill their stomachs before they worry about a balanced diet. The quality of
+food is subordinated to its quantity and many women and men never learn about
+the importance of healthy nutrition or their right to it. This shows the
+challenges that are posed for sustainable development and, thus, for
+international development cooperation. The sustainable development goals (SDGs)
+take up these challenges and provide a framework for tackling them. Although
+SDG 2 "end hunger, achieve food security and improved nutrition and promote
+sustainable agriculture" is the most prominent goal in relation to hidden
+hunger, most of the other goals are related to it as they are either a
+prerequisite or an outcome of the action against hidden hunger. In its
+strategic framework, Bread for the World sets out different focal sectors, all
+of which tackle, either directly or indirectly, causes and consequences of
+hidden hunger. One of the sectors addresses sustainable agriculture and rural
+development, where projects are implemented by partner organizations worldwide
+and concern not just the quantity, but also and especially the quality of food.
+Yet, the majority of incoming funding requests are not concerned with hidden
+hunger directly. Yet a variety of project approaches consider influencing
+factors for hidden hunger. Additionally, every 3 years, Bread for the World
+chooses a motto under which it engages deeply with a certain topic in diverse
+ways. From 2014 to 2017, this motto is "Sated is not enough!". This approach
+allows attention to be directed to the phenomenon of hidden hunger in all its
+dimensions and helps to contribute to the solution of that global challenge
+with the international community. © 2018 S. Karger AG, Basel. All rights
+reserved.
+ ODS9
+
+ ================================
+ Land has gained stature as a natural resource to be protected since the 2012
+Rio+20 Summit. The decision to "strive to achieve a land-degradation neutral
+world in the context of sustainable development" (United Nations 2012, p. 54),
+along with the understanding that "this should act to catalyze financial
+resources from a range of public and private sources," served as the foundation
+for further discussions about land. In 2015, land was included in the 2030
+agenda for sustainable development as target 15.3 of Sustainable Development
+Goal 15 (SDG 15). Land has been defined as a global strategic resource that is
+under stress due to rapidly growing demand for biomass production to
+accommodate increased food and energy consumption and population dynamics. More
+than half of the additional two billion people who will live on Earth by 2050
+will be born in Africa. The population of sub-Saharan Africa (SSA) is predicted
+to grow from 900 million to about 1.4 billion by 2030. However, the region
+leads the world in poverty, hunger and food insecurity, youth unemployment,
+agricultural vulnerability to climate change, land degradation, resource-based
+conflicts, and migrations leading to economic, social, and political
+instability. Africa has the resources to respond to the exploding global demand
+for food, energy, and water. The region accounts for 60 % of the world’s
+uncultivated arable land and more than one third (715 million ha) of the
+world’s degraded land with potential for restoration. It is already a global
+hotspot for successful land restoration projects due to innovations in
+technology and social engineering, which mostly occur at a local level. The
+institutional aspects relating to the establishment, management and support of
+restoration projects, however, are one of the major obstacles to scaling up
+these projects. Achieving land degradation neutrality will be key for the
+economic, social, and environmental transformations SSA needs to accomplish,
+given the challenges and potentials of the region, such as climate change,
+population dynamics, and globalization. © Springer International Publishing AG
+2016.
+ ODS16
+
+ ================================

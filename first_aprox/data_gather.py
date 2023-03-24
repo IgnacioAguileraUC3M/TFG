@@ -44,20 +44,26 @@ dataset = pd.DataFrame(columns=['TEXT', 'ODS'])
 for link in sdgs_links:
     content = requests.get(link, headers=headers).content
     soup = BeautifulSoup(content, 'html.parser')
-    title = soup.find("span", {"class", "sdg-preline"}).text.replace(" ", "")
-    goal = title[-2:-1]
+    # title = soup.find("span", {"class", "sdg-preline"}).text.replace(" ", "")
+    title = soup.find("span", {"class", "sdg-preline"}).text.replace("\n", "")
+    goal = title.split(' ')[1]
+    print(goal)
     definition_block = soup.find_all("div", {"class": "field--type-text-with-summary"})
     definition_text = definition_block[1].text
     new_row = {'TEXT': filter_string(definition_text), 'ODS': str(goal)}
     dataset = pd.concat([dataset, pd.DataFrame(new_row, index = [0])], ignore_index=True)
     targets_block = soup.find("div", {"class": "field--name-field-sdg-targets"})
-    targets = targets_block.find_all("ul")
+    targets = targets_block.find_all("li")
     for t in targets:
         target_text = t.text
         new_row = {'TEXT': filter_string(target_text), 'ODS': str(goal)}
         dataset = pd.concat([dataset, pd.DataFrame(new_row, index = [0])], ignore_index=True)
     
-dataset.to_csv('./first_aprox/data/dataset.csv', index = False)
+dataset.to_csv('./first_aprox/data/dataset_3.csv', index = False)
+# print('--------------------------------------------')
+# print('--------------------------------------------')
+# print(dataset)
+
 
 
 # driver = webdriver.Chrome()
