@@ -1,9 +1,10 @@
 import tensorflow as tf
 import numpy as np
 import pandas as pd
+from sklearn.utils import class_weight
 
 SEED = 1 # Para los datasets
-LEARNING_RATE = 0.01
+LEARNING_RATE = 0.0001
 
 train_dataset = tf.keras.utils.text_dataset_from_directory('./first_aprox/data/dataset', 
                                                            seed=SEED,
@@ -18,16 +19,31 @@ validation_dataset = tf.keras.utils.text_dataset_from_directory('./first_aprox/d
                                                            label_mode='categorical',
                                                            subset = 'validation',
                                                            validation_split=0.2)
+
+y_train = np.concatenate([y for x, y in train_dataset], axis=0)
+
+classes_list = []
+y_ints = [y.argmax() for y in y_train]
+
+class_weights = class_weight.compute_class_weight(class_weight='balanced',
+                                                 classes=np.unique(y_ints),
+                                                 y=y_ints)
+
+# print(class_weights)
+class_weight_dict = dict(enumerate(class_weights))
+# print(class_weight_dict)
+# exit()
+
 #----------------------------------------------------------
 #--------------------Decode labels-------------------------
 #----------------------------------------------------------
-for i, label in enumerate(train_dataset.class_names):
-  print("Label", i, "corresponds to", label)
+# for i, label in enumerate(train_dataset.class_names):
+#   print("Label", i, "corresponds to", label)
 # exit()
 #----------------------------------------------------------
 #----------------------------------------------------------
 #----------------------------------------------------------
-# exit()
+
 train_text = train_dataset.map(lambda text, labels: text)
 
 VOCAB_SIZE = 1000
@@ -61,10 +77,11 @@ model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE),
                     loss='categorical_crossentropy',
                     metrics=['categorical_accuracy'])
 
-
-history = model.fit(train_dataset, epochs=10,
+class_weight_dict = dict(enumerate(class_weights))
+history = model.fit(train_dataset, epochs=27,
                     validation_data=validation_dataset,
-                    validation_steps=1)
+                    validation_steps=1, 
+                    class_weight=class_weight_dict)
 
 
-model.save('./first_aprox/models/model_1.tf', save_format='tf')
+model.save('./first_aprox/models/model_2.h5', save_format='h5')

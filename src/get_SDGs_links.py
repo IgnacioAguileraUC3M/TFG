@@ -31,7 +31,7 @@ chromedriver_autoinstaller.install()  # Check if the current version of chromedr
                                       # then add chromedriver to path
 
 driver = webdriver.Chrome()
-path = "https://sdgs.un.org/es/topics?name=&field_goals_target_id=All"
+path = "https://sdgs.un.org/es/topics?n ame=&field_goals_target_id=All"
 
 def get_links(driver):
     elements = driver.find_elements(By.CLASS_NAME, 'card-custom')

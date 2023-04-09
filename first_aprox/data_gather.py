@@ -19,18 +19,8 @@ og_soup  = BeautifulSoup(requests.get(url, headers=headers).content, 'html.parse
 sdgs_links = []
 for sdg in range(1,18):
     sdg_a = og_soup.find("a", {"class": f"goal{sdg}"})
-    # print(sdg_a)
-    # continue
-    # sdg_object = driver.find_element(By.CLASS_NAME, f'goal{sdg}')
-    # sdgs_links.append(sdg_object.get_attribute('href'))
     sdgs_links.append(url[:-1] + sdg_a.get('href'))
 
-# print(sdgs_links)
-# field field--name-body field--type-text-with-summary field--label-hidden field--item
-
-# dataset = pd.DataFrame(columns=['TEXT', 'ODS'])
-# new_row = {'TEXT': str(description_text), 'ODS': str(ods)}
-# dataset = pd.concat([dataset, pd.DataFrame(new_row, index = [0])], ignore_index=True)
 def filter_string(text:str):
     filters = [',', '"', "'", ' ']
     for filter in filters:
@@ -44,7 +34,6 @@ dataset = pd.DataFrame(columns=['TEXT', 'ODS'])
 for link in sdgs_links:
     content = requests.get(link, headers=headers).content
     soup = BeautifulSoup(content, 'html.parser')
-    # title = soup.find("span", {"class", "sdg-preline"}).text.replace(" ", "")
     title = soup.find("span", {"class", "sdg-preline"}).text.replace("\n", "")
     goal = title.split(' ')[1]
     print(goal)
@@ -60,20 +49,3 @@ for link in sdgs_links:
         dataset = pd.concat([dataset, pd.DataFrame(new_row, index = [0])], ignore_index=True)
     
 dataset.to_csv('./first_aprox/data/dataset_3.csv', index = False)
-# print('--------------------------------------------')
-# print('--------------------------------------------')
-# print(dataset)
-
-
-
-# driver = webdriver.Chrome()
-# driver.get(url)
-
-
-# for link in sdgs_links:
-#     driver.get(link)
-#     text_block = driver.find_elements(By.CLASS_NAME, 'field--type-text-with-summary field--name-body')
-#     print(len(text_block))
-
-# with open('./data/dss_hrefs_2.json', 'w') as file:
-#     json.dump(sdgs_links, file, indent=4)
