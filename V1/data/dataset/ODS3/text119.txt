@@ -1,0 +1,103 @@
+
+SDG Goals
+ 
+ 
+Ensure healthy lives and promote well-being for all at all ages
+
+             The World Bank/Dominic Chavez
+        
+Until the end of 2019  advances in many areas of health continued  but the rate of progress was not sufficient to meet most Goal 3 targets. The COVID-19 pandemic is throwing progress even further off track. The rapid increase in COVID-19 cases is causing a significant loss of life and overwhelming many health systems. Essential health services and lifesaving interventions are being disrupted. People are unable or afraid to go to health-care facilities to seek services such as check-ups  vaccinations and even urgent medical care. This could have potentially fatal consequences and threatens to reverse decades of improvements in health outcomes.
+In many countries  the outbreak is also triggering an alarm in terms of preparedness for health emergencies and immunization services. This is particularly true for countries where health systems are unable to cope with the surge in demand due to the lack of health-care workers  medical equipment and supplies.
+
+  COVID-19 could reverse years of progress in reducing maternal and child deaths unless urgent action is taken
+Progress has been made in maternal health. The maternal mortality ratio fell by 38 per cent between 2000 and 2017  from 342 deaths to 211 deaths per 100 000 live births worldwide. On average  the global maternal mortality ratio declined by 2.9 per cent each year over this period. Still  this is less than half of the 6.4 per cent annual rate needed to achieve the global target of 70 maternal deaths per 100 000 live births by 2030. Every day in 2017  approximately 810 women died from preventable causes related to pregnancy and childbirth. Sub-Saharan Africa and Southern Asia account for about 86 per cent of maternal deaths globally.
+The world has also made tremendous strides in reducing child mortality over the past two decades. The global under-5 mortality rate fell from 76 deaths per 1 000 live births in 2000 to 42 in 2015  and to 39 in 2018. The global neonatal mortality rate fell from 31 deaths per 1 000 live births in 2000 to 18 deaths per 1 000 in 2018. Despite this progress  some 5.3 million children died before reaching their fifth birthday in 2018 alone; almost half of those deaths  or 2.5 million  occurred within the first 28 days of life (the neonatal period). Sub-Saharan Africa remains the region with the highest under-5 mortality rate: in 2018  1 in 13 children died before reaching age 5. That is 16 times higher than the average in high-income countries. By 2018  121 countries had already met the SDG target on under-5 mortality  and 21 countries are expected to do so by 2030. However  progress will need to accelerate in 53 countries  two thirds of which are in sub-Saharan Africa.
+As the COVID-19 epidemic continues to erode health systems  disrupt routine health services and constrain access to nutritious diets and essential nutrition services  hundreds of thousands of additional under-5 deaths are expected in 2020  along with tens of thousands of additional maternal deaths. According to a recent study  if routine health care is disrupted and access to food is decreased  the increase in child and maternal deaths could be devastating: 118 low- and middle-income countries could see an increase of 9.8 to 44.8 per cent in under-5 deaths per month and an 8.3 to 38.6 per cent rise in maternal deaths per month  over a period of six months.
+
+              * Excluding Australia and New Zealand.
+              
+
+  The rate of unintended pregnancies could soar if continuity in family planning supplies and services is not ensured
+Ensuring that all births are assisted by a skilled attendant is part of a proven strategy for reducing maternal and newborn morbidity and mortality. Globally  81 per cent of births were assisted by skilled health professionals during 20142019  up from 64 per cent in 20002005  with many regions achieving almost universal coverage. Despite this progress  only 60 per cent of all births were assisted by skilled attendants in sub-Saharan Africa and 77 per cent in Southern Asia. Moreover  sub-Saharan Africa is expected to see a 15 per cent rise in annual births between 2019 and 2030. Assuming current coverage stays the same  an estimated 17 million births in sub-Saharan Africa will not be attended by a skilled provider in 2030.
+Meeting the demand for family planning with modern contraceptive methods also contributes to improving maternal and child health by preventing unintended and closely spaced pregnancies. Globally  the proportion of women of reproductive age (15 to 49years) who have their need for family planning satisfied with modern contraceptive methods increased slightly  from 75.7 per cent in 2010 to 76.8 per cent in 2020. Despite progress in sub-Saharan Africa over the past decade  only 55.5 per cent of the regions women who want to prevent pregnancy are using modern contraceptives. Globally  more than 250 million women have an unmet demand for modern contraceptives.
+A steady decline has been observed worldwide in the adolescent birth rate. It fell from 48 births annually per 1 000 women aged 15 to 19 years in 2010 to 45 in 2015 and 41 in 2020. Contributing factors include efforts to promote healthy and responsible reproductive and sexual behaviour among adolescents  a reduction in the incidence of child marriage and increased access to modern contraception. Yet stark disparities persist across regions: in sub-Saharan Africa  the adolescent birth rate remains at 101 births annually per 1 000 women.
+As COVID-19 continues to spread  many health facilities are closed or are providing only limited services. Whats more  many women and girls are choosing to skip important medical check-ups for fear of contracting the virus. In addition  global supply chain disruptions may lead to shortages of contraceptives. As a result  tens of millions of women may not be able to access contraceptive services  resulting in millions of unintended pregnancies.
+
+The COVID-19 crisis has interrupted childhood immunization efforts globally  with potentially deadly consequences
+Immunization is widely recognized as one of the worlds most successful and cost-effective health interventions  saving millions of lives. Coverage of the required three doses of diphtheria-tetanus-pertussis (DTP3) vaccine increased from 72 per cent in 2000 to 86 per cent in 2018. Coverage of the second dose of measles-containing vaccine (MVC2) increased from 19 per cent in 2000 to 69 per cent in 2018. That year  an estimated 19.4 million children did not receive these essential vaccines during the first year of life  putting them at serious risk of potentially fatal diseases. Moreover  global coverage of pneumococcal conjugate vaccine (PCV)  which has the potential to significantly reduce pneumonia  another major killer of children  has yet to reach 50 per cent.
+The COVID-19 crisis has interrupted childhood immunization efforts globally. Since March 2020  routine childhood immunization services have been disrupted on a scale not seen since the inception of the Expanded Programme on Immunization in the 1970s. More than half (53 per cent) of the 129 countries where data are available reported moderate-to-severe disruptions or a total suspension of vaccination services during March and April 2020.
+Measles and polio vaccination campaigns  in particular  have been badly hit  with suspended measles campaigns in 27 countries and suspended polio campaigns in 38 countries. At least 24 million people in 21 lower-income countries are at risk of missing out on vaccines against polio  measles  typhoid  yellow fever  cholera  rotavirus  human papillomavirus (HPV)  meningitis A and rubella. Moreover  border closures resulting from COVID-19 outbreaks are resulting in potential vaccine shortages in at least 26 low- and middle-income countries.
+
+        Immunization coverage worldwide  by type of vaccine  2010-2018 (percentage)
+        
+Show Data
+Download to CSV
+
+  Critical care for people with non-communicable diseases is even more precious in the age of COVID-19
+The probability of dying from any of the four main non-communicable diseases  cardiovascular disease  cancer  diabetes and chronic respiratory disease  between the ages of 30 and 70 declined from 22 per cent in 2000 to 19 per cent in 2010 and to 18 per cent in 2016. Slow progress is mainly due to an overall shortage of services within and outside health systems to prevent and treat non-communicable diseases. In 2016  71 per cent of all deaths worldwide were attributable to non-communicable diseases; of these  85 per cent of the 15 million premature deaths (before age 70) occurred in low- and middle-income countries. People with pre-existing non-communicable diseases are more vulnerable to becoming severely ill with the coronavirus. However  prevention and treatment services for non-communicable diseases have been severely disrupted since the COVID-19 pandemic began  with low-income countries most affected. Many people are not receiving the health services and medicines they need. Key actions are therefore urgently required  including essential care for acute  life-threatening conditions.
+
+  COVID-related disruptions could cause a spike in illness and deaths from other communicable diseases
+In spite of gains on many fronts  COVID-19-related service disruptions could cause hundreds of thousands of additional deaths from AIDS  malaria  tuberculosis and neglected tropical diseases.
+HIV: Globally  HIV incidence among adults aged 15 to 49 declined by 18 per cent from 2010 to 2018. But advances have been negligible since 2015  putting the world off track in achieving the SDG target. In 2018  HIV incidence was 0.24 per 1 000 uninfected population  and new HIV infections were estimated at 1.7 million. Globally  persistent efforts to reach pregnant women living with HIV have resulted in a 44 per cent decline in incidence among young children between 2010 and 2018. The steepest decline (37 per cent) among adults over that period was seen in sub-Saharan Africa. Still  61 per cent of all new HIV infections occurred in that region in 2018. Efforts must be made to mitigate and overcome interruptions in health services and supplies in sub-Saharan Africa during the COVID-19 pandemic. Models show that if no action is taken  a six-month complete disruption in HIV services  including antiretroviral therapy  could lead to more than 500 000 additional deaths in 20202021 in sub-Saharan Africa from AIDS-related illnesses  including tuberculosis. 
+Malaria: After many years of impressive reductions in the global burden of malaria  progress has stalled. The malaria incidence rate fell by 30 per cent between 2000 and 2014  from 81 to 57 cases per 1 000 population  and then remained at a similarly low level through 2018. The world is not on a trajectory to achieve the SDG target of ending malaria. Worse yet  malaria prevention services could potentially be disrupted by the spread of COVID-19 in malaria-endemic countries. Recent modelling shows that cancellation of prevention campaigns and severe disruptions in treatment in sub-Saharan Africa could lead to a 23 per cent increase in cases and a 100 per cent increase in deaths by the end of 2020 (compared with a 2018 baseline). This means that the projected 769 000 malaria deaths in sub-Saharan Africa alone could exceed the number of global malaria deaths in 2000  when the malaria epidemic was at its peak.
+Tuberculosis: Tuberculosis is the worlds top killer from a single infectious agent and the tenth leading cause of death overall. In 2018  an estimated 10 million people fell ill with tuberculosis (89 per cent were adults  63 per cent were male  and 8.6 per cent were people living with HIV). The incidence of tuberculosis declined from 172 new and relapse cases per 100 000 population in 2000 to 141 per 100 000 in 2015 and 132 in 2018. The tuberculosis mortality rate among HIV-negative people fell by 42 per cent between 2000 and 2018 and 8 per cent between 2015 and 2018. Drug-resistant tuberculosis is a continuing threat: in 2018  there were 484 000 new cases with resistance to rifampicin  the most effective first-line drug. Large gaps in detection and treatment persist  and the current pace of progress is not fast enough to meet the SDG target of ending the epidemic by 2030. Modelling suggests that if the COVID-19 pandemic leads to a 25 per cent global reduction in expected tuberculosis detection for 3 months  a realistic possibility given the levels of disruption being observed in multiple countries  then a 13 per cent rise in tuberculosis deaths could be expected. This would bring the world back to the tuberculosis mortality levels of five years ago. 
+Neglected tropical diseases: Progress in neglected tropical disease control  elimination and eradication was notable over the past decade. The total number of people who required treatment for neglected tropical diseases declined from 2.19 billion in 2010 to 1.80 billion in 2015 and 1.76 billion in 2018. Progress has been partly driven by the fact that at least one neglected tropical disease was eliminated in each of 40 countries. Nonetheless  52 per cent of the population of LDCs (530 million people) still require treatment and care; this represents a decline from 78 per cent in 2010. Temporary suspension of community-based activities and other disruptions due to COVID-19 may erode gains won by years of hard work and investment in neglected tropical diseases.
+
+        HIV incidence rates  2010 and 2018 (new cases per 1 000 uninfected adults aged 15 to 49 years)
+        
+* Excluding Australia and New Zealand
+Show Data
+Download to CSV
+
+        Proportion of people requiring interventions against neglected tropical diseases out of the total population  2010 and 2018 (percentage)
+        
+* Excluding Australia and New Zealand
+
+    The world is falling short on its promise of universal health coverage by 2030
+   
+
+      Universal health coverage means that all people have access to the health services they need  when and where they need them  without financial hardship. It includes the full range of essential health services  from health promotion to prevention  treatment  rehabilitation and palliative care. The number of people covered by essential health services in 2017 was estimated to be between 2.5 billion and 3.7 billion  about one third to one half of the global population. Only 12 to 27 per cent of the population in low-income countries were fully covered that year. If current trends continue  only 39 to 63 per cent of the global population will be covered by such services by 2030.
+    
+
+      The COVID-19 crisis is disrupting essential health services around the world. Some services have been suspended to free up resources for COVID-19 patients and to reduce the risk of transmission. Demand for some critical services has been reduced as patients seek to lighten the burden on hospitals and other health facilities. If universal health coverage is to become a reality by 2030  growth in the provision and use of essential health services must greatly accelerate.
+    
+
+      Rising out-of-pocket health expenses are reaching unsustainable levels  pushing millions into extreme poverty
+    
+
+       Achieving universal health coverage remains a global challenge. The number of people incurring large out-of-pocket health expenses has been increasing and will likely continue to increase. Globally  the proportion of the population spending more than 10 per cent of their household budgets to pay for health services rose from 9.4 per cent to 12.7 per cent (927 million people) between 2000 and 2015. It is estimated that nearly 90 million people were pushed into extreme poverty by out-of-pocket health payments in 2015. An estimated 1 billion people will spend at least 10 per cent of their household budgets on health care in 2020  the majority in lower-middle-income countries. The income loss due to COVID-19 lockdown measures will likely exacerbate the situation.
+
+         Official development assistance (ODA) plays a vital role in funding health care and medical research and in supporting national responses to COVID-19. But while ODA for basic health from all donors increased by 41 per cent in real terms since 2010  reaching $10 billion in 2018  progress has stalled in recent years.
+       
+
+  The pandemic has spotlighted the shortage of medical personnel worldwide as well as the heavy burden on women as nursing personnel
+
+      In most countries  womens share of employment in the health and social sector is much higher than their share of employment in the overall economy. Based on global 20132018 data  women comprise over 76 per cent of medical doctors and nursing personnel combined  but the distribution varies considerably between the two occupations. Women represent just over 40 per cent of medical doctors but almost 90 per cent of nursing personnel. Recent studies show that  although women comprise the majority of the health and social sector workforce  they are often underrepresented at the senior management level.
+    
+
+      The pandemic is highlighting the existing shortage of health professionals in many countries  particularly in regions with the highest burden of disease. Over 40 per cent of all countries have fewer than 10 medical doctors per 10 000 people; over 55 per cent of countries have fewer than 40 nursing and midwifery personnel per 10 000 people. An additional 18 million health workers are needed  primarily in low- and lower-middle income countries  to achieve universal health coverage by 2030.
+  
+
+              Distribution of medical doctors and nursing personnel by sex and regions  20132018  (percentage)
+          
+ Medical doctors 
+Show Data
+Download to CSV
+
+        Nursing personnel
+        
+Show Data
+Download to CSV
+
+  The need for greater public health preparedness has never been clearer
+ In 2019  166 countries reported on their preparedness to detect  report on and respond to health emergencies such as the coronavirus pandemic through the implementation of the International Health Regulations. Analysis shows steady progress since 2018 in almost every core capacity except for human resources  which is unchanged at 63 per cent. Although more work remains in most areas  the 2019 reports provided clear evidence of the strong political commitment to fulfil obligations under the International Health Regulations. They also showed that continuing efforts are needed to improve and maintain early warning systems and to mitigate and manage public-health risks within the national context. The current experience with the COVID-19 crisis has further highlighted the need for strengthening emergency preparedness as well as for rapidly scaling up response capacities and increasing multisectoral and international collaboration. 
+
+        Score by capacities according to International Health Regulations reports  2018 and 2019
+        
+
+        Note: 191 countries reported in 2018; 166 countries reported in 2019.
+        
+ Goal 2
+  
+
+    Goal 4  

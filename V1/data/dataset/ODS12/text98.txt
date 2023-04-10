@@ -1,0 +1,26 @@
+
+
+      Domestic material consumption (DMC) measures the total amount of materials directly used by an economy to meet the demands for goods and services from within and outside a country. At the global level  DMC is equivalent to the material footprint  and reached 92 billion metric tons in 2017. DMC increased from 2010 to 2017 in all regions of the world. Particularly striking is the increase in Eastern and South-Eastern Asia  where about 10 billion more metric tons were used in 2017 than in 2010. That increase accounts for about two thirds of the increase at the global level.
+    
+
+      The rising share of Eastern and South-Eastern Asia and other emerging economies in global DMC is due to two dynamics. The first is the construction of new infrastructure in emerging and transitioning economies  a pattern that many developing countries are likely to follow in the future. The second is the outsourcing of the material- and energy-intensive stages of production from high-income nations to less resource-efficient countries. The shift in production from the former to the latter means that more natural resources are needed to produce the same output.
+    
+
+      Because that shift in economic activity happened faster than improvements in resource efficiency in individual countries  material intensitydefined as domestic material consumption per GDPstagnated at an average of 1.16 kilograms per dollar from 2010 to 2017. In 2017  developed countries used about one fifth as many natural resources as developing countries to produce the same amount of economic output. Between 2010 and 2017  material intensity decreased in many regions  showing some progress towards the relative decoupling of economic output and DMC. But material intensity increased in other regions  resulting in no change at the global level. Good progress has been made in sub-Saharan Africa  Central and Southern Asia and Oceania (excluding Australia and New Zealand)  mostly as a result of increases in GDP.
+    
+
+        Domestic material consumption  2010 and 2017 (billions of metric tons)
+      
+
+          * Excluding Australia and New Zealand.
+        
+Show Data
+Download to CSV
+
+        Domestic material consumption per unit of GDP  2010 and 2017 (kilogram per dollar)
+      
+
+          * Excluding Australia and New Zealand.
+        
+Show Data
+Download to CSV

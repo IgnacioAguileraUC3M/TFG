@@ -1,0 +1,60 @@
+
+SDG Goals
+ 
+ 
+Ensure sustainable consumption and production patterns
+
+             Unsplash/Hermes Rivera
+        
+ Consumption and production drive the global economy  but also wreak havoc on planetary health through the unsustainable use of natural resources. The global material footprint is increasing faster than population growth and economic output. Improvements in resource efficiency in some countries are offset by increases in material intensity in others. Fossil fuel subsidies remain a serious concern. An unacceptably high proportion of food is lost along the supply chain. And waste  including additional medical waste generated during the pandemic  is mounting. The pandemic offers an opportunity to develop recovery plans that will reverse current trends and shift our consumption and production patterns to a more sustainable course. A successful transition will mean improvements in resource efficiency  consideration of the entire life cycle of economic activities  and active engagement in multilateral environmental agreements. 
+
+  The world continues on a path of using natural resources
+
+    The world's reliance on natural resources has continued to accelerate over the last two decades. One measurement of this reliance is the material footprint: the amount of primary materials required to meet basic needs for food  clothing  water  shelter  infrastructure and other aspects of life. It is an indicator of the pressure put on the environment to support economic growth and to satisfy the material needs of people. The global material footprint grew from 73.2 billion metric tons in 2010 to 85.9 billion metric tons in 2017  a 17.4 per cent increase. The footprint expanded for all types of materials  but especially for non-metallic minerals (which accounted for almost half of the global footprint)  pointing to growth in the areas of infrastructure and construction. In 2015  the material footprint per capita in high-income countries was over 10 times larger than in low-income countries. Urgent action is needed to decrease our reliance on raw materials and increase recycling and circular economy approaches to reduce environmental pressure and impact.
+
+      Material footprint by type of material  2010 and 2017 (billions of metric tons)
+      
+Show Data
+Download to CSV
+
+  Growth in the generation of electronic waste far outpaces its rate of recycling
+ The disposal of electronic and electrical equipment has become a fast-growing waste stream  driven by growing consumption  short product life cycles and limited repair. Such e-waste contains both valuable and hazardous materials. From 2010 to 2019  e-waste generated globally grew from 5.3 to 7.3 kilograms per capita annually. Meanwhile  the environmentally sound recycling of e-waste increased at a much slower pace  from 0.8 to 1.3 kilograms per capita annually. 
+In high-income regions  an e-waste management infrastructure exists. However  collection rates are  on average  substantially below 50 per cent. E-waste materials are often categorized as reusable goods and can also be exported to middle- and low-income countries. But in many of those countries  infrastructure is not yet developed or is inadequate to manage locally generated and illegally imported e-waste. The waste is mostly handled by the informal sector through open burning or acid baths  both of which pollute the environment and result in the loss of valuable and scarce resources. Moreover  workers and their children  who live  work and play on those sites  often suffer severe health effects.
+
+        E-waste generated and recycled  2010 and 2019 (kilograms per capita)
+      
+* Excluding Australia and New Zealand.
+
+        A significant proportion of food is lost along the supply chain before it reaches the consumer
+      
+Reducing food loss and waste can contribute to environmental sustainability by lowering production costs and increasing the efficiency of food systems. At the same time  it can improve food security and nutrition. While it is not yet possible to estimate the percentage of food waste at the retail and consumption stage  the percentage of food lost after harvesting and during transport  storage and processing stands at 13.8 per cent globally  amounting to over $400 billion a year. Regional estimates suggest that the highest level of food loss occurs in Central and Southern Asia (20.7 per cent)  followed by Europe and Northern America (15.7 per cent). Australia and New Zealand register the lowest food losses (5.8 per cent). Countries need to implement targeted interventions at critical stages of the value chain to reduce unnecessary food loss and waste. 
+
+        Proportion of food lost  2016 (percentage)
+      
+
+          * Excluding Australia and New Zealand.
+        
+Show Data
+Download to CSV
+
+  Despite the growing urgency of the climate crisis  Governments are still subsidizing the fossil fuel industry
+Fossil fuel subsidies are creating irreparable harm by incentivizing activities that produce large amounts of greenhouse gas emissions. The adverse consequences include air pollution and global warming. Fossil fuel subsidies may also be contributing to COVID-19 mortality rates  based on the link between air pollution  respiratory illnesses and the severity of COVID-19 infections. Fossil fuel subsidies globally rose to over $400 billion in 2018  approaching 2014 levels  but fell by around 27 per cent in 2019  mostly due to a decline in fuel prices.
+Subsidies for oil  gas and fossil-fuelled electricity will likely further decrease in 2020 due to weak demand. However  the continued prevalence of these subsidies is counterproductive to the global goal of achieving an early peak in greenhouse gas emissions. Especially at a time when many Governments need resources to finance large-scale COVID-19 relief and recovery measures  fossil fuel subsidy reform could be a valuable instrument in the policy toolkit for re-allocating scarce public resources.
+
+          Fossil fuel subsidies  2010 to 2019 (billions of constant 2019 dollars)
+      
+Show Data
+Download to CSV
+
+      Countries now need to operationalize the principles of sustainable economic growth
+    
+Advances in sustainable consumption and production spur progress in all the SDGs. From 2017 to 2019  79 countries and the European Union reported on at least one national policy instrument that contributed to the implementation of the 10-Year Framework of Programmes on Sustainable Consumption and Production. Of the reported policy instruments  70 per cent are seen as relevant to the SDGs with strong economic objectives (such as SDGs 8 and 9). Paradoxically  economic and financial instruments represent only 10 per cent of all policies reported in 2019  which reflects a limited operationalization of the vision outlined in the 10-Year Framework. Of all the policies that have quantified targets  40 per cent are aimed at reducing greenhouse gas emissions. 
+The commitment of countries to join forces to create a sustainable and resource-efficient economy is clear  including through multilateral cooperation to accelerate behavioural change across trade flows and value chains  the alignment of ambitious national policies  and the eventual generation of benefits for all. Science-based evidence on sustainable consumption and production and data on policy impacts are crucial to ensuring effective action.
+
+        Businesses must address gaps in the quality of sustainability reporting
+    
+ Sustainability reporting has been used by an increasing number of companies to demonstrate their commitment to the 2030 Agenda for Sustainable Development. A several initiatives have been launched to develop an agreed-upon and harmonized set of indicators for consistent and comparable sustainability reporting. Since 2017  the overall quality of sustainability reports has improved around the world. The share of reporting in the environmental  social  and institutional and governance dimensions that is aligned with the minimum requirements outlined in SDG indicator 12.6.1 (the number of companies publishing sustainability reports) has almost doubled. However  in many of the companies' reports  certain critical aspects of environmental  social and governance domains were hardly mentioned. These include water use  waste and emissions  gender equality  training on anti-corruption issues  and expenditures on employee health and safety. Large disparities were also observed across countries and regions. In Eastern Asia  Latin America and the Caribbean  and Europe and Northern America  firms demonstrated a higher level of reporting of baseline data that fulfilled the minimum requirements. Large gaps in reporting are evident in other regions  especially in Africa  Central Asia and Oceania.
+ Goal 11
+  
+
+    Goal 13  

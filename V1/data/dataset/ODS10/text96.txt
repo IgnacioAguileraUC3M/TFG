@@ -1,0 +1,10 @@
+
+
+      Income inequality is falling in some countries  but levels generally remain high
+    
+ The Gini index is one of the most commonly used measures of income inequality. It ranges between 0 and 100  where 0 indicates that income is shared equally among all people and 100 indicates the extreme situation where one person accounts for all income. Among the 84 countries with available data  the Gini index for disposable income (or consumption expenditure) fell by at least one point in 38 countries between 2010 and 2017  meaning those countries saw a reduction in inequality. However  income inequality rose over the same period in 25 of the countries with available data. 
+Despite falling inequality in the vast majority of countries with a Gini index value in excess of 40 in 2010  levels of income inequality remain high in many countries. Out of 166 countries with data  65 still had a Gini index value of over 40 in their most recent values  with 17 having an index value greater than 50. The lowest levels of income inequality were seen in Slovenia and the Czech Republic  with Gini index values below 25.
+Gini index for disposable income (or consumption expenditure) by country  around 2010 and 2017
+Note:  If data for a reference year are not available  the nearest year within a two-year window are presented.
+Show Data
+Download to CSV

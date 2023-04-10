@@ -1,0 +1,54 @@
+
+SDG Goals
+ 
+ 
+Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
+The integration of geospatial and statistical data supports decision-making and policy formulation  including for the implementation of the SDGs.
+             Kris Krg
+        
+ The pandemic is further testing multilateral and global partnerships that were already shaky. Although official development assistance (ODA) increased and remittance flows declined less than expected in 2020  foreign direct investment (FDI) dropped by 40 per cent. The impacts of the pandemic are leading to debt distress in many countries  and also limiting countries fiscal and policy space for critical investments in recovery (including access to vaccines)  climate action and the SDGs  threatening to prolong recovery periods. The interconnected global economy requires a global response to ensure that all countries  developing countries in particular  can address compounding and parallel health  economic and environmental crises and recover better. Strengthening multilateralism and global partnerships is more important than ever.
+
+    Foreign aid reached an all-time high during the crisis  but donors are still not living up to their commitments
+    
+ Net ODA flows by member countries of the Development Assistance Committee of the Organization for Economic Cooperation and Development reached $161 billion in 2020  an increase of 7 per cent in real terms from 2019  driven by members support of an inclusive global recovery in light of the pandemic and an increase in bilateral sovereign lending by some loan-giving members. Net ODA flows represented 0.32 per cent of donors combined gross national income (GNI) in 2020  falling short of the 0.7 per cent target. Most members were able to maintain their planned ODA commitments  and some were able to rapidly mobilize additional funding. But more is needed to respond to the COVID-19 crisis. 
+ Net bilateral flows to low-income countries were $25 billion  a decrease of 3.5 per cent in real terms compared with 2019. Net bilateral ODA increased by 6.9 per cent to lower-middle-income countries  and by 36.1 per cent to upper-middle-income countries  reaching $33 billion and $18 billion  respectively. 
+
+          Components of net ODA flows  20102020 (billions of constant 2019 dollars)
+        
+Show Data
+Download to CSV
+
+Foreign direct investment flows fell sharply in 2020  especially to poorer regions
+ In 2020  FDI fell by up to 40 per cent  dropping below $1 trillion (from $1.5 trillion in 2019) for the first time since 2005. Lockdown measures slowed existing investment projects  and the prospect of a deep recession led multinational enterprises to reassess new projects. Policy measures taken by Governments included new investment restrictions.
+ International private sector investment flows to developing and transition economies in sectors relevant to the SDGs fell by about one third in 2020. Except for renewable energy (where growth in new projects continued but was cut to one third of the pre-COVID level)  investment activity fell sharply across all SDG sectors  with the fall more pronounced in poorer regions. Looking ahead  the projection for FDI is gloomy in 2021. Related risks include the latest wave of the pandemic  the slow pace of the vaccination roll-out and uncertainty about the global investment policy environment.
+
+Remittance flows remained strong in 2020  despite the pandemic
+ Defying predictions  officially recorded remittance flows to low- and middle-income countries reached $540 billion in 2020  only 1.6 per cent below the 2019 level. Drivers included fiscal stimulus that resulted in better-than-expected economic conditions in host countries  a shift in flows from cash to digital and from informal to formal channels  and cyclical movements in oil prices and currency exchange rates. Remittance flows to low- and middle-income countries surpassed FDI for a second year. Remittances have become an important consumption-smoothing mechanism for recipient households. As such  they form an increasingly important (private) element of global social protection systems. Remittance flows rose by 6.5 per cent to Latin America and the Caribbean  by 5.2 per cent to Southern Asia  and by 2.3 per cent to the Middle East and Northern Africa. Flows to sub-Saharan Africa fell by 12.5 per cent  by 9.7 per cent to Europe and Central Asia  and by 7.9 per cent to Eastern Asia and the Pacific. 
+
+  The target of doubling the global share of LDC exports by 2020 has been missed
+ Between 2017 and 2019  the worldwide weighted tariff average remained stable at around 2 per cent. Moreover  exports of developing countries and LDCs have been given preferential treatment by developed countries. After reaching the lowest level ever of about 1.1 per cent in 2011  the average tariff applied by developed countries to imports from developing countries and LDCs has remained flat due to a lack of new commitments. Agriculture  a particular concern for developing countries  accounted for the highest tariff imposed by developed countries in 2019 (7.9 per cent). 
+ The share of LDC exports in global merchandise trade remained constant in 2019 at 1 per cent. Over the last decade that share has stagnated  after significant improvements from 2000 to 2010  largely due to a commodities boom. The target of doubling the global share of LDC exports by 2020 from the 2011 level (increasing it to 2 per cent) is unlikely to have been achieved. 
+Tariffs faced by developing regions  least developed countries and small island developing States in developed country markets  by sector  2019 (percentage)
+Show Data
+Download to CSV
+
+  Despite the immense need for connectivity during the pandemic  nearly half of the global population are still not online
+ In 2019  86 per cent of the population in Europe and Northern America were using the Internet  and most people in that region were able to work  shop and learn remotely during COVID-19 lockdowns. In Central and Southern Asia and sub-Saharan Africa  just over a quarter of the population were connected. The cost of Internet access and Internet-connected devices  and the lack of related skills  are the highest barriers to access for large parts of the world. 
+ To ensure no one is left behind  continued collective efforts are needed to connect the remaining 49 per cent of the worlds population. A close collaboration among governments  policymakers and network operators is required to bring them fully online. Fixed broadband has a significant impact on the world economy. In LDCs  fixed networks are almost completely absent  with only 1.3 subscriptions per 100 inhabitants. 
+Individuals using the Internet  2019 (percentage)
+Show Data
+Download to CSV
+
+    Notwithstanding a surge in data demand  international support for data and statistics remains inadequate
+    
+ Since the adoption of the SDGs  funding for data and statistics has increased four years in a row. It grew from $591 million in 2015 to $693 million in 2018  with significant increases for SIDS  landlocked developing countries and LDCs. However  support was levelling off in 2019. Despite a surge in data demand to inform pandemic-related policymaking  development support to data and statistics has not risen commensurately. A recent survey found that 63 per cent of low-income and lower-middle-income countries are in need of additional financing for data and statistics to face the challenges posed by COVID-19. 
+ In 2020  132 countries and territories reported that they were implementing a national statistical plan  with 84 having plans that were fully funded. Only 4 out of the 46 LDCs reported having fully funded national statistical plans that year. Countries could face more difficulties in implementing and funding such plans due to costly and labour-intensive activities (such as censuses and household surveys) that were moved to 2021 due to the pandemic. 
+Total official development assistance dedicated to statistical capacity-building activities  20152016 and 20172018 (millions of current US dollars)
+* Excluding Australia and New Zealand.
+            
+Show Data
+Download to CSV
+ Goal 16
+  
+
+     Note to the reader

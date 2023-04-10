@@ -1,0 +1,8 @@
+
+ The share of renewable energy in total final energy consumption reached 17.5 per cent in 2016  up from 16.6 per cent in 2010. In absolute terms  renewable energy consumption grew by 18 per cent over that period. The share of modern renewable energy increased at a faster pace  from 8.6 per cent in 2010 to 10.2 per cent in 2016. This category excludes traditional biomass usethat is  the inefficient use of solid biomass  such as the burning of wood  charcoal or other organic matter.
+ Most growth in renewable energy has been concentrated in the electricity sector. This is mainly due to the rapid expansion of wind and solar power  prompted by sustained policy support and cost reductions. However  electricity makes up only 20 per cent of final energy use. The remaining 80 per cent is concentrated in the heat and transport sectors  where modern renewables penetrated only 9 per cent and 3.3 per cent of the global market  respectively  in 2016. Meeting the ambitious SDG target will require increased policy attention to the deployment of modern renewables in both of these key sectors. 
+Proportion of renewable energy in total final energy consumption and by end use  2010 and 2016 (percentage)
+          
+Notes: Totals may not equal the sum of parts due to rounding. Heat refers to the amount of energy used for heat-generating purposes. Traditional biomass use corresponds to the use of local solid biomass resources by low-income households that do not have access to modern cooking and heating fuels or technologies  including consumption in the residential sector of developing countries.
+Show Data
+Download to CSV

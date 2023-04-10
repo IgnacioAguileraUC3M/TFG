@@ -1,0 +1,13 @@
+
+In 2015  196 Parties to the Paris Agreement committed to transforming their development trajectories towards sustainability and called for limiting global warming to well below 2C  ideally 1.5C  above pre-industrial levels. To meet these goals  global carbon dioxide emissions need to be reduced by 45 per cent by 2030 from 2010 levels  and reach net-zero emissions by 2050. Greenhouse gas concentrations reached new highs in 2020  with globally averaged mole fractions of CO2 exceeding 410 parts per million.
+The COVID-19 pandemic significantly reduced human activities in 2020  leading to a temporary fall in CO2emissions. Developed countries saw the steepest declines  averaging drops of almost 10 per cent  while emissions from developing countries fell by 4 per cent relative to 2019. Despite the temporary reduction in emissions overall in 2020  real-time data from specific locations  including Mauna Loa  United States  and Cape Grim  Tasmania  indicate that concentration levels of CO2  methane and nitrous oxide continued to increase in 2020. By December 2020  emissions had fully rebounded and registered 2 per cent higher than the same month in 2019. As the world recovers from the pandemic  emissions are expected to rise further unless critical steps are taken to shift economies towards carbon neutrality.
+
+          Concentrations of carbon dioxide  19592020 (parts per million)
+          
+Show Data
+Download to CSV
+
+          Monthly evolution of global CO2 emissions  2020 relative to 2019 (percentage)
+          
+Show Data
+Download to CSV

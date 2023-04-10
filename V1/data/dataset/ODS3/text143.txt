@@ -1,0 +1,13 @@
+
+
+      The main obstacle to understanding the true magnitude and impact of the COVID-19 pandemic is a lack of data. Globally  only 62 per cent of countries had a death registration system that was at least 75 per cent complete in 20152019; the share in countries in sub-Saharan Africa was less than 20 per cent. The pandemic is further challenging many civil registration systems. A survey carried out by the United Nations Department of Economic and Social Affairs Statistics Division in April/May 2020 showed that 13 per cent of reporting countries designated civil registration as non-essential  following national restrictions in service delivery.
+    
+
+      While public health surveillance systems have made tremendous efforts in reporting COVID-19 cases to WHO  basic characteristics such as age and sex are often missing. Overall  between January 2020 and April 2021  information on age was missing from the reports of 44 per cent of all cases. For countries in Africa  sex and age information were missing from nearly all case reports.
+    
+
+              Proportion of case report forms with missing attributes  January 2020 through April 2021 (percentage)
+          
+Note: Regional groupings are those used by WHO.
+Show Data
+Download to CSV

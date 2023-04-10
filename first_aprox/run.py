@@ -13,13 +13,16 @@ class model:
         
 
 if __name__ == '__main__':
-    mod = model(1)
+    mod = model(3)
     text = '''
     By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations
     '''
-    print(mod.predict(text))
+    # print(mod.predict(text))
     # data = pd.read_csv('./first_aprox/data/Test_data/SDG1/abstracts.csv')
-    # data = pd.read_csv('./test_data.csv', encoding='cp1252')
+
+    data = pd.read_csv('./test_data.csv', encoding='cp1252')
     # titles = data['Title']
-    # texts = data['Text']
+    texts = data['Text']
+    for t in texts:
+        print(mod.predict(t))
     # texts = [text]

@@ -1,0 +1,56 @@
+
+SDG Goals
+ 
+ 
+Goal 9: Build resilient infrastructure  promote inclusive and sustainable industrialization and foster innovation
+
+    Sustainable Development Goal 9 addresses three important aspects of sustainable development: infrastructure  industrialization and innovation. Infrastructure provides the basic physical facilities essential to business and society; industrialization drives economic growth and job creation  thereby reducing income inequality; and innovation expands the technological capabilities of industrial sectors and leads to the development of new skills.
+  
+
+  The untapped manufacturing potential of the least developed countries suggests significant growth opportunities
+
+      Manufacturing is one of the principal engines of economic growth. However  inequalities in the value added in the manufacturing sector point to the steep challenges faced by the most disadvantaged countries  as well as their potential for growth. For example  in 2015  manufacturing value added (MVA) per capita was less than 100 US dollars a year in the least developed countries (LDCs) compared to 4 926 US dollars in developed regions. Significant investment is needed in the LDCs to boost technological progress and economic growth  and to achieve the target of doubling industrys share in the gross domestic product of these countries. Trends in MVA show steady increases in developing regions and a slight decline in developed regions  which is similar to trends in manufacturing jobs. The potential for growth in manufacturing employment is particularly high in the LDCs  because large segments of the population continue to work in agricultural and traditional sectors.
+    
+
+        Manufacturing value added per capita  2005 and 2015 (constant 2010 US$)
+      
+Show Data
+Download to CSV
+
+  Energy efficiency and cleaner fuels and technologies have reduced carbon dioxide emissions per unit of value added
+
+      As countries shift to less energy-intensive industries  cleaner fuels and technologies  and stronger energy efficiency policies  almost all regions have shown a reduction in the carbon intensity of their GDP. The proportion of the worlds energy use covered by mandatory energy efficiency regulation has almost doubled over the last decade  from 14 per cent in 2005 to 27 per cent in 2014. More extensive deployment of clean technologies will increase the likelihood of achieving the proposed target of upgrading infrastructure and retrofitting industries to make them sustainable  with increasingly efficient use of resources and greater adoption of clean and environmentally sound technologies and industrial processes.
+    
+
+        Carbon dioxide (CO2) emissions per unit of value added  2000 and 2013 (kilograms per constant 2010 US$)
+      
+Show Data
+Download to CSV
+
+  Although expenditures on research and development have grown  the poorest countries lag behind
+
+      In 2013  global investment in research and development (R&D) stood at 1.7 trillion US dollars (PPP)  up from 732 billion US dollars in 2000. This represented an annual growth rate of 4.6 per cent  which suggests that 1.7 per cent of global GDP was devoted to R&D in 2013. While substantial  this global average masks wide disparities among regions: developed regions dedicated almost 2.4 per cent of their GDP to R&D in 2013  while the average for the LDCs and landlocked developing countries stood at less than 0.3 per cent. More concerted efforts are urgently needed to enhance research capabilities in these countries.
+    
+
+        Research and development expenditure as a proportion of GDP  2005 and 2013 (percentage)
+      
+Show Data
+Download to CSV
+
+  Mobile broadband networks reach almost 90 per cent of the urban population  but less than 30 per cent of the rural population
+
+      Technological advances in the communications sector  expanding networks and falling prices have driven the spread of mobile-cellular services around the world. People in previously unconnected areas have joined the global information society and  in 2015  95 per cent of people living in the LDCs were covered by a mobile-cellular signal. However  higher-speed Internet access through third-generation (3G) mobile-broadband networks is less widespread: Only 29 per cent of the rural population are covered. Increasingly  Internet access is a requirement for producers and entrepreneurs to remain competitive and greater efforts are needed to expand this type of coverage to rural and remote parts of the world.
+    
+
+        Proportion of the population covered by a third-generation mobile network  by location and technology  2015 (percentage)
+      
+Show Data
+Download to CSV
+Show Data
+Download to CSV
+Show Data
+Download to CSV
+ Goal 8
+  
+
+    Goal 10  

@@ -1,0 +1,53 @@
+
+SDG Goals
+ 
+ 
+Goal 7: Ensure access to affordable  reliable  sustainable and modern energy for all
+Universal access to affordable  reliable and sustainable energy services requires expanding access to electricity and clean cooking fuels and technologies  as well as improving energy efficiency and increasing the share of renewable energy. However  progress in all these areas falls short of what is needed to achieve the Goal by 2030. Increased financing and bolder policies are required  along with the willingness of countries to embrace new technologies on a much more ambitious scale.
+Photo Credit :  UN Photo/Eskinder Debebe
+
+  More than a billion people  mostly in rural areas  live without the benefits of electricity
+
+      Reliable and affordable access to electricity saves and improves lives. Among its many benefits  electricity powers computers in schools  charges phones  keeps food cold and businesses and essential infrastructure functioning. In 2014  85.3 per cent of the global population had access to electricity  up from 77.6 per cent in 2000  with progress slowing in the last few years. While 96 per cent of urban residents had access to electricity in 2014  the share was only 73 per cent for those in rural areas.
+    
+
+      Globally  1.06 billion people still lived without this essential service  with 80 per cent of them concentrated in just 20 countries. More than half the people without electricity lived in sub-Saharan Africa. The region had the lowest electrification rate overall at 37 per cent  but the figure dropped to just 17 per cent in rural areas. A major challenge is providing electrification rapidly enough to outpace growing populations. While some 86 million people a year are able to access electricity for the first time  this progress has been offset in some areas by population growth.
+  
+Proportion of the population with access to electricity  by residence and total  2000-2014 (percentage)
+Show Data
+Download to CSV
+
+  About three billion people still lack access to clean and safe cooking fuels and technologies
+
+      Lack of access to clean cooking fuels and technologies presents many health hazards and results in millions of deaths each year due to household air pollution. From 2000 to 2014  the proportion of the global population with access to such fuels and technologies (for instance gas and electricity) increased from 50 per cent to 57 per cent  progressing much more slowly than electrification. About 3 billion people  the majority in Asia and sub-Saharan Africa  are still cooking without the benefit of clean fuels and technologies. Rural areas lagged behind urban areas  with 22 per cent access versus 78 per cent  a gap much larger than in the case of access to electricity.
+    
+
+      Although 80 million people globally gained access to clean cooking fuels and technologies during 2012-2014  population growth offset this gain. Current progressa 0.46 percentage point increase annuallyis far lower than the annual 2.66 percentage point increase required for universal access by 2030.
+    
+Proportion of the population with primary reliance on clean cooking fuels and technologies  2000 and 2014 (percentage)
+Note: Oceania* refers to Oceania excluding Australia and New Zealand.
+Show Data
+Download to CSV
+
+  While renewable power generation is rising rapidly  comparable progress has not occurred in the heating or transport sectors
+
+      The share of renewable energy in final energy consumption globally has increased only modestly  from 17.5 per cent in 2010 to 18.3 per cent in 2014. However  driven by advances in technology and falling costs  wind and solar generation more than doubled over the same period. Most growth in renewable energy has been concentrated in the electricity sector. As a result  the share of renewable energy in power generation rose from 19.6 per cent in 2010 to 22.3 per cent in 2014. However  electricity makes up only 20 per cent of total final energy consumption. The key to expanding renewable energy will be to increase its share in heat and transport  which together account for the remaining 80 per cent of energy consumption. However  the share of renewable energy in the heat sector barely increased  from 25.7 per cent to 26.3 per cent from 2010 to 2014  while the share of renewables in the transport sector remained very lowat 2.8 per centin 2014.
+    
+Global share of renewable energy in heat  electricity and transport sectors  2010-2014 (percentage)
+Show Data
+Download to CSV
+
+  Despite gains in reducing energy intensity  progress is not yet sufficient to meet the target
+
+      Reducing energy intensity (the ratio of energy used per unit of GDP) can lower demand for energy  lighten the environmental footprint of energy production  and make energy more affordable. Globally  primary energy intensity declined by 2.1 per cent a year from 2012 to 2014. Over that period  three quarters of the worlds 20 largest energy-consuming countries reduced their energy intensity. The associated savings were equivalent to the total energy consumed by Brazil and Pakistan combined in 2014. However  progress is insufficient to double the global rate of improvements in energy efficiency as called for by the target.
+    
+
+      Industry and passenger transport sectors contributed to declining global energy intensity through greater efficiencies  with annual reductions of 2.2 per cent and 2.8 per cent  respectively  between 2012 and 2014. In transport  widespread diffusion of fuel-efficiency standards helped accelerate reductions in energy intensity  particularly for passenger transport. The residential sector  on the other hand  has become more energy intensive over time.
+    
+Compound annual growth rate of final energy intensity in end-use sectors  2012-2014 (percentage)
+Show Data
+Download to CSV
+ Goal 6
+  
+
+    Goal 8  

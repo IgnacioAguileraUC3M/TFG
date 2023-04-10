@@ -1,0 +1,55 @@
+
+SDG Goals
+ 
+ 
+Goal 10: Reduce inequality within and among countries
+Progress in reducing inequality within and among countries has been mixed. Income inequality has declined in many of the countries that experienced sustained economic growth  while increasing in countries with negative growth. Meanwhile  the voices of developing countries in international economic and financial decision-making still need to be strengthened. And  while remittances can be a lifeline for families and communities in the home countries of international migrant workers  the high cost of transferring money continues to diminish the benefits.
+Photo Credit :  The World Bank/Scott Wallace
+
+  Sustained economic growth has helped reduce income inequality in many countries
+
+      Between 2011 and 2015  the income and/or consumption of the bottom 40 per cent of the population grew faster than the national average in 49 of the 83 countries with data (accounting for three quarters of the worlds population). In most countries whose per capita income/consumption grew during this period  growth was faster for the bottom 40 per cent of the population. In contrast  in most countries with contractions in per capita income/consumption  the bottom 40 per cent fared worse than the overall population. This suggests that those in the bottom 40 per cent are particularly vulnerable to economic changes  and that sustained income growth overall is necessary to reduce inequality and ensure shared prosperity.
+    
+Average annual growth rate of real per capita consumption or income of the bottom 40 per cent of the population and total population  2011-2015 (latest available) (percentage)
+
+        Note: The line included on the graph is a reference line to allow one to easily see whether a countrys growth of the bottom 40 per cent was greater or less than the total population. It is not a trend line.
+        
+Show Data
+Download to CSV
+
+  Voting rights of developing countries have increased in some international organizations  but still fall far below their membership share
+
+      Many international organizations and bodies  including the United Nations General Assembly and the World Trade Organization  operate under a one member/one vote system. Others have a more complex decision-making mechanism in place. For example  in both the International Bank for Reconstruction and Development and the International Finance Corporation (both part of the World Bank Group)  the voting shares of developing countries remain far below their membership levels and have not increased much over the past 16 years. Other organizations  such as the International Monetary Fund (through its recent quota reform) and the Financial Stability Board  have increased the voting shares of developing countries during this period. However  more work needs to be done to ensure that the voices and participation of developing countries in international economic decision-making  norm-setting and global economic governance are broadened and strengthened.
+    
+The proportion of developing countries voting rights and membership share in select international organizations  2000 and 2016 (percentage)
+ Data for the Financial Stability Board are from 2010-2016. For this analysis only  developing countries are defined as countries in developing regions according to the M49 classification.
+Show Data
+Download to CSV
+
+  The international trade community continues to grant more favourable access conditions to lower-income countries
+
+      Duty-free treatment and favourable access conditions for exports from least developed and developing countries have expanded. From 2005 to 2015  the proportion of tariff lines globally with duty-free treatment for products originating in developing countries increased from 41 per cent to 50 per cent; for products originating in the least developed countries  the proportion rose from 49 per cent to 65 per cent. These increases indicate that the international community is continuing its efforts to grant preferential treatment to countries with lower income levels.
+    
+Proportion of tariff lines applied to exports from least developed and developing countries with zero tariff  2005  2010 and 2015 (percentage)
+Show Data
+Download to CSV
+
+  Total resource flows for developing countries fluctuate widely from year to year
+
+      Total resource flows for development include official development assistance  other official flows  private flows and net grants by non-governmental organizations. In 2015  global total resource flows for development to developing countries totalled just over 319 billion current US dollars. The contraction in 2015 was largely due to a steep decline in private resource flows. Least developed and landlocked developing countries received more than 10 per cent of all total resource flows for development in 2015  a continuation of consistent increases over the last 15 years. The region that received the largest share of total resource flows was Latin America and the Caribbean (a little over 100 billion US dollars)  while flows to Eastern and South-Eastern Asia fell from about 80 billion US dollars in 2010 to about 50 billion US dollars in 2015.
+    
+Total resource flows (net disbursements) for development  2000  2005  2010 and 2015 (billions of current US dollars)
+Show Data
+Download to CSV
+
+  While technology is spurring lower costs  sending remittances is still relatively expensive
+
+      Although the benefits of remittances from international migrant workers are substantial  they are diminished somewhat by the generally high cost of transfer. On average  post offices and money transfer operators charge over 6 per cent of the amount remitted; commercial banks charge 11 per cent; and the global average cost of transferring money is just over 7 per cent  according to World Bank Remittance Prices Worldwide. While the cost of sending money has declined gradually since 2008  all three of these remittance services providers charge significantly more than the 3 per cent target. New and improved technologies  such as prepaid cards and mobile operators  charge lower fees for sending money home (between 2 per cent and 4 per cent)  but are not yet widely available or used in many remittance corridors. These new technologies may help reduce the cost of sending remittances to some of the poorest countries  where costs tend to be highest. This is particularly true in sub-Saharan Africa  where average costs absorb about 10 per cent of the amount sent.
+    
+Total average cost of sending remittances by remittance service provider  first quarter 2017 (percentage of total amount sent)
+Show Data
+Download to CSV
+ Goal 9
+  
+
+    Goal 11  

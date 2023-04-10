@@ -1,0 +1,47 @@
+
+SDG Goals
+ 
+ 
+Ensure access to affordable  reliable  sustainable and modern energy for all
+Solar energy systems in rural Rwanda are electrifying homes  primarily benefiting women and children.
+             Ignite Rwanda
+        
+ Over the last decade  access to electricity has expanded  use of renewable energy in the electricity sector has increased  and energy efficiency has improved. Still  millions of people are without electricity  and one third of the global population lack clean cooking fuels and technologies. Progress in ensuring energy access has been uneven across regions  leaving the most vulnerable even further behind.
+The pandemic is reversing progress and causing millions of people to lose access to electricity. Moreover  depressed oil and gas prices are likely to discourage uptake of clean energy technologies. On the positive side  lower fossil fuel prices provide an opportunity for governments to reform fossil fuel subsidies. Stimulus plans designed to boost economic growth  protect workers and create jobs could scale up the deployment of clean energy technologies.
+
+  The lights are going out in parts of Africa and Asia due to the effects of growing poverty
+ The global electricity access rate improved from 83 per cent in 2010 to 90 per cent in 2019  with 1.1 billion people receiving electricity for the first time. However  759 million people were still without access in 2019  with three quarters of them in sub-Saharan Africa (97 million in urban areas and 471 million in rural areas). At the current pace  660 million people will still be without electricity in 2030  the vast majority of whom (555 million) will be in sub-Saharan Africa.
+The COVID-19 pandemic could reverse progress in some countries. In Africa  the number of people without electricity increased in 2020 after declining over the previous six years. In developing countries in Africa and Asia  basic electricity services are now unaffordable for more than 25 million people who had previously gained access  due to population growth and increasing levels of poverty. An additional 85 million people  mainly in developing countries in Asia  may be forced to scale back to basic electricity access because of an inability to pay for an extended bundle of services.
+Proportion of population with access to electricity  2010 and 2019 (percentage)
+Show Data
+Download to CSV
+
+  At the current rate of progress  one third of the worlds population will still be using dangerous and inefficient cooking systems in 2030
+ In 2010  57 per cent of the global population were using clean cooking fuels and technologies  rising to 66 per cent in 2019. This means that 2.6 billion people have been left behind. In sub-Saharan Africa  population increases outstripped growth in access  leaving about 85 per cent of the population reliant on inefficient and dangerous cooking systems. The majority of the poor rely on harmful and polluting fuels such as wood and charcoal to cook  making them especially vulnerable to COVID-19. Meanwhile  the pandemic and resulting lockdowns threaten to derail progress. Unless rapid action is taken  one third of the global population will still be without clean cooking fuels and technologies in 2030  resulting in significant adverse health effects and environmental degradation.  
+Share of the population with access to clean cooking systems  2019 (percentage)
+Note: The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations.
+
+  Effective climate action will require accelerated action on modern renewable energy  especially for heating and transport
+The share of renewable energy in total final energy consumption gradually increased to 17.1 per cent in 2018  up from 16.4 in 2010. The main contribution came from the electricity sector  where the share of renewables now exceeds 25 per cent. Nonetheless  electricity makes up only around 21 per cent of final energy use. The remaining portion is concentrated in the heat and transport sectors  where  in 2018  modern renewables penetrated 9.2 per cent and 3.4 per cent of the global market  respectively. Traditional uses of biomass  such as the burning of wood for heat  still account for almost 14 per cent of global heat consumption.
+Excluding traditional uses of biomass  Latin America and the Caribbean shows the highest share of modern renewable energy in total final energy consumption. This is largely due to significant hydropower generation  and to the use of bioenergy in industrial processes and biofuels for transport. In 2018  more than a third of the global annual increase in modern renewable energy consumption took place in Eastern Asia  where wind- and solar-generated electricity dominated growth.
+Share of renewable energy in total final energy consumption and by end use  2010 and 2018 (percentage)
+          
+Note: The squares represent the total final energy consumption (TFEC) for 2010 and 2018.The column widths represent the share of the sector in TFEC. The height of the shaded area of each sector represents the share of renewables.
+
+  The world will reach the global target for energy efficiency only through substantial investment on a systematic scale
+ Improving energy efficiency  along with increasing renewable energy deployment  is central to the global goal of reducing greenhouse gas emissions. The 2030 target calls for a doubling of the historical annual improvement rate in energy intensity between 1990 and 2010. Global primary energy intensity  defined as total energy supply per unit of GDP  improved from 5.6 megajoules per dollar in 2010 to 4.8 in 2018  an annual rate of improvement of 2 per cent. This is well below the 2.6 per cent required to meet the target. As a result  progress in energy intensity up to 2030 will now need to average 3 per cent a year. This remains within reach only with significant investment in cost-effective energy efficiency improvements on a systematic scale. While early estimates for 2019 indicated an improvement rate of 2 per cent  the outlook for 2020 suggests a low level of progress at only 0.8 per cent. In the immediate term  energy efficiency improvements continue  thanks to ongoing investments. 
+Growth rate of primary energy intensity  by period and target rate  19902030 (percentage)
+Show Data
+Download to CSV
+
+  Least developed countries receive only a fraction of international financing for renewable energy
+
+      International financial flows to developing countries in support of clean and renewable energy reached $14 billion in 2018  35 per cent lower than in 2017. Such annual fluctuations are mostly due to variations in large hydropower commitments. Hydropower  solar  geothermal and wind projects received 27 per cent  26 per cent  8 per cent and 5 per cent of 2018 flows  respectively. Public financial flows continue to be concentrated in a few countries. Argentina  India  Nigeria  Pakistan and Turkey  for instance  received 30 per cent of total commitments from 2010 to 2018. In contrast  the 46 least developed countries together received only 20 per cent of commitments over the same period. Most of the countries with the lowest levels of electricity access are LDCs (particularly in sub-Saharan Africa)  but many receive far less international public funding than the global average when measured on a per capita basis.
+    
+International financial flows to developing countries in support of clean and renewable energy by type of technology  20002018 (billions of dollars at 2018 prices and exchange rates)
+Show Data
+Download to CSV
+ Goal 6
+  
+
+    Goal 8  

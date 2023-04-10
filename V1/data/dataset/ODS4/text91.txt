@@ -1,0 +1,59 @@
+
+SDG Goals
+ 
+ 
+Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+
+             UNDP/Jared Katz
+        
+Despite progress  the world is not on track to meet 2030 education targets. Before the coronavirus crisis  projections showed that more than 200 million children would be out of school  and only 60 per cent of young people would be completing upper secondary education in 2030. Education systems worldwide have been hit hard and abruptly by the pandemic. School closures to stop the spread of COVID-19 have affected the vast majority of the worlds student population. Disrupted education is adversely affecting learning outcomes and social and behavioural development of children and youth. Children and youth in vulnerable and disadvantaged communities are particularly at risk of educational exclusion. The pandemic is deepening the education crisis and widening existing educational inequalities.
+
+    School closures worldwide may reverse years of progress in access to education
+ 
+Before the coronavirus crisis  the proportion of children and youth out of primary and secondary school had declined from 26 per cent in 2000 to 19 per cent in 2010 and 17 per cent in 2018. Despite some progress  258 million children and youth were still out of school in 2018  of which three quarters lived in sub-Saharan Africa and Southern Asia. Girls face more barriers than boys at the primary level. Globally  around 5.5 million more girls than boys of primary school age were out of school in 2018. The disadvantage girls face is more prominent in sub-Saharan Africa  where there were 128 girls for every 100 boys out of primary school that year. 
+In 2020  as COVID-19 spreads across the globe  more than 190 countries have implemented nationwide school closures. About 90 per cent of all students (1.57 billion) were out of school. Although distance learning solutions are provided in four out of five countries with school closures  at least 500 million children and youth are currently excluded from these options. The sheer magnitude of school closures is likely to set back progress on access to education.
+
+        Proportion of children and youth out of primary  lower and upper secondary school  20002018 (percentage)
+      
+Show Data
+Download to CSV
+
+      Without remedial action  the effects of COVID-19 will only add to the obstacles faced by poor children in completing their education
+    
+Goal 4 aims to keep children in school and ensure they complete their education. The global primary school completion rate was estimated at 85 per cent in 2019  up from 70 per cent in 2000. The lower and upper secondary school rates were 73 per cent and 49 per cent  respectively  with large disparities among population groups. For example  in low-income countries  the primary completion rate is 34 per cent for children from the poorest 20 per cent of households and 79 per cent for children from the richest 20 per cent of households. Similar disparities were found in completion rates for lower secondary and upper secondary schools.
+Months of absence from school owing to COVID-19 are likely to impact education outcomes. In the longer term  prolonged absence from school is associated with lower retention and graduation rates and worse learning outcomes  in particular among segments of the population that are already disadvantaged  including members of poor households and students with disabilities.
+
+          Primary school completion rate  20142018 (percentage)
+        
+Show Data
+Download to CSV
+
+  Remote learning remains out of reach for most students in the poorest countries
+ During the COVID-19 pandemic  many schools are offering remote learning to students through virtual classrooms to mitigate the impact of school closures. While this is an option for some  it is out of reach for many. Lack of access to computers and the Internet at home  as well as a low level of computer-related skills  put many already marginalized students at a further disadvantage.
+In 2019  around 87 per cent of households in Europe had Internet access at home  compared with 18 per cent of those in Africa. The digital divide is also reflected in computer ownership: 78 per cent of European households owned a computer in 2019 compared with 11 per cent in Africa.
+Successful remote learning also depends on the computer skills of teachers and parents. In about half of the 86 countries for which data are available  less than half of the population possessed basic computer skills  such as copying an electronic file. For more complex skills  such as downloading and installing new software and writing a specialized computer program  the rates were even lower.
+    
+
+          Proportion of the population with various levels of computer skills  20142018 (percentage)
+        
+
+    School closures create added risks for the health and safety of vulnerable children
+ 
+For millions of children around the world  school is not only a place to learn. It is also a safe place  removed from violence  where they can receive free meals  and health and nutrition services such as vaccinations  deworming and iron supplementation. An estimated 379 million children missed out on school meals because of school closures during the pandemic. Without them  many children go hungry  which also threatens their immune systems and their capacity to cope with disease.
+As studies from previous crises show  school closures and the economic downturn caused by COVID-19 may also increase rates of violence against children  child labour  child marriage and early pregnancies. Children from poor families often work to compensate for lost family income. Moreover  the reduced productivity of working parents poses economic challenges to both the family and society.
+The cost of fighting COVID-19 and the reduction in tax revenue caused by the economic downturn are likely to have a negative effect on education spending by governments and on global aid to education.
+  
+Lack of basic infrastructure in schools  such as handwashing facilities  will make recovery from COVID-19 more difficult
+ Lack of basic handwashing facilities in many schools around the world means that teachers and students do not enjoy a safe learning environment. In areas where schools are closed because of the pandemic  it also means that they will be unable to practice essential hygiene measures when they go back to school. According to the latest available data  only 65 per cent of primary schools worldwide have basic handwashing facilities. The proportion is slightly higher for lower secondary and upper secondary schools  at 71 per cent and 76 per cent  respectively. Of all regions  sub-Saharan Africa faces the biggest challenges  with basic handwashing facilities in only 38 per cent of primary schools and 43 per cent of upper secondary schools.
+Many schools also lack other basic resources  such as electricity  clean drinking water  computers and Internet access. Globally  89 per cent of upper secondary schools have access to electricity  85 per cent to basic drinking water  74 per cent to computers and 61 per cent to the Internet. Those in sub-Saharan Africa are the most disadvantaged: only 57 per cent of upper secondary schools have access to electricity  55 per cent to drinking water  41 per cent to computers and 24 per cent to the Internet.
+One important step towards the goal of quality education for all is getting enough trained teachers into classrooms. According to the latest available data  85 per cent of primary school teachers and 86 per cent of secondary school teachers worldwide received the minimum required training. Sub-Saharan Africa has the lowest percentage of trained teachers: 64 per cent at the primary level and 50 per cent at the secondary level.
+  
+
+          Proportion of schools with access to basic school resources globally and in sub-Saharan Africa  upper secondary  20162018 (latest) (percentage)
+        
+Show Data
+Download to CSV
+ Goal 3
+  
+
+    Goal 5  

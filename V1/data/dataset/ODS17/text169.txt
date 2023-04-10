@@ -1,0 +1,63 @@
+
+SDG Goals
+ 
+ 
+Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
+
+             Unsplash/Hannah Busing
+        
+ Support for implementing the SDGs has been steady but fragile  with major and persistent challenges. Financial resources remain scarce  trade tensions have been increasing  and crucial data are still lacking. The COVID-19 pandemic is now threatening past achievements  with trade  foreign direct investment and remittances all projected to decline. The pandemic also appears to be accelerating existing trends of global value chain decoupling. One of the few bright spots at this time is the increased use of technology as people flock to the Internet to work  shop and connect with others  but even this draws attention to a still-enormous digital divide. Containing COVID-19 requires the participation of all Governments  the private sector  civil society organizations and ordinary citizens around the world. Strengthening multilateralism and global partnership are more important than ever. 
+
+    Major donors say they will strive to protect ODA budgets  even as the coronavirus upends the global economy
+    
+ Net ODA flows by member countries of the Development Assistance Committee (DAC) of the Organization for Economic Cooperation and Development totalled $147.4 billion in 2019. This was almost the same as in 2018  but with an increased share going to the most disadvantaged countries. Net bilateral aid to Africa and to LDCs rose in real terms by 1.3 per cent ($37 billion) and 2.6 per cent ($33 billion)  respectively  from 2018. 
+ Concessional finance for the health sector from all donors averaged $26 billion per year in real terms between 2016 and 2018. In 2018  the United States  the Global Fund and the Bill and Melinda Gates Foundation accounted for more than half of this total  providing $8.6 billion  $3.3 billion and $2.6 billion  respectively. Total ODA for infectious diseases amounted to $6 billion. 
+ ODA has long been a source of financing to cushion the immediate impact of crises  and can be an important part of the global response to this pandemic. Nevertheless  the magnitude of the crisis could put pressure on donors aid budgets  despite DAC issuing a statement on 9 April 2020 that members will strive to protect ODA budgets. 
+
+          Components of net ODA flows  20102019 (billions of constant 2018 dollars)
+        
+* Preliminary data
+        
+Show Data
+Download to CSV
+
+After reaching a new high  remittances are expected to drop dramatically in 2020
+ Remittance flows to low- and middle-income countries are estimated to have reached $554 billion in 2019. Remittances have exceeded official aid by a factor of three since the mid-1990s. In 2019  remittances overtook even foreign direct investment flows to low- and middle-income countries. The growth of remittances slowed to 4.7 per cent in 2019 compared with a robust 8.6 per cent the previous year. 
+ Global remittances are projected to decline by about 20 per cent in 2020 due to the COVID-19 pandemic and shutdown  the steepest decline in recent history. This is largely the result of a fall in the wages and employment of migrant workers  who tend to be more vulnerable than non-migrants in economic crises in host countries. Remittances to low- and middle-income countries  an economic lifeline for many poor households  are projected to fall by 19.7 per cent in 2020  reaching $445 billion. 
+
+Foreign direct investment and global value chains are likely to take a hit from the coronavirus crisis
+ Global foreign direct investment (FDI) to developing economies remained stable in 2018. It rose by 2 per cent to $706 billion  but with significant differences among regions. Developing countries in Asia  already the largest recipient region of FDI  registered a rise of 4 per cent to $512 billion in 2018  with growth occurring in all subregions. FDI to Africa expanded by 11 per cent to $46 billion  but was still below the annual average of the last 10 years (about $50 billion). FDI to Latin America and the Caribbean totalled $147 billion in 2018  a 6 per cent drop after an increase in 2017. 
+ FDI is expected to decline by up to 40 per cent in 2020 as a result of delayed investment caused by the shock in global demand  and by a further 5 to 10 per cent in 2021. The pandemic has the potential to accelerate existing trends that show a decoupling of global value chains and reshoring  driven by a desire on the part of multinational enterprises to make supply chains more resilient. 
+
+  Global trade is expected to plummet while LDCs struggle to build their share of exports
+ Global merchandise trade is projected to decline by 13 to 32 per cent in 2020 as a result of the COVID-19 pandemic. Trade-weighted tariffs decreased from 2.2 per cent in 2017 to an average of 2.1 per cent worldwide in 2018. The preferential tariffs offered by World Trade Organization members providing unilateral concessions of preferences have reached an average low level of 1.1 per cent for both developing countries and LDCs. Difficulties in complying with conditions for preferential treatment  and the increasing number of trade agreements among developed countries  may narrow the window of opportunity that these rates offer to developing country exporters. 
+ The share of LDC exports in global merchandise trade was just above 1 per cent in 2018  a slight increase from 2017. This is roughly the same level of 10 years ago  and far from the target of doubling by 2020. The share of global exports in services of LDCs reached 0.8 per cent in 2018. However  participation remains concentrated within a few economies  particularly in Asian countries  with most other LDCs struggling to export services internationally. 
+Share of global exports  20102018 (percentage)
+Least developed countries
+Show Data
+Download to CSV
+Developing countries
+Show Data
+Download to CSV
+
+  The Internet is now essential for many daily activities  but half the worlds population is still not connected
+ During coronavirus lockdowns  many people are forced to rely on the Internet for daily activities  including working from home  taking online classes  shopping and socializing. However  almost half of the worlds population is not connected  particularly in poor countries. At the end of 2019  53.6 per cent of people (4.1 billion) were using the Internet  with wide regional disparities. In 2018  only 20 per cent of the population in Oceania (excluding Australia and New Zealand) and 26 per cent in sub-Saharan Africa were using the Internet compared with 84 per cent in Europe and Northern America and 87 per cent in Australia and New Zealand. 
+ Fixed-broadband subscriptions have nearly doubled over the last decade  from 7.6 per 100 inhabitants in 2010 to 14.9 in 2019. That year  fixed-broadband connections (1.1 billion) outnumbered fixed-telephone connections (931 million). Developed countries had 33.6 subscriptions per 100 inhabitants in 2019  while developing countries had a third of that amount  at 11.2 subscriptions. LDCs had almost no fixedbroadband connections owing to the high cost and lack of infrastructure. 
+Individuals using the Internet  20102018 (percentage)
+* Excluding Australia and New Zealand
+        2019 are estimates
+
+    While the need for sound data continues to escalate  poorer countries lack the resources to produce them
+    
+ In 2019  most countries reported that they were carrying out a national statistical plan (141 countries  up from 129 in 2018). However  many also said that they lacked sufficient funding for full implementation. Only 25 per cent of plans were fully funded in sub-Saharan Africa (9 out of 36 countries)  compared with 95 per cent (36 out of 38 countries) in Europe and Northern America. 
+ From 2016 to 2017  ODA for data and statistics rose by 11 per cent  from $623 million to $690 million  but this was only 0.34 per cent of total ODA. International funding for data and statistics is about half the level it needs to be. Over the past three years  countries in sub-Saharan Africa benefited most  receiving $885 million  a significant increase in funding. Continued and increased technical and financial support is needed to ensure that countries in developing regions are better equipped to monitor progress of their national development agendas. 
+Total official development assistance** dedicated to statistical capacity-building activities  20142016 and 20152017 (millions of current dollars)
+* Excluding Australia and New Zealand.
+**  Country-specific commitments only. Unallocated commitments to multiple countries/regions are excluded.
+            
+Show Data
+Download to CSV
+ Goal 16
+  
+
+     2020 targets

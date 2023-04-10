@@ -1,0 +1,15 @@
+
+
+    The material footprint is an accounting of fossil fuels and other raw materials extracted globally and used in a particular country. It reflects the amount of primary materials required to meet a countrys needs and can be interpreted as an indicator of the material standard of living or level of capitalization of an economy. From 2000 to 2010  the material footprint per GDP of developed regions dropped as a result of greater efficiency in industrial processes. But at 23.6 kilograms per unit of GDP in 2010  it was still substantially higher than the figure for developing regions at 14.5 kilograms per unit of GDP. As developing countries industrialized  the material footprint of the regions as a whole grew over this 10-year period. Non-metallic minerals showed the largest increase  rising from 5.3 to 6.9 kilograms per unit of GDP. This component represents almost half the material footprint of developing regions.
+    
+
+      Material footprint per GDP by type of raw material  2000 and 2010  (kilogram per unit of GDP at constant 2005 US dollars)
+      
+ Material footprint (Biomass)
+ Material footprint (Fossil fuels)
+ Material footprint (Metal ores)
+ Material footprint (Non-metallic minerals)
+
+        Note: The sum of the raw material categories may not add up to the total because of rounding.
+Show Data
+Download to CSV

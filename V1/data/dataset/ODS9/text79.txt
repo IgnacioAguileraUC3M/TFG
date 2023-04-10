@@ -1,0 +1,11 @@
+
+
+      Fixed-broadband Internet connections remain out of reach for many people. But coverage of mobile-cellular signals and mobile-broadband Internet has expanded rapidly  now reaching almost the entire global population. In 2018  96 per cent of the worlds population lived within reach of a mobile-cellular signal  and 90 per cent of people could access the Internet through a third generation (3G) or higher-quality network. However  while most live within range of these signals  not all are able to take advantage of them. The cost of accessing mobile-cellular networks and mobile-broadband Internet remains too high for many  particularly the most disadvantaged and at-risk population groups. In fact  just over half of the worlds population is currently using the Internet  with rates much lower in LDCs (about 20 per cent).
+    
+
+        Number of people covered by a mobile network  by technology  20072018 (billions)
+      
+ Estimate
+      Note: LTE (Long-Term Evolution) is a standard for high-speed wireless communication that allows for faster speeds than 3G technologies but does not meet the technical criteria of a 4G wireless service.
+Show Data
+Download to CSV

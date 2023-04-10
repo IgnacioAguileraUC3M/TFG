@@ -1,0 +1,46 @@
+
+SDG Goals
+ 
+ 
+Reduce inequality within and among countries
+
+             Patrick J. Nagel
+        
+ Inequality within and among countries is a persistent cause for concern  despite progress in some areas. Income inequality continues to rise in many parts of the world  even as the poorest 40 per cent of the population in most countries experience income growth. Greater focus is needed to reduce income and other inequalities  including those related to labour market access and trade. Specifically  additional efforts are needed to further increase zero-tariff access for exports from poorer countries  and to provide technical assistance to LDCs and small island developing States seeking to benefit from preferential trade status. 
+
+  Data show mixed progress on the sharing of prosperity within countries
+ To gauge whether the poorest people in a country are participating in economic progress  it is useful to compare the growth of household income (or consumption) of the poorest 40 per cent with that of the population as a whole. That provides one indication of whether overall prosperity is being shared with the bottom 40 per cent of the income ladder in a country. 
+ In 92 countries with comparable data over the period 2011 to 2016  the results were mixed. In 69 countries  the poorest 40 per cent saw their income grow  but with large variations among countries. In 50 of those 69 countries  income growth in the poorest 40 per cent of the population was faster than the national average. Notably  however  the bottom 40 per cent still received less than 25 per cent of overall income. In many countries  an increasing share of income goes to the top 1 per cent. 
+ Data measuring household income for that analysis were limited. Only 13 countries in sub-Saharan Africa had data on income growth for the most recent period. That points to the ongoing need for improved data collection and statistical capacity-building  especially in the poorest countries. 
+Annualized per capita growth rate of income of the bottom 40 per cent of the population compared to the total population  20112016 (percentage)
+
+      Rich and poor countries alike can benefit from policies promoting equality and inclusivity
+    
+ An important development objective for many countries is easing inequality and addressing social inclusion. One indicator of relative poverty and inequality is the share of people living below 50 per cent of the median income level. An analysis of data from 110 high- and low-income countries showed that the median country had 14 per cent of the population with income levels below that threshold. The most unequal country had 26 per cent below that threshold  and the most equal country had 3 per cent. But both rich and poor countries have high and low levels of inequality. Income inequality is not strongly correlated with either poverty or affluence  suggesting that policies promoting equality and inclusivity have universal relevance. 
+
+      Countries with a high proportion of non-performing loans need to attend to the health of their banking systems
+    
+ The stability of a countrys financial system is key to efficiently allocating resources  managing risks  and ensuring that macroeconomic objectives that benefit all are met. One measure of financial stability is the share of non-performing loans in relation to total loans to depositors in a banking system. An analysis of 138 countries from 2010 to 2017 showed that  in half of the countries  non-performing loans made up less than 5 per cent of total loans. In 2017  more than one quarter of the countries showed a higher percentage of non-performing loans (10 per cent or more)  and four countries showed a proportion higher than 30 per cent. A high proportion of non-performing loans usually affects profitability and undermines the broader business environment  which can have consequences for economic growth  unemployment and other factors affecting inequality. 
+
+  Globally  the share of national output used to remunerate workers is declining
+ The share of national income that goes to labour is one indication of whether economic growth will translate into higher incomes for workers over time. Increased national income can lead to improved living standards  but that depends on its distribution across aspects of production  including labour  capital and land.
+ Globally  the share of national income going to labour has shown a downward trend since 2004. That means that the share of national output used to remunerate workers has declined. The decrease was temporarily reversed during the global financial crisis of 20082009 due to a sudden contraction in GDP. Central and Southern Asia and Europe and Northern America were the main drivers of the declining global labour share. Between 2004 and 2017  the adjusted labour share of GDP decreased by more than 5 percentage points in Central and Southern Asia (from 51.2 to 45.8 per cent) and close to 2 percentage points in Europe and Northern America (from 59.6 to 57.6 per cent). Conversely  in Latin America and the Caribbean  the labour income share increased from 48.4 to 50.5 per cent during the same period. 
+Labour share of GDP  2004 and 2017 (percentage)
+Show Data
+Download to CSV
+
+  Lower-income countries continue to benefit from preferential trade status
+ Duty-free access continued to increase for exports from LDCs  small island developing States and developing regions at large. LDCs saw the biggest benefits: coverage of duty-free treatment increased by 5.5 percentage points between 2016 and 2017  reaching 65.6 per cent of all products exported. About 51 per cent of exports from developing regions have now become eligible for duty-free treatment. 
+ At the sector level  improvements in the treatment of LDCs were primarily due to growing duty-free access for agricultural and industrial products (increases of 7.3 and 5.4 percentage points  respectively). However  such access for LDCs and other developing countries is not automatic at customs checkpoints. Exporters need to comply with rules-of-origin certification processes to benefit from preferential treatment. Those procedures can be costly and time-consuming for small- and medium-sized enterprises  lowering their incentive to apply for preferential treatment. 
+Proportion of tariff lines with zero tariffs applied to exports from developing countries  least developed countries  and small island developing States  20052017 (percentage)
+Show Data
+Download to CSV
+
+  Policies to facilitate orderly  safe  regular and responsible migration are widespread  but far from universal
+ The majority of countries have policies that facilitate the orderly  safe  regular and responsible migration and mobility of people. Yet significant differences can be found across the six policy domains of this indicator. For each domain  more than half of the 105 countries with available data have a comprehensive set of policy measures  meaning that they reported having migration policy measures for 80 per cent or more of the subcategories of each domain. Migrant rights and socioeconomic well-being are the areas demonstrating the largest policy gaps  with over 40 per cent of countries lacking a comprehensive set of measures in those domains. Policies to promote cooperation and partnerships and to facilitate safe  orderly and regular migration are the most widespread  with more than three quarters of countries reporting a wide range of such measures. 
+Governments with policy measures to facilitate orderly  safe  regular and responsible migration and mobility of people  by policy domain  2019 (percentage)
+Note: Based on provisional data available for 105 countries (as of 17 May 2019).
+ Goal 9
+  
+
+    Goal 11  

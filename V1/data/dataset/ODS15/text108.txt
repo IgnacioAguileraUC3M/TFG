@@ -1,0 +1,11 @@
+
+ Twenty per cent of the Earths total land area was degraded between 2000 and 2015  resulting in a significant loss of services essential to human well-being. That estimate is relatively conservative given the underlying sub-indicators  which only represent three variables: changes in land cover  land productivity and organic carbon in soil. In all regions  except Europe and Northern America and Northern Africa and Western Asia  the extent of degradation covered 22.4 per cent to 35.5 per cent of land area  directly impacting the lives of over one billion people.
+ Global trends in land cover indicate a net loss in natural and semi-natural classes of land due largely to human-induced processes  including desertification  deforestation  improper soil management  cropland expansion and urbanization. Significant declines were also observed in the productivity of land cover classes that remained unchanged  with grasslands incurring some of the greatest losses. 
+
+          Proportion of degraded land from 2000 to 2015 (percentage)
+      
+** Including Australia  New Zealand and Papua New Guinea but excluding the islands of Oceania.
+        *** Excluding Switzerland and the United States.
+        
+Show Data
+Download to CSV

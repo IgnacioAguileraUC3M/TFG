@@ -1,0 +1,53 @@
+
+SDG Goals
+ 
+ 
+Goal 12: Ensure sustainable consumption and production patterns
+
+    Sustainable growth and development requires minimizing the natural resources and toxic materials used  and the waste and pollutants generated  throughout the entire production and consumption process. Sustainable Development Goal 12 encourages more sustainable consumption and production patterns through various measures  including specific policies and international agreements on the management of materials that are toxic to the environment.
+  
+
+As developing regions industrialized  their use of raw materials grew
+
+    The material footprint is an accounting of fossil fuels and other raw materials extracted globally and used in a particular country. It reflects the amount of primary materials required to meet a countrys needs and can be interpreted as an indicator of the material standard of living or level of capitalization of an economy. From 2000 to 2010  the material footprint per GDP of developed regions dropped as a result of greater efficiency in industrial processes. But at 23.6 kilograms per unit of GDP in 2010  it was still substantially higher than the figure for developing regions at 14.5 kilograms per unit of GDP. As developing countries industrialized  the material footprint of the regions as a whole grew over this 10-year period. Non-metallic minerals showed the largest increase  rising from 5.3 to 6.9 kilograms per unit of GDP. This component represents almost half the material footprint of developing regions.
+    
+
+      Material footprint per GDP by type of raw material  2000 and 2010  (kilogram per unit of GDP at constant 2005 US dollars)
+      
+ Material footprint (Biomass)
+ Material footprint (Fossil fuels)
+ Material footprint (Metal ores)
+ Material footprint (Non-metallic minerals)
+
+        Note: The sum of the raw material categories may not add up to the total because of rounding.
+Show Data
+Download to CSV
+
+  Per capita consumption of natural resources declined in developed regions  while increasing in most developing regions
+
+      Another measure of the flow or use of materials in individual countries is domestic material consumption  which measures the amount of natural resources used in economic processes. Domestic material consumption per capita declined slightly in developed regions  from 17.5 metric tons per capita in 2000 to 15.3 metric tons per capita in 2010. However  it remained 72 per cent higher than the value for developing regions  which stood at 8.9 metric tons per capita in 2010. Domestic material consumption per capita increased in almost all developing regions over this period  except in sub-Saharan Africa  where it remained relatively stable  and Oceania  where it decreased from 10.7 to 7.7 metric tons per capita. The dramatic rise in the consumption per capita of raw materials in Asia  particularly Eastern Asia  during this period is primarily due to rapid industrialization.
+    
+
+        Domestic material consumption per capita  2000 and 2010 (metric tons per capita)
+      
+
+        Note: Domestic material consumption measures the total amount of materials used by an economy. It is defined as the annual quantity of raw materials extracted from the domestic territory  plus all physical imports and minus all physical exports. It includes intermediate and final consumption until released to the environment.
+        
+Show Data
+Download to CSV
+
+  Almost all countries are party to at least one international environmental agreement on hazardous wastes and other chemicals
+
+      International frameworks to achieve environmentally sound management of hazardous wastes  chemicals and persistent organic pollutants have been established by the Basel  Rotterdam and Stockholm conventions. With six exceptions  all Member States of the United Nations are party to at least one of these conventions. The number of parties to these conventions increased significantly from 2005 to 2015  particularly in Africa and Oceania. Currently  there are 183 parties to the Basel convention  180 to the Stockholm convention and 155 to the Rotterdam convention (including the European Union as a party in all three conventions). Becoming a party to these international agreements brings certain obligations  including the establishment of a contact person to transmit relevent communication. All but one of the parties to the Basel convention and the majority of parties to the Rotterdam and Stockholm conventions have designated such contacts. However  the number of countries submitting national progress reports  which are also obligatory under the Basel and Stockholm conventions  has been declining since 20092010.
+    
+
+        Proportion of parties to international multilateral environmental agreements on hazardous wastes and other chemicals (Basel  Rotterdam and Stockholm conventions)  2000 and 2015 (percentage)
+      
+
+          Note: Data for Asia include Caucasus and Central Asia  Eastern  Southern  South-Eastern and Western Asia. Data for Africa include Northern and sub-Saharan Africa.
+        Show Data
+Download to CSV
+ Goal 11
+  
+
+    Goal 13  

@@ -5,15 +5,16 @@ from sklearn.utils import class_weight
 
 SEED = 1 # Para los datasets
 LEARNING_RATE = 0.0001
+DATASET_PATH="./V1/data/dataset"
 
-train_dataset = tf.keras.utils.text_dataset_from_directory('./first_aprox/data/dataset', 
+train_dataset = tf.keras.utils.text_dataset_from_directory(DATASET_PATH, 
                                                            seed=SEED,
                                                            labels = 'inferred', 
                                                            label_mode='categorical',
                                                            subset = 'training',
                                                            validation_split=0.2)
 
-validation_dataset = tf.keras.utils.text_dataset_from_directory('./first_aprox/data/dataset', 
+validation_dataset = tf.keras.utils.text_dataset_from_directory(DATASET_PATH, 
                                                            seed=SEED,
                                                            labels = 'inferred', 
                                                            label_mode='categorical',
@@ -78,10 +79,10 @@ model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE),
                     metrics=['categorical_accuracy'])
 
 class_weight_dict = dict(enumerate(class_weights))
-history = model.fit(train_dataset, epochs=27,
+history = model.fit(train_dataset, epochs=10,
                     validation_data=validation_dataset,
                     validation_steps=1, 
                     class_weight=class_weight_dict)
 
 
-model.save('./first_aprox/models/model_2.h5', save_format='h5')
+model.save('./first_aprox/models/model_3.tf', save_format='tf')

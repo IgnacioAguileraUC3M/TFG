@@ -1,0 +1,8 @@
+
+
+      Polluted air threatens the health of most city dwellers around the world. In 2014  nine out of 10 people living in urban areas did not breathe clean air  according to modelled data derived from satellite estimates and ground-level measurements in 3 000 cities in 103 countries. Clean air  in this case  refers to air that meets the annual World Health Organization (WHO) air quality guidelines value for particulate matter (PM2.5) of 10 micrograms per cubic metre. Striking differences are found among regions: in Australia and New Zealand  for example  100 per cent of city dwellers breathed clean air versus 50 per cent and 40 per cent  respectively  of urban populations in Oceania excluding Australia and New Zealand  and in Europe and Northern America. In contrast  none of the urban areas in sub-Saharan African countries or in Asian countries met the world air quality guidelines in 2014.
+    
+Proportion of the urban population living in areas that meet the annual WHO air quality guideline value for particulate matter of a diameter less than 2.5 micrometres (PM2.5)  2014 (percentage)
+Note: Oceania* refers to Oceania excluding Australia and New Zealand.
+Show Data
+Download to CSV
