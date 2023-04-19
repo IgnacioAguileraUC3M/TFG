@@ -1,9 +1,0 @@
-
-
-Fiscal policies that help shape more equitable societies play a small role in low-income countries
-    
- Some of the most effective mechanisms Governments have for reducing economic inequalities are taxes  and cash and in-kind transfers. The difference in the Gini index before and after taxes and social transfers provides a measure of how effective these policies are at redistributing incomes and lowering inequality. As countries struggle to recover from the COVID-19 crisis  the distributional impacts of such fiscal policy responses are becoming even more important.
-Data for 77 countries between 2013 and 2018 show substantial differences across countries in the effects direct taxes and cash transfers have in reducing inequality. Overall  the impacts are largest in high-income countries  with an average reduction in the Gini index of 10 percentage points  compared with just 1 percentage point among the low-income countries. This greater redistribution is partly explained by a much larger personal tax base in high-income countries  which reduces inequality directly through richer individuals paying a larger proportion of their income in taxes  as well as supporting social protection programmes. 
-Redistributive impact of direct taxes and cash and near-cash transfers  around 2017
-Show Data
-Download to CSV

@@ -1,7 +1,0 @@
-
- Improving energy efficiencyalong with increasing energy access and affordabilityis central to the global goal of reducing greenhouse gas emissions. Primary energy intensity  defined as total energy supply per unit of GDP  improved by 2.5 per cent in 2016  bringing the annual rate of improvement between 2010 and 2016 to 2.3 per cent. This is far better than the progress observed between 1990 and 2010  when annual improvements averaged 1.3 per cent. However  it still falls short of the SDG target of at least 2.7 per cent. Whats more  the latest estimates for 2017 and 2018 suggest a slowdown in improvement. 
- To boost progress  governments will need to set their energy efficiency ambitions higher. Fortunately  a range of policy options are available  all of which have been implemented in some form  to spur efficiency gains and provide the basis for more effective action. 
-Improvement rate of primary energy intensity  19902010 and 20102016 (percentage)
-* Excluding Australia and New Zealand.
-Show Data
-Download to CSV

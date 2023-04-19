@@ -11,6 +11,7 @@ adequate and predictable means for developing countries in particular
 least developed countries to implement programmes and policies to end
 poverty in all its dimensions
 ----------------------------------------
+
 =============================
 
 =========ODS10=========
@@ -133,7 +134,7 @@ Max text length: 276
 Minumum text length: 276
 Random text-----------------------------
  Significantly increase the exports of developing countries in particular
-with a view to doubling the least developed countries’ share of global
+with a view to doubling the least developed countriesï¿½ share of global
 exports by 2020
 ----------------------------------------
 =============================

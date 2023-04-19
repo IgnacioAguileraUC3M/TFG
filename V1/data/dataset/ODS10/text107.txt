@@ -1,6 +1,0 @@
-
- Over the past decade  significant progress has been made in reducing the transaction cost of remittances. The global average cost of sending $200 was 9.3 per cent in 2011. Despite the pandemic  the cost of sending money reached a record low of 6.5 per cent in the final quarter of 2020. That year  it was most expensive to send money to Oceania (excluding Australia and New Zealand) and sub-Saharan Africa  with costs of 9.1 per cent and 8.5 per cent  respectively  although substantial progress has been made in both regions since 2011. Regional remittance costs have declined overall since 2011  but only Central and Southern Asia has fallen below the targeted 5 per cent threshold so far. Coordinated efforts by public authorities  service providers and non-governmental organizations remain necessary to achieve the target of a global average cost of 3 per cent  along with costs to senders for all regions of 5 per cent or less  by 2030. 
-Average costs of sending $200 by region  2011 and 2020 (percentage)
-Show Data
-Download to CSV
-*Excluding Australia and New Zealand.

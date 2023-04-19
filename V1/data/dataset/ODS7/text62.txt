@@ -1,7 +1,0 @@
-
- More people are using electricity than ever before  with the proportion of the global population having access to this service rising from 83 per cent in 2010 to 87 per cent in 2015  then accelerating to 89 per cent in 2017 (a gain of 1 percentage point annually in the past two years). Still  840 million people were without this essential service in 2017  mostly in sub-Saharan Africa. In that region  only 44 per cent of the population had access  and an estimated 573 million people still lacked electricity. 
- Globally  electrification of rural areas progressed swiftly between 2015 and 2017  but a large gap remains. In 2017  rural coverage was 78 per cent compared to 97 per cent in urban areas. This means that 87 per cent of the people currently without electricity live in rural areas. Future electrification efforts will face the complexities of reaching unserved populations  including those who are displaced or living in remote  hard-to-reach communities and those connected to a frail and overburdened urban grid. 
-Proportion of population with access to electricity  2000 and 2017 (percentage)
-* Excluding Australia and New Zealand.
-Show Data
-Download to CSV

@@ -1,7 +1,0 @@
-
-
-      Fixed-broadband connections remain largely unaffordable and unavailable across large swathes of the population in developing regions  highlighting the vast digital divide in access to high-speed  high-capacity Internet services. In 2015  fixed-broadband penetration reached 29 per cent of the population in developed regions  but only 7.1 per cent in developing regions and 0.5 per cent in the least developed countries. Furthermore  while speeds of over 10 megabits per second were common in developed regions  connections in most developing regions did not exceed 2 megabits per second. Similarly  while Internet access has grown substantially over the last decade  only one-third of the population in developing countries and 1 in 10 people in LDCs were online in 2015  compared with about 80 per cent of the population in developed countries. There is also an important gender digital divide: globally  the Internet user penetration rate was about 11 per cent lower for women than for men.
-    
-Fixed-broadband internet subscriptions per 100 inhabitants  2010 and 2015
-Show Data
-Download to CSV

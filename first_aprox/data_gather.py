@@ -1,10 +1,5 @@
 # Scrapes https://jointsdgfund.org/
 
-# from selenium import webdriver
-# import chromedriver_autoinstaller
-# from selenium.webdriver.common.by import By
-# import json
-# chromedriver_autoinstaller.install()
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup

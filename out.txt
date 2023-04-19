@@ -1,0 +1,348 @@
+ODS11
+Text:text1.txt
+ Make cities inclusive  safe  resilient and sustainable
+More than half of the worlds population now live in urban areas. By 2050  that figure will have risen to 6.5 billion people  two-thirds of humanity. Sustainable development cannot be achieved without significantly transforming the way we build and manage our urban spaces.
+The rapid growth of cities in the developing world  coupled with increasing rural to urban migration  has led to a boom in mega-cities. In 1990  there were ten mega-cities with 10 million inhabitants or more. In 2014  there are 28 mega-cities  home to a total 453 million people.
+Extreme poverty is often concentrated in urban spaces  and national and city governments struggle to accommodate the rising population in these areas. Making cities safe and sustainable means ensuring access to safe and affordable housing  and upgrading slum settlements. It also involves investment in public transport  creating green public spaces  and improving urban planning and management in a way that is both participatory and inclusive.
+Sustainable city life is one of 17 Global Goals that make up the 2030 Agenda for Sustainable Development. An integrated approach is crucial for progress across the multiple goals.
+Learn more about the targets for Goal 11.
+
+
+----------------------------
+
+ODS5
+Text:text2.txt
+ End all forms of discrimination against all women and girls everywhere
+
+----------------------------
+
+ODS3
+Text:text2.txt
+ By 2030  reduce the global maternal mortality ratio to less than 70 per 100 000 live births
+
+----------------------------
+
+ODS13
+Text:text3.txt
+ Integrate climate change measures into national policies  strategies and planning
+
+----------------------------
+
+ODS3
+Text:text1.txt
+ Ensure healthy lives and promote well-being for all
+Since the creation of the Millennium Development Goals there have been historic achievements in reducing child mortality  improving maternal health and tackling HIV/AIDS  tuberculosis  malaria and other diseases. In 15 years  the number of people newly infected by HIV each year has dropped from 3.1 million to 2 million and over 6.2 million lives were saved from malaria. Since 1990  maternal mortality fell by 45 percent  and worldwide there has been an over 50 percent decline in preventable child deaths globally. 
+Despite this incredible progress  AIDS is the leading cause of death among adolescents in sub-Saharan Africa  and 22 million people living with HIV are not accessing life-saving antiretroviral therapy. New HIV infections continue to rise in some locations and in populations that are typically excluded or marginalised.
+Chronic and catastrophic disease remains one of the main factors that push households from poverty into deprivation. Non-communicable diseases (NCDs) impose a large burden on human health worldwide. Currently  63% of all deaths worldwide stem from NCDs  chiefly cardiovascular diseases  cancers  chronic respiratory diseases and diabetes. The cumulative economic losses to low- and middle-income countries from the four diseases are estimated to surpass US$ 7 trillion by 2025. Additionally  there continues to be underinvestment in the social circumstances and environmental factors affecting health. The job on HIV and health is far from done.
+Recognizing the interdependence of health and development  theSustainable Development Goals (SDGs) provide an ambitious  comprehensiveplan of action for people  planet and prosperity and for ending the injustices that underpin poor health and development outcomes.
+SDG 3 aspires to ensure health and well-being for all  including a bold commitment to end the epidemics of AIDS  tuberculosis  malaria and othercommunicable diseases by 2030. It also aims to achieve universal health coverage  and provide access to safe and effective medicines and vaccines for all. Supporting research and development for vaccines is an essential part of this process as well as expanding access to affordable medicines.
+Promoting health and well-being is one of 17 Global Goals that make up the 2030 Agenda for Sustainable Development. An integrated approach is crucial for progress across the multiple goals.
+Learn more about the targets for Goal 3.
+
+
+----------------------------
+
+ODS14
+Text:text2.txt
+ By 2025  prevent and significantly reduce marine pollution of all kinds  in particular from land-based activities  including marine debris and nutrient pollution
+
+----------------------------
+
+ODS17
+Text:text2.txt
+ Strengthen domestic resource mobilization  including through international support to developing countries  to improve domestic capacity for tax and other revenue collection
+
+----------------------------
+
+ODS7
+Text:text0.txt
+ 
+
+
+----------------------------
+
+ODS17
+Text:text8.txt
+ Promote the development  transfer  dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms  including on concessional and preferential terms  as mutually agreed
+
+----------------------------
+
+ODS7
+Text:text3.txt
+ By 2030  increase substantially the share of renewable energy in the global energy mix
+
+----------------------------
+
+ODS15
+Text:text13.txt
+ Enhance global support for efforts to combat poaching and trafficking of protected species  including by increasing the capacity of local communities to pursue sustainable livelihood opportunities
+
+----------------------------
+
+ODS9
+Text:text7.txt
+ Facilitate sustainable and resilient infrastructure development in developing countries through enhanced financial  technological and technical support to African countries  least developed countries  landlocked developing countries and small island developing States 18
+
+----------------------------
+
+ODS7
+Text:text4.txt
+ By 2030  double the global rate of improvement in energy efficiency
+
+----------------------------
+
+ODS1
+Text:text1.txt
+ End poverty in all its forms everywhere
+Eradicating poverty in all its forms remains one of the greatest challenges facing humanity. While the number of people living in extreme poverty has dropped by more than half  from 1.9 billion in 1990  to 836 million in 2015  too many people are still struggling to meet the most basic human needs.
+Globally  more than 800 million people are still living on less than $1.25 a day; many lack access to adequate food  clean drinking water and sanitation. Rapid economic growth in countries like China and India has lifted millions out of poverty  but progress has been uneven. Women are disproportionately affected; they are more likely to live in poverty due to unequal access to paid work  education and property.
+Progress has also been limited in other regions  such as South Asia and sub-Saharan Africa  which account for 80 percent of the people living in extreme poverty. This rate is expected to rise due to new threats brought on by climate change  conflict and food insecurity.
+TheSustainable Development Goals (SDGs) are a bold commitment to finish what we started  and end poverty in all forms and dimensions by 2030. In order to achieve the SDGs  we must target those living in vulnerable situations  increasing access to basic resources and services  and support communities affected by conflict and climate-related disasters.
+Ending poverty is one of 17 Global Goals that make up the 2030 Agenda for Sustainable Development. An integrated approach is crucial for progress across multiple goals.
+Learn more about the targets for Goal 1.
+
+
+----------------------------
+
+ODS1
+Text:text8.txt
+ Create sound policy frameworks at the national  regional and international levels  based on pro-poor and gender-sensitive development strategies  to support accelerated investment in poverty eradication actions
+
+----------------------------
+
+ODS4
+Text:text10.txt
+ By 2020  substantially expand globally the number of scholarships available to developing countries  in particular least developed countries  small island developing States and African countries  for enrolment in higher education  including vocational training and information and communications technology  technical  engineering and scientific programmes  in developed countries and other developing countries
+
+----------------------------
+
+ODS3
+Text:text9.txt
+ Achieve universal health coverage  including financial risk protection  access to quality essential health-care services and access to safe  effective  quality and affordable essential medicines and vaccines for all
+
+----------------------------
+
+ODS14
+Text:text5.txt
+ By 2020  effectively regulate harvesting and end overfishing  illegal  unreported and unregulated fishing and destructive fishing practices and implement science-based management plans  in order to restore fish stocks in the shortest time feasible  at least to levels that can produce maximum sustainable yield as determined by their biological characteristics
+
+----------------------------
+
+ODS17
+Text:text3.txt
+ Developed countries to implement fully their official development assistance commitments  including the commitment by many developed countries to achieve the target of 0.7 per cent of ODA/GNI to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries
+
+----------------------------
+
+ODS13
+Text:text4.txt
+ Improve education  awareness-raising and human and institutional capacity on climate change mitigation  adaptation  impact reduction and early warning
+
+----------------------------
+
+ODS8
+Text:text5.txt
+ Improve progressively  through 2030  global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation  in accordance with the 10-year framework of programmes on sustainable consumption and production  with developed countries taking the lead
+
+----------------------------
+
+ODS10
+Text:text6.txt
+ Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations
+
+----------------------------
+
+ODS12
+Text:text5.txt
+ By 2020  achieve the environmentally sound management of chemicals and all wastes throughout their life cycle  in accordance with agreed international frameworks  and significantly reduce their release to air  water and soil in order to minimize their adverse impacts on human health and the environment
+
+----------------------------
+
+ODS10
+Text:text0.txt
+ 
+
+
+----------------------------
+
+ODS17
+Text:text15.txt
+ Enhance policy coherence for sustainable development
+
+----------------------------
+
+ODS6
+Text:text8.txt
+ By 2030  expand international cooperation and capacity-building support to developing countries in water- and sanitation-related activities and programmes  including water harvesting  desalination  water efficiency  wastewater treatment  recycling and reuse technologies
+
+----------------------------
+
+ODS13
+Text:text4.txt
+ Improve education  awareness-raising and human and institutional capacity on climate change mitigation  adaptation  impact reduction and early warning
+
+----------------------------
+
+ODS9
+Text:text4.txt
+ Increase the access of small-scale industrial and other enterprises  in particular in developing countries  to financial services  including affordable credit  and their integration into value chains and markets
+
+----------------------------
+
+ODS8
+Text:text12.txt
+ Increase Aid for Trade support for developing countries  in particular least developed countries  including through the Enhanced Integrated Framework for Trade-Related Technical Assistance to Least Developed Countries
+
+----------------------------
+
+ODS8
+Text:text2.txt
+ Sustain per capita economic growth in accordance with national circumstances and  in particular  at least 7 per cent gross domestic product growth per annum in the least developed countries
+
+----------------------------
+
+ODS2
+Text:text3.txt
+ By 2030  end all forms of malnutrition  including achieving  by 2025  the internationally agreed targets on stunting and wasting in children under 5 years of age  and address the nutritional needs of adolescent girls  pregnant and lactating women and older persons
+
+----------------------------
+
+ODS1
+Text:text3.txt
+ By 2030  reduce at least by half the proportion of men  women and children of all ages living in poverty in all its dimensions according to national definitions
+
+----------------------------
+
+ODS6
+Text:text3.txt
+ By 2030  achieve access to adequate and equitable sanitation and hygiene for all and end open defecation  paying special attention to the needs of women and girls and those in vulnerable situations
+
+----------------------------
+
+ODS2
+Text:text3.txt
+ By 2030  end all forms of malnutrition  including achieving  by 2025  the internationally agreed targets on stunting and wasting in children under 5 years of age  and address the nutritional needs of adolescent girls  pregnant and lactating women and older persons
+
+----------------------------
+
+ODS7
+Text:text0.txt
+ 
+
+
+----------------------------
+
+ODS3
+Text:text0.txt
+ 
+
+
+----------------------------
+
+ODS9
+Text:text1.txt
+ Build resilient infrastructure  promote sustainable industrialization and foster innovation
+Sustained investment in infrastructure and innovation are crucial drivers of economic growth and development. With over half the world population now living in cities  mass transport and renewable energy are becoming ever more important  as are the growth of new industries and information and communication technologies.
+Technological progress is also key to finding lasting solutions to both economic and environmental challenges  such as providing new jobs and promoting energy efficiency. Promoting sustainable industries  and investing in scientific research and innovation  are all important ways to facilitate sustainable development.
+More than 4 billion people still do not have access to the Internet  and 90 percent are from the developing world. Bridging this digital divide is crucial to ensure equal access to information and knowledge  and as a consequence foster innovation and entrepreneurship.
+Investment in infrastructure and innovation is one of 17 Global Goals that make up the 2030 Agenda for Sustainable Development. An integrated approach is crucial for progress across the multiple goals.
+Learn more about the targets for Goal 9.
+
+
+----------------------------
+
+ODS12
+Text:text9.txt
+ By 2030  ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature
+
+----------------------------
+
+ODS11
+Text:text1.txt
+ Make cities inclusive  safe  resilient and sustainable
+More than half of the worlds population now live in urban areas. By 2050  that figure will have risen to 6.5 billion people  two-thirds of humanity. Sustainable development cannot be achieved without significantly transforming the way we build and manage our urban spaces.
+The rapid growth of cities in the developing world  coupled with increasing rural to urban migration  has led to a boom in mega-cities. In 1990  there were ten mega-cities with 10 million inhabitants or more. In 2014  there are 28 mega-cities  home to a total 453 million people.
+Extreme poverty is often concentrated in urban spaces  and national and city governments struggle to accommodate the rising population in these areas. Making cities safe and sustainable means ensuring access to safe and affordable housing  and upgrading slum settlements. It also involves investment in public transport  creating green public spaces  and improving urban planning and management in a way that is both participatory and inclusive.
+Sustainable city life is one of 17 Global Goals that make up the 2030 Agenda for Sustainable Development. An integrated approach is crucial for progress across the multiple goals.
+Learn more about the targets for Goal 11.
+
+
+----------------------------
+
+ODS4
+Text:text7.txt
+ By 2030  ensure that all youth and a substantial proportion of adults  both men and women  achieve literacy and numeracy
+
+----------------------------
+
+ODS13
+Text:text5.txt
+ Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible
+
+----------------------------
+
+ODS17
+Text:text0.txt
+ 
+
+
+----------------------------
+
+ODS7
+Text:text6.txt
+ By 2030  expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries  in particular least developed countries  small island developing States  and land-locked developing countries  in accordance with their respective programmes of support
+
+----------------------------
+
+ODS6
+Text:text8.txt
+ By 2030  expand international cooperation and capacity-building support to developing countries in water- and sanitation-related activities and programmes  including water harvesting  desalination  water efficiency  wastewater treatment  recycling and reuse technologies
+
+----------------------------
+
+ODS8
+Text:text12.txt
+ Increase Aid for Trade support for developing countries  in particular least developed countries  including through the Enhanced Integrated Framework for Trade-Related Technical Assistance to Least Developed Countries
+
+----------------------------
+
+ODS12
+Text:text10.txt
+ Support developing countries to strengthen their scientific and technological capacity to move towards more sustainable patterns of consumption and production
+
+----------------------------
+
+ODS14
+Text:text0.txt
+ 
+
+
+----------------------------
+
+ODS3
+Text:text1.txt
+ Ensure healthy lives and promote well-being for all
+Since the creation of the Millennium Development Goals there have been historic achievements in reducing child mortality  improving maternal health and tackling HIV/AIDS  tuberculosis  malaria and other diseases. In 15 years  the number of people newly infected by HIV each year has dropped from 3.1 million to 2 million and over 6.2 million lives were saved from malaria. Since 1990  maternal mortality fell by 45 percent  and worldwide there has been an over 50 percent decline in preventable child deaths globally. 
+Despite this incredible progress  AIDS is the leading cause of death among adolescents in sub-Saharan Africa  and 22 million people living with HIV are not accessing life-saving antiretroviral therapy. New HIV infections continue to rise in some locations and in populations that are typically excluded or marginalised.
+Chronic and catastrophic disease remains one of the main factors that push households from poverty into deprivation. Non-communicable diseases (NCDs) impose a large burden on human health worldwide. Currently  63% of all deaths worldwide stem from NCDs  chiefly cardiovascular diseases  cancers  chronic respiratory diseases and diabetes. The cumulative economic losses to low- and middle-income countries from the four diseases are estimated to surpass US$ 7 trillion by 2025. Additionally  there continues to be underinvestment in the social circumstances and environmental factors affecting health. The job on HIV and health is far from done.
+Recognizing the interdependence of health and development  theSustainable Development Goals (SDGs) provide an ambitious  comprehensiveplan of action for people  planet and prosperity and for ending the injustices that underpin poor health and development outcomes.
+SDG 3 aspires to ensure health and well-being for all  including a bold commitment to end the epidemics of AIDS  tuberculosis  malaria and othercommunicable diseases by 2030. It also aims to achieve universal health coverage  and provide access to safe and effective medicines and vaccines for all. Supporting research and development for vaccines is an essential part of this process as well as expanding access to affordable medicines.
+Promoting health and well-being is one of 17 Global Goals that make up the 2030 Agenda for Sustainable Development. An integrated approach is crucial for progress across the multiple goals.
+Learn more about the targets for Goal 3.
+
+
+----------------------------
+
+ODS9
+Text:text9.txt
+ Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020
+
+----------------------------
+
+ODS12
+Text:text0.txt
+ 
+
+
+----------------------------
+

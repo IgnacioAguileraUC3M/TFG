@@ -1,7 +1,0 @@
-
- The global unemployment rate has finally recovered from the global financial crisis of 2009. In 2018  it stood at 5 per centmatching the pre-crisis level. However  large disparities exist across regions and age groups. In 2018  the unemployment rates in Northern Africa and Western Asia (9.9 per cent) and Latin America and the Caribbean (8.0 per cent) were over 2.5 times higher than those in Central and Southern Asia (3.2 per cent). While gender disparities in unemployment rates are less than 1 per cent globally  they are alarming in some regions  such as Western Asia and Northern Africa. In those regions  the unemployment rate for women was over 8 percentage points higher than for men in 2018; in Latin America and the Caribbean  the rate for women was almost 3 percentage points higher. Whats more  youth are three times more likely to be unemployed than adults. In 2018  the youth unemployment rate was 12 per cent compared to 4 per cent for adults.
-Unemployment rate  by region  age and sex  2018 (percentage)
-* Excluding Australia and New Zealand.
- Show Data 
-Download to CSV
- 

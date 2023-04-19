@@ -1,8 +1,0 @@
-
-
-    Fisheries are a source of food and livelihoods for billions of people around the globe. However  they are also extremely vulnerable to environmental degradation  climate change and overfishing. If fisheries are not managed sustainably and are overfished  food production declines  the functioning of ecosystems is impaired  and biodiversity is compromised. The proportion of world marine fish stocks that have been overfishedthat is  are at biologically unsustainable levelsincreased from 10 per cent in 1974 to 31 per cent in 2013. However  the trend has slowed and appears to have stabilized between 2008 and 2013. Of the 10 most productive species in marine capture fisheries production in 2013  most were fully fished  while some stocks were considered overfished. For example  Atlantic cod is considered overfished in the Northwest Atlantic; 41 per cent of principal tuna species have been placed in the same category. Overfished stocks require strict management plans to rebuild stock abundance to their full and biologically sustainable levels of productivity.
-    
-Proportion of fish stocks within biologically sustainable and biologically unsustainable levels  1974-2013 (percentage)
-Note: Underfished and fully fished stocks are considered within biologically sustainable levels. Overfished stocks are considered at biologically unsustainable levels.
-Show Data
-Download to CSV

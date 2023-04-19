@@ -1,7 +1,0 @@
-
-The proportion of the population living on less than half the national median income is an important measure of social exclusion  relative poverty and inequality of income distribution within a country. If this proportion grows  it indicates the poorest are falling behind in relative terms. Before COVID-19  13 per cent of people  on average  lived on less than half the national median income. However  this average share masks wide variations  from less than 5 per cent in Kazakhstan and Kyrgyzstan to around 25 per cent in Brazil and South Africa.  
- Currently  only 18 countries have data for 2020  most of which are in Latin America and the Caribbean. Among those  two thirds saw rates of relative low income increase in 2020  suggesting that the effects of the pandemic have intensified social exclusion. However  other countries experienced large declines. Brazil  for example  lowered the share of people living on less than half the median income from 24.1 to 18.3 per cent  thanks to large social transfers targeted to the poorest people in that society. 
-
-        Proportion of the population living below 50 per cent of the national median income  2019 (percentage) 
-* Excluding Australia and New Zealand.
-Note: Unweighted average across countries with available data within each region. Differences in levels need to be interpreted carefully  due to a mix of income and consumption surveys being used across countries. Where country-level data are not available for 2019  the most recent data point is used. 

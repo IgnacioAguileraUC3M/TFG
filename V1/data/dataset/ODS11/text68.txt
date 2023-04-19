@@ -1,7 +1,0 @@
-
-
-      In many burgeoning cities around the world  growing populations are moving outwards  far beyond administrative boundaries. Urban sprawl is found in many regions: Eastern Asia and Oceania had the highest ratio of land consumption to population growth in the world from 2000 to 2015  developed regions were second. Only Latin America and the Caribbean and Southern and Central Asia saw a ratio of less than one  meaning that cities in these regions became more densely populated. Unfortunately  a low value for this ratio is not necessarily an indication that urban dwellers are faring well  as this can indicate a prevalence of overcrowded slums. Unplanned urban sprawl is associated with increased per capita emissions of carbon dioxide and hazardous pollution and often drives housing prices up  all of which hamper sustainable development.
-    
-Average ratio of land consumption rate to population growth rate  19902000 and 20002015  based on a stratified sample of 194 cities
-Show Data
-Download to CSV

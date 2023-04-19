@@ -1,8 +1,0 @@
-
-
-      Air pollution is a major environmental risk to health. Globally  ambient (outdoor) air pollution in both cities and rural areas is estimated to have caused 3.7 million premature deaths in 2012. In 2014  about half the urban population worldwide was exposed to air pollution levels at least 2.5 times above the safety standard set by the World Health Organization (WHO). No region had annual average mean concentrations of particulate matter below the maximum level set by WHO of 10 micrograms per cubic metre (g/m3).
-    
-Average annual mean of particulate matter of 2.5 microns in diameter or smaller (PM2.5) concentration levels in urban areas (g/m3)  2014
-Note: Data reported only for WHO member States.
-Show Data
-Download to CSV

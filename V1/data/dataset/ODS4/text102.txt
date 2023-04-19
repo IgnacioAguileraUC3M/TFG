@@ -1,9 +1,0 @@
-
-Even before COVID-19  the world was not on track to meet reading and mathematics targets. In 2019  only 59 per cent of children of grade three age were proficient in reading. The pandemic is projected to cause an additional 101 million children (roughly 9 per cent of those in primary and lower secondary school) to fall below the minimum reading proficiency threshold  increasing the total number of students falling behind to 584 million in 2020. This wipes out the progress achieved in education over the past 20 years. Similar declines are observed in the area of mathematics.
-Nearly two thirds of the children falling behind live in Central and Southern Asia and Eastern and South-Eastern Asia. The proficiency rate was already very low in sub-Saharan Africa before the pandemic  so learning losses in this region would likely occur among children below the minimum level of proficiency. Recovery of the learning deficit globally could occur by 2024  but only if extraordinary efforts are made.
-
-        Change in reading proficiency for grades one to eight  from 2019 to 2020 (percentage and millions of children)
-      
-Show Data
-Download to CSV
-Note: Values in parentheses represent the number of children falling below the proficiency threshold in 2020.

@@ -1,9 +1,0 @@
-
-
-      Countries with higher levels of income inequality tend to have higher rates of intentional homicidea phenomenon that cuts across countries and regions. Since 2005  homicide rates have actually increased in a number of countries with high levels of income inequality  even while overall trends continued downward. Moreover  in 2015  these countries had  on average  a homicide rate that was nine times greater than countries where income was more evenly distributed.
-    
-Number of victims of intentional homicide per 100 000 population  by income inequality (as measured by a countrys Gini index)  2005 and 2015
-Note: Gini index measures the extent to which the distribution of income among individuals or households within an economy deviates from a perfectly equal distribution  with 0 representing perfect equality and 1 representing perfect inequality.
-        
-Show Data
-Download to CSV

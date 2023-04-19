@@ -4,7 +4,7 @@ import bokeh
 from tabulate import tabulate
 import random
 # from V1.modules.normalizer import normalizer
-from normalizer import normalizer_class
+from v1.modules.normalizer import normalizer_class
 
 def full_report():
     REPORT = ''
@@ -52,6 +52,7 @@ Minumum text length: {avg_text_len}\n'''
 def table_report():
     OUTPUT = ''
     HEADERS = ["CLASS", "NUMBER OF EXAMPLES", "AVERAGE TEXT LENGTH", "MAX TEXT LENGTH", "MIN TEXT LENGTH","NUMBER OF EMPTY TEXTS"]
+    empty_ds = True
     classes = os.listdir(DATA_PATH)
     classes.remove('desktop.ini')
     table = []
@@ -59,33 +60,47 @@ def table_report():
         class_row = [class_]
         number_of_zero_texts = 0
         class_dir = os.listdir(DATA_PATH+'/'+class_)
-        class_dir.remove('desktop.ini')
-        class_len = len(class_dir)
+        try:
+            class_dir.remove('desktop.ini')
+        except ValueError: pass
+        if(len(class_dir) != 0):
+            empty_ds = False
+            class_len = len(class_dir)
+            avg_text_len = 0
+            max_text_len = 0
+            min_text_len = 10000000000000
+            counter = 0
+            for dir in class_dir:
+                counter += 1
+                with open(f'{DATA_PATH}/{class_}/{dir}', 'r') as fp:
+                    text = fp.read()
+                avg_text_len += len(text)
+                text_length = len(text)
+                if text_length > max_text_len:
+                    max_text_len = text_length
+                if text_length < min_text_len:
+                    min_text_len = text_length
+                if text_length == 0:
+                    number_of_zero_texts += 1
+            avg_text_len = avg_text_len//counter
+        else:
+            class_len = 0
+            avg_text_len = 0
+            max_text_len = 0
+            min_text_len = 0
+            number_of_zero_texts = 0
         class_row.append(class_len)
-        table.append(class_row)
-        avg_text_len = 0
-        max_text_len = 0
-        min_text_len = 10000000000000
-        counter = 0
-        for dir in class_dir:
-            counter += 1
-            with open(f'{DATA_PATH}/{class_}/{dir}', 'r') as fp:
-                text = fp.read()
-            avg_text_len += len(text)
-            text_length = len(text)
-            if text_length > max_text_len:
-                max_text_len = text_length
-            if text_length < min_text_len:
-                min_text_len = text_length
-            if text_length == 0:
-                number_of_zero_texts += 1
-        avg_text_len = avg_text_len//counter
         class_row.append(str(avg_text_len))
         class_row.append(str(max_text_len))
         class_row.append(str(min_text_len))
         class_row.append(str(number_of_zero_texts))
-    OUTPUT+=tabulate(table, headers=HEADERS)
-    return OUTPUT
+        table.append(class_row)
+    OUTPUT+=tabulate(table, headers=HEADERS)        
+
+    if not empty_ds:
+        return OUTPUT
+    else:
+        return 'EMPTY DATASET'
 
 def main():
     match REPORT_TYPE:
@@ -105,12 +120,12 @@ def main():
 
         
     
-if __name__ == '__main__':
-    DATA_PATH = './V1/data/dataset'
-    REPORT_TYPE = 'Table'
-    SAVE_OUTPUT = False
-    OUTPUT_PATH = './V1'
-    FILE_NAME = 'data_report.txt'
-    PRINT_OUTPUT = True
-    normalizer = normalizer_class()
-    main() 
+
+DATA_PATH = './first_aprox/data/dataset'
+# DATA_PATH = './V1/data/dataset'
+REPORT_TYPE = 'TABLE'
+SAVE_OUTPUT = False
+OUTPUT_PATH = './V1'
+FILE_NAME = 'data_report.txt'
+PRINT_OUTPUT = True
+normalizer = normalizer_class()

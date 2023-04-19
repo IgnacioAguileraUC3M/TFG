@@ -1,9 +1,0 @@
-
-
-    The fight against hunger has seen some progress over the past 15 years. Globally  the proportion of undernourished people declined from 15 per cent in 2000-2002 to 11 per cent in 2014-2016. However  more than 790 million people still lack regular access to adequate food. If current trends continue  the zero hunger target will be largely missed by 2030. The persistence of hunger is no longer a matter of food availability. Rather  in many countries that failed to reach the Millennium Development Goals (MDGs) hunger target  natural and human-induced disasters or political instability have resulted in food insecurity affecting large swathes of the population. Preliminary estimates from the Food Insecurity Experience Scaleavailable for about 150 countries in 2014 and 2015reveal that food insecurity is most prevalent in sub-Saharan Africa. More than half of the adult population in that region faced moderate or severe levels of food insecurity  and one-quarter faced severe levels. Southern Asia had the second highest prevalence: around 25 per cent of adults there experienced moderate or severe food insecurity  and 12 per cent experienced severe levels.
-Number and proportion of undernourished people  20002002 and 20142016 (millions and percentage)
-
-          Note: Vertical position of the bubbles represents the percentage of the population that is undernourished. The size of the bubbles represents the number of undernourished  people. The proportion of undernourished people is less than 5 per cent for Northern Africa and Developed regions for both time periods.
-        
-Show Data
-Download to CSV

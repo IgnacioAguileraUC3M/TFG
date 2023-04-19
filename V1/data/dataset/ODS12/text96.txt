@@ -1,9 +1,0 @@
-
-
-    Material footprint refers to the total amount of raw materials extracted to meet final consumption demands. It is one indication of the pressures placed on the environment to support economic growth and to satisfy the material needs of people. The global material footprint rose from 43 billion metric tons in 1990 to 54 billion in 2000  and 92 billion in 2017an increase of 70 per cent since 2000  and 113 per cent since 1990. The rate of natural resource extraction has accelerated since 2000. Without concerted political action  it is projected to grow to 190 billion metric tons by 2060. Whats more  the global material footprint is increasing at a faster rate than both population and economic output. In other words  at the global level  there has been no decoupling of material footprint growth from either population growth or GDP growth. It is imperative that we reverse that trend.
-    
-
-      Population  material footprint and GDP growth index  20002017 (baseline 2000=100)
-      
-Show Data
-Download to CSV

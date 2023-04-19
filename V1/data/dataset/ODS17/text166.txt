@@ -1,9 +1,0 @@
-
- The demand for high-quality  timely and accessible data for development planning is increasing. To meet that demand  countries need to establish a strong national statistical plan that has sufficient funding and political backing to improve statistical capacity across the national statistical system. In 2018  129 countries worldwide had implemented a national statistical plan  up from 102 in 2017. However  many countries lacked the necessary funding to do so. In sub-Saharan Africa  only 23 per cent of plans were fully funded  compared to 94 per cent in Europe and Northern America.
- In 2016  countries received support valued at $623 million from multilateral and bilateral donors for all areas of statistics  up from $591 million in 2015. Such support increased by almost $400 million from 2006 to 2016  yet was still insufficient to satisfy data and statistical demands created by the SDGs. To meet statistical capacitybuilding objectives by 2030  current commitments to statistics 0.33 per cent of total ODAneed to double.
-Proportion of countries with national statistical plans  by level of funding  2018 (percentage)
-* Excluding Australia and New Zealand.
-              Note: Numbers in parentheses reflect the number of countries for which a national statistical plan is under implementation.
-            
-Show Data
-Download to CSV

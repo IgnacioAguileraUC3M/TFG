@@ -1,8 +1,0 @@
-
-
-    The world's reliance on natural resources has continued to accelerate over the last two decades. One measurement of this reliance is the material footprint: the amount of primary materials required to meet basic needs for food  clothing  water  shelter  infrastructure and other aspects of life. It is an indicator of the pressure put on the environment to support economic growth and to satisfy the material needs of people. The global material footprint grew from 73.2 billion metric tons in 2010 to 85.9 billion metric tons in 2017  a 17.4 per cent increase. The footprint expanded for all types of materials  but especially for non-metallic minerals (which accounted for almost half of the global footprint)  pointing to growth in the areas of infrastructure and construction. In 2015  the material footprint per capita in high-income countries was over 10 times larger than in low-income countries. Urgent action is needed to decrease our reliance on raw materials and increase recycling and circular economy approaches to reduce environmental pressure and impact.
-
-      Material footprint by type of material  2010 and 2017 (billions of metric tons)
-      
-Show Data
-Download to CSV

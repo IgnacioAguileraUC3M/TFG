@@ -1,9 +1,0 @@
-
-Before the pandemic  steady progress had been made in reducing mortality from non-communicable diseases (NCD). Between 2010 and 2019  the probability of dying from any of the four main NCDs (cardiovascular disease  cancer  diabetes and chronic respiratory disease) for people between the ages of 30 and 70 declined from 19.9 per cent to 17.8 per cent. If the rates of decline since 2000 are sustained  Australia and New Zealand  as well as Europe and Northern America will be on track to reach the SDG target of reducing by one third premature mortality from NCDs.
-The COVID-19 pandemic has compounded the challenges facing individuals with NCDs.  Those with these underlying conditions or who use tobacco are at an increased risk of severe COVID-19 infection and death. Moreover  nearly half of countries reported one or more disruptions to essential NCD services. This could potentially result in a surge of complications and deaths over the long term in individuals with NCDs or related risk factors.
-
-        Probability of dying from any of the four main non-communicable diseases between the ages of 30 and 70  2010 and 2019 (percentage)
-        
-* Excluding Australia and New Zealand.
-Show Data
-Download to CSV

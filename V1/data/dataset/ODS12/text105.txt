@@ -1,7 +1,0 @@
-
- The disposal of electronic and electrical equipment has become a fast-growing waste stream  driven by growing consumption  short product life cycles and limited repair. Such e-waste contains both valuable and hazardous materials. From 2010 to 2019  e-waste generated globally grew from 5.3 to 7.3 kilograms per capita annually. Meanwhile  the environmentally sound recycling of e-waste increased at a much slower pace  from 0.8 to 1.3 kilograms per capita annually. 
-In high-income regions  an e-waste management infrastructure exists. However  collection rates are  on average  substantially below 50 per cent. E-waste materials are often categorized as reusable goods and can also be exported to middle- and low-income countries. But in many of those countries  infrastructure is not yet developed or is inadequate to manage locally generated and illegally imported e-waste. The waste is mostly handled by the informal sector through open burning or acid baths  both of which pollute the environment and result in the loss of valuable and scarce resources. Moreover  workers and their children  who live  work and play on those sites  often suffer severe health effects.
-
-        E-waste generated and recycled  2010 and 2019 (kilograms per capita)
-      
-* Excluding Australia and New Zealand.

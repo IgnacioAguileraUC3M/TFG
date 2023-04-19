@@ -1,7 +1,0 @@
-
- Globally  2 billion people were without waste collection services  and 3 billion people lacked access to controlled waste disposal facilities  according to data collected between 2010 and 2018. The problem will only worsen as urbanization increases  income levels rise and economies become more consumer-oriented. The total amount of waste generated globally is expected to double from nearly 2 billion metric tons in 2016 to about 4 billion metric tons by 2050. 
- The proportion of municipal solid waste collected regularly increased from 76 per cent between 2001 and 2010 to 81 per cent between 2010 and 2018. But that does not mean that it was disposed of properly. Many municipal solid waste disposal facilities in low- and middle-income countries are open dumpsites  which contribute to air  water and soil pollution  including by plastic waste  as well as emissions of greenhouse gases such as methane. Investment in waste management infrastructure is urgently needed to improve the handling of solid waste across much of the world. 
-Proportion of municipal solid waste collected  20012010 and 20102018 (percentage)
-* Excludes Australia and New Zealand.
-Show Data
-Download to CSV

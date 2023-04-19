@@ -1,9 +1,0 @@
-
-Immunization is widely recognized as one of the worlds most successful and cost-effective health interventions  saving millions of lives. Coverage of the required three doses of diphtheria-tetanus-pertussis (DTP3) vaccine increased from 72 per cent in 2000 to 86 per cent in 2018. Coverage of the second dose of measles-containing vaccine (MVC2) increased from 19 per cent in 2000 to 69 per cent in 2018. That year  an estimated 19.4 million children did not receive these essential vaccines during the first year of life  putting them at serious risk of potentially fatal diseases. Moreover  global coverage of pneumococcal conjugate vaccine (PCV)  which has the potential to significantly reduce pneumonia  another major killer of children  has yet to reach 50 per cent.
-The COVID-19 crisis has interrupted childhood immunization efforts globally. Since March 2020  routine childhood immunization services have been disrupted on a scale not seen since the inception of the Expanded Programme on Immunization in the 1970s. More than half (53 per cent) of the 129 countries where data are available reported moderate-to-severe disruptions or a total suspension of vaccination services during March and April 2020.
-Measles and polio vaccination campaigns  in particular  have been badly hit  with suspended measles campaigns in 27 countries and suspended polio campaigns in 38 countries. At least 24 million people in 21 lower-income countries are at risk of missing out on vaccines against polio  measles  typhoid  yellow fever  cholera  rotavirus  human papillomavirus (HPV)  meningitis A and rubella. Moreover  border closures resulting from COVID-19 outbreaks are resulting in potential vaccine shortages in at least 26 low- and middle-income countries.
-
-        Immunization coverage worldwide  by type of vaccine  2010-2018 (percentage)
-        
-Show Data
-Download to CSV
