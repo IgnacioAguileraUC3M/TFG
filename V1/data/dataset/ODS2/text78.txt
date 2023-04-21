@@ -1,0 +1,4 @@
+
+ Agriculture share of GDP (left axis)
+ Agriculture share of government expenditures (left axis)
+ Agriculture orientation index (right axis)

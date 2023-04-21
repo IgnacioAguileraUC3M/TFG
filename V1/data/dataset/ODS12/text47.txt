@@ -1,0 +1,1 @@
+        Note: The sum of the raw material categories may not add up to the total because of rounding

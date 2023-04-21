@@ -1,0 +1,1 @@
+Out of 166 countries with data  65 still had a Gini index value of over 40 in their most recent values  with 17 having an index value greater than 50

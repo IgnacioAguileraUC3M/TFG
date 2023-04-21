@@ -107,7 +107,8 @@ class requests_scraper(scraper):
                                 texts.append(n.text)
                             return texts
                         else:
-                            return node.textç
+                            return node.text
+                        
                 elif return_attr == 'href':
                     if multiple_search:
                         href_list = []
@@ -118,6 +119,7 @@ class requests_scraper(scraper):
                         return node.get('href')
                 elif return_attr == 'node':
                     return node
+                
             case 'ID':
                 pass
 

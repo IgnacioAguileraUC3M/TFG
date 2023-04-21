@@ -8,6 +8,7 @@ class model:
         self.label_order = ["ODS1","ODS10","ODS11","ODS12","ODS13","ODS14","ODS15","ODS16","ODS17","ODS2","ODS3","ODS4","ODS5","ODS6","ODS7","ODS8","ODS9"]
     def predict(self, text):
         label = self.model.predict(np.array([text]))
+        print(label)
         i = np.argmax(label) 
         return self.label_order[i]   
         
@@ -20,9 +21,10 @@ if __name__ == '__main__':
     # print(mod.predict(text))
     # data = pd.read_csv('./first_aprox/data/Test_data/SDG1/abstracts.csv')
 
-    data = pd.read_csv('./test_data.csv', encoding='cp1252')
+    data = pd.read_csv('./archive/test_data.csv', encoding='cp1252')
     # titles = data['Title']
     texts = data['Text']
     for t in texts:
         print(mod.predict(t))
+        break
     # texts = [text]

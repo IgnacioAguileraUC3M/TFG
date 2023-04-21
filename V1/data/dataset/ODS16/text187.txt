@@ -1,0 +1,3 @@
+    
+Number of victims of intentional homicide per 100 000 population  by income inequality (as measured by a countrys Gini index)  2005 and 2015
+Note: Gini index measures the extent to which the distribution of income among individuals or households within an economy deviates from a perfectly equal distribution  with 0 representing perfect equality and 1 representing perfect inequality.

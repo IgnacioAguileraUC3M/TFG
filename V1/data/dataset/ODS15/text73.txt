@@ -1,0 +1,1 @@
+          * The Red List Index for each region is based on the aggregate survival probability (the inverse of extinction risk) for all birds  mammals  amphibians  corals and cycads occurring within the region  weighted by the fraction of each species distribution within the region

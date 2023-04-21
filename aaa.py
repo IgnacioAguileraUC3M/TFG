@@ -1,5 +1,9 @@
-a = '''
+# import pandas as pd
 
-
-'''
-print(len(a.strip()))
+# ds = pd.read_csv('./out_test.csv')
+# for i, c in ds.iterrows():
+#     try:
+#         a = int(c['Class'])
+#     except ValueError:
+#         print(c['Text'])
+#         print('==============')

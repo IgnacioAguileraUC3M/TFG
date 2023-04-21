@@ -1,0 +1,5 @@
+      
+ Material footprint (Biomass)
+ Material footprint (Fossil fuels)
+ Material footprint (Metal ores)
+ Material footprint (Non-metallic minerals)

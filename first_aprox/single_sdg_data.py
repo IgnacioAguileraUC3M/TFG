@@ -50,15 +50,19 @@ def get_text(href, scraprer):
 
 
 if __name__ == '__main__':
-    output = ''
-    mod = model(1)
+    output = 'Text,Class\n'
+    # mod = model(1)
     scraper = requests_scraper()
     for x in js:
         if len(js[x]) == 1:
             text = get_text(x, scraper)
-            prediction = mod.predict(text)
-            original = js[x][0]
-            output += (f'{x}----{text}\n--------------\nOriginal: {original}\nPrediction: {prediction}\n\n\t\t=====================================\n\n')
+            # for _ in range(3):
+            text = text.replace('\n', ' ')
+            output += f'{text}, {js[x][0]}\n'
 
-    with open('./out_test', 'w') as fp:
+            # prediction = mod.predict(text)
+            # original = js[x][0]
+            # output += (f'{x}----{text}\n--------------\nOriginal: {original}\nPrediction: {prediction}\n\n\t\t=====================================\n\n')
+
+    with open('./out_test.csv', 'w') as fp:
         fp.write(output)

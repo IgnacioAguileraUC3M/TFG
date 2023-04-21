@@ -4,7 +4,7 @@ import bokeh
 from tabulate import tabulate
 import random
 # from V1.modules.normalizer import normalizer
-from v1.modules.normalizer import normalizer_class
+from v1.modules.normalizer import normalizer
 
 def full_report():
     REPORT = ''
@@ -52,6 +52,7 @@ Minumum text length: {avg_text_len}\n'''
 def table_report():
     OUTPUT = ''
     HEADERS = ["CLASS", "NUMBER OF EXAMPLES", "AVERAGE TEXT LENGTH", "MAX TEXT LENGTH", "MIN TEXT LENGTH","NUMBER OF EMPTY TEXTS"]
+    total_entries = 0
     empty_ds = True
     classes = os.listdir(DATA_PATH)
     classes.remove('desktop.ini')
@@ -90,12 +91,13 @@ def table_report():
             min_text_len = 0
             number_of_zero_texts = 0
         class_row.append(class_len)
+        total_entries += class_len
         class_row.append(str(avg_text_len))
         class_row.append(str(max_text_len))
         class_row.append(str(min_text_len))
         class_row.append(str(number_of_zero_texts))
         table.append(class_row)
-    OUTPUT+=tabulate(table, headers=HEADERS)        
+    OUTPUT+=tabulate(table, headers=HEADERS) + f'\nTotal entries: {total_entries}'    
 
     if not empty_ds:
         return OUTPUT
@@ -121,11 +123,11 @@ def main():
         
     
 
-DATA_PATH = './first_aprox/data/dataset'
-# DATA_PATH = './V1/data/dataset'
+# DATA_PATH = './first_aprox/data/dataset'
+DATA_PATH = './V1/data/dataset'
 REPORT_TYPE = 'TABLE'
 SAVE_OUTPUT = False
 OUTPUT_PATH = './V1'
 FILE_NAME = 'data_report.txt'
 PRINT_OUTPUT = True
-normalizer = normalizer_class()
+normalizer = normalizer()

@@ -1,0 +1,2 @@
+Global annual mean temperature relative to pre-industrial levels (1850-1900 average)  1850-2021 (degrees Celsius)
+Source: The figure is drawn from the the World Meteorological Organizations State of the Global Climate 2021 report  which combines six international data sets for temperature: HadCRUT.5.0.1.0 (UK Met Office)  NOAAGlobalTemp v5 (USA)  NASA GISTEMP v4 (USA)  Berkeley Earth (USA)  ERA5 (ECMWF)  JRA-55 (Japan)

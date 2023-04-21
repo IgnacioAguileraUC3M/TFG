@@ -42,11 +42,18 @@ def gather_data():
         sdg_texts += target_texts
         
         for text in sdg_texts:
-            if len(text.strip()) == 0:
-                continue
-            ds_manager.add_entry(i, text)
+            for t in split(['. ', '.\n', '\r\n'], text):
+                if(len(t.strip()) < 20):
+                    continue
+                elif 'CONTACT US' in t or 'ABOUT' in t:
+                    continue
+                ds_manager.add_entry(i, t)
         
         
+def split(delimiters, string, maxsplit=0):
+    import re
+    regex_pattern = '|'.join(map(re.escape, delimiters))
+    return re.split(regex_pattern, string, maxsplit)
         # print(sdg_texts)
 # exit()
 # url = 'https://jointsdgfund.org/'
