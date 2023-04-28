@@ -1,1 +1,0 @@
-Values range from 1.0  which indicates a minimum contribution to the global index (i.e

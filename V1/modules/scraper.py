@@ -44,6 +44,13 @@ class requests_scraper(scraper):
     def get(self, url: str):
         content = requests.get(url, headers=self.HEADERS).content
         self.soup = BeautifulSoup(content, 'html.parser')
+    
+    def get_page_text(self, filtered:bool = False) -> str:
+        if filtered:
+            text = self.filter_string(self.soup.text)
+        else:
+            text = self.soup.text
+        return text
 
     def get_node(self, node):
         self.soup = BeautifulSoup(node.__str__(), 'html.parser')

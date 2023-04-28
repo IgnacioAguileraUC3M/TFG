@@ -1,2 +1,0 @@
-      
-Note:LTE (Long-Term Evolution) is a standard for high-speed wireless communication that allows for faster speeds than 3G technologies but does not meet the technical criteria of a 4G wireless service.

@@ -1,1 +1,0 @@
-terms considering all potential occurrence (both severity and frequency) of natural hazards (earthquakes  cyclonic wind  storm surges and tsunamis) over a long time frame using probabilistic hazard models

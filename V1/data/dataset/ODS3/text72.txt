@@ -1,1 +1,0 @@
-        Note:  Because of rounding  percentages in chart may not add up to 100.

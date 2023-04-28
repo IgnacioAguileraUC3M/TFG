@@ -1,1 +1,0 @@
-It ranges between 0 and 100  where 0 indicates that income is shared equally among all people and 100 indicates the extreme situation where one person accounts for all income

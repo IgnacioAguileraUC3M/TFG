@@ -1,1 +1,0 @@
-          Note: Ecosystem types are not mutually exclusive.

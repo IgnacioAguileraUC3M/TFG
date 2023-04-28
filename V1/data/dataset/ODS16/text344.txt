@@ -1,1 +1,0 @@
-Victim profiles were different depending on the form of exploitation

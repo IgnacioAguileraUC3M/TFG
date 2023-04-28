@@ -1,1 +1,0 @@
-More than half of the projects relied on parallel systems and data to monitor progress and development results  instead of integrating these monitoring efforts into existing government systems.

@@ -1,2 +1,0 @@
-Gini index for disposable income (or consumption expenditure) by country  around 2010 and 2017
-Note:  If data for a reference year are not available  the nearest year within a two-year window are presented

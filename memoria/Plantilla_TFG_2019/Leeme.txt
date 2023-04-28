@@ -1,0 +1,8 @@
+En la carpeta Plantilla_TFG_2019 encontrarás:
+
+• Archivo plantilla_tfg_2019.tex: contiene la configuración del documento. Se debe trabajar en el TFG sobre este fichero. 
+Aunque se puede ver y editar en cualquier editor de textos, para compilarlo y producir un documento final es necesario tener instalado latex en el ordenador y utilizar un programa como Texstudio o Texmaker (en Windows). Cuando se compila este archivo se generan una serie de  archivos auxiliares que se guardan en la misma carpeta. En este caso es una plantilla (el archivo no está compilado) y, por tanto, no están los archivos auxiliares.
+• Archivo plantilla_tfg_2019.xmpdata: si se desea, en este archivo se pueden añadir metadatos para que aparezcan en el PDF final del trabajo.
+• Carpeta bibliografía: contiene un archivo bibliografía.bib en el que se puede añadir la bibliografía en formato bibtex.
+• Carpeta imágenes: contiene los archivos de imagen del logotipo de la universidad y de creative commons, requeridos para la portada del documento final.
+• Carpeta _EJEMPLO_TFG_2019: contiene un documento final de ejemplo. Aquí se pueden ver los archivos .tex, la bibliografía y xmpdata con contenido simulado. El resto de archivos son los creados al compilar el .tex, entre los que se encuentra un PDF que nos permite ver cómo se visualiza el ejemplo.

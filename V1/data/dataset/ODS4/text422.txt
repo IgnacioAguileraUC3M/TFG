@@ -1,4 +1,0 @@
-      
-Show Data
-Download to CSV
-Note: Values in parentheses represent the number of children falling below the proficiency threshold in 2020
