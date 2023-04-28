@@ -109,7 +109,7 @@ def new_model(seed:int = 1,
 
 
     model.save(f'{model_path}/{model_name}/{model_name}.tf', save_format='tf')
-    # run_model_test(model_name, model_path)
+    run_model_test(model_name, model_path)
     create_history_report(history, epochs, f'{model_path}/{model_name}')
 
 def create_history_report(history, epochs, path):

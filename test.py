@@ -3,7 +3,7 @@ import v1.data.data_report as data_report
 from v1.modules.manage_dataset import dataset_manager
 from v1.data.gather_definitions import gather_data as gather_definitions
 from v1.data.gather_reports_data import gather_data as gather_reports
-from v1.model.create_model import new_model
+from v1.model.create_model import new_model, run_model_test
 from v1.execution.run import model
 import pandas as pd
 # from v1.data.gather_reports_data import gather_data
@@ -11,7 +11,7 @@ import pandas as pd
 # dt.empty_dataset()
 # gather_reports()
 # gather_definitions()
-
+# run_model_test('model6', './v1/model/models')
 # texts = pd.read_csv('./archive/test_data.csv', encoding='cp1252')['Text']
 # ml = model(2)
 # ml.classify_page('https://www.unwomen.org/en/about-us/about-un-women', filtered = True)
@@ -30,7 +30,7 @@ import pandas as pd
 # dt.clean_dataset()
 # p = data_report.table_report()
 # print(p)
-new_model(epochs=200, shuffle=True)
+new_model(epochs=80, shuffle=True)
 # dt.empty_dataset()
 # gather_data()
 # print(data_report.table_report())
