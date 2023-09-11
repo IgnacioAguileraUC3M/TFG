@@ -1,5 +1,0 @@
-        
-Male
-Female
-Show Data
-Download to CSV

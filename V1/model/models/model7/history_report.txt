@@ -1,7 +1,0 @@
-Total_epochs = 80
-Best epoch (checkpoint) = 74
-Final accuracy = 0.933552622795105
-Final val_accuracy = 0.59375
-Checkpoint accuracy = 0.9217105507850647
-Checkpoint val_accuracy = 0.71875
-    

@@ -1,5 +1,0 @@
-        
-Number of countries with death registration data that are at least 75 per cent complete  20102014
-Show Data
-Download to CSV
- Goal 16
