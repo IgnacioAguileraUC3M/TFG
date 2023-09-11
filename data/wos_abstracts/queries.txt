@@ -1,0 +1,230 @@
+ODS 1:
+((TS=("financial inclusion" OR "poverty trap" OR "poor AND vulnerable") OR TS=(("poverty") NEAR/3
+("reduc*" OR "alleviat*" OR "living" OR "child" OR "extreme" OR "life" OR "eradicat*" OR "end")) OR
+TS=("poverty") AND TS=(sustainab* OR (global* AND (environm* OR health))) )) 
+
+ODS 2:
+((TS=("food security" OR "global food" OR "child hunger" OR "hungry people" OR (("drought") AND
+("hunger" OR "food")) OR (("hunger") NEAR/3 ("malnutrition"))) OR TS=("malnutrition" OR "food
+system" OR "improved nutrition" OR "hunger" OR "wasting" OR "malnouris*") AND TS=(sustainab* OR
+(global* AND (environm* OR health))) ) OR (TS=("organic agriculture" OR "agroecology" OR "yield gap"
+OR "agrobiodiversity" OR "grain for green" OR "ecological agriculture") OR SO=("agriculture ecosystems
+& environment" OR "journal of sustainable agriculture" OR "agronomy for sustainable development" OR
+"international journal of agricultural sustainability") OR (TS=("land-use" OR "agriculture" OR "nutritio*"
+OR "crop" OR "livestock" OR "rice" OR "nutrient recycling" OR "rainwater harvesting" OR "fertilizer" OR
+"food production" OR "maize" OR "soil fertility" OR "farming system*" OR "animal welfare" OR "grain-
+yield") OR SO=("agricultural water management" OR "acta horticulturae")) AND TS=(sustainab* OR
+(global* AND (environm* OR health))) )) 
+
+ODS 3:
+((TS=("burden of disease" OR "global burden" OR "family planning" OR "adolescent birth rate" OR
+"adolescent mother*" OR ("teen*" NEAR/3 ("mother*" OR "pregnan*" OR "birth rate*")) OR ((
+"epidemic" OR "combat") NEAR/3 ("tuberculos*" OR "malaria" OR "hepatit*" OR "hiv" OR "aids" OR
+"tropical disease*" OR "zika*" OR "ebola*")) OR (("mortality" AND ("hazardous chemical*" OR ((
+"pollut*" OR "contaminat*" OR "poison*") NEAR/3 ("water" OR "air" OR "soil"))))) OR ("tobacco"
+NEAR/3 "control*") OR (("road" NEAR/3 "traffic") NEAR/3 ("injur*" OR "death*" OR "accident*")) OR
+("universal access" NEAR/3 ("healthcare" OR "health-care" )) OR (("affordable" OR "quality") NEAR/3
+("medicine*" OR "vaccin*")) OR (("abuse" NEAR/3 ("substance*" OR "drug*" OR "alcohol" )) AND (
+"prevention" AND "treatment" )) OR (("reduce" NEAR/3 (("maternal" OR "neonatal" OR "under-five" OR
+("under" NEAR/2 ("5" OR "five")) OR "before fifth") NEAR/3 "mortality"))) OR (("health" NEAR/3
+("financing" OR "recruit*" OR "training")) AND "developing countr*") OR ((("early" NEAR/3 "warning")
+OR ("risk" NEAR/3 "reduction") OR ("risk" NEAR/3 "management")) NEAR/3 "health risk*")) OR
+(TS=("health") AND TS=(sustainab* OR (global* AND (environm*)))) OR SO=("environmental health
+perspectives" OR "international journal of environmental research and public health" OR "globalization
+and health") OR TS=("mortality" OR "disease" OR "pathogen*" OR "sexual" OR "cancer" OR "depression"
+OR "ageing" OR "aids" OR "heat stress" OR "physical-activity" OR "disability" OR "malaria" OR "obesity"
+OR "hiv" OR "vaccine*" OR "antibiotic-resistance" OR "epidemic" OR "tuberculosis") AND TS=(sustainab*
+OR (global* AND (environm* OR health))) ) ) 
+
+ODS 4:
+((TS=("access to education" OR "global education" OR "education for sustainab*" OR "sustainab*
+education" OR "education in developing" OR "equitable education" OR "basic literacy" OR
+(("scholarship*" OR "qualified teacher*" OR "educat*") NEAR/3 ("develop* countr*" OR "africa*" OR
+"small island*")) OR (("vulnerable" OR "disabilit*" OR "disabled" OR "indigen*") NEAR/3 "educat*") OR
+(("equitabl*" OR "free" OR "access") NEAR/3 ("primary education" OR "primary school" OR "secondary
+education" OR "secondary school" OR "pre-primary education" OR "pre-primary school" )) OR
+(("increas*" NEAR/3 "skills") AND ( "employe*" OR "decent jobs" OR "entrepreneur*")) OR (("inclusi*"
+OR "equitabl*") AND ("quality education"))) OR SO=("environmental education research" OR
+"international journal of sustainability in higher education") OR (TS= ("teach*" OR "literacy" OR
+"numeracy" OR "higher-education" OR "esd" OR "basic education") OR SO=("journal of chemical
+education")) AND TS= (sustainab* OR (global* AND (environm* OR health))) ) ) 
+
+ODS 5:
+((TS=("gender *equalit*" OR "sexual violence" OR "women’s rights" OR "gender discrimination" OR
+"genital mutilation" OR "reproductive rights" OR "sexual exploitation*" OR "gender parity" OR "child
+marriage*" OR "genital cutting" OR "sexual discrimination" OR "forced marriage*" OR "violence against
+girls" OR "violence against women" OR ("empower*" NEAR/3 "women") OR (“gender” AND "domestic
+work")) OR TS=("women" OR "gender") AND TS=(sustainab* OR (global* AND (environm* OR health))) ) )
+
+ODS 6:
+((TS= ("wastewater" OR "water stress" OR "groundwater recharge" OR "water ecosystem*" OR
+"watershed management" OR "improving water" OR "improve water quality" OR "water recycling" OR
+"water access" OR "water footprint" OR "recycled water" OR "groundwater management" OR "water
+resources management" OR "water harvesting" OR "water-use efficiency" OR "water scarcity" OR "safe
+drinking water" OR (("sanitation” OR “water”) AND (“management"))) OR SO=("water resources
+management") OR TS=("water quality" OR "water management" OR "desalination" OR "river" OR
+"waters" OR "lake*" OR "irrigation" OR "waste- water" OR "groundwater" OR "flooding" OR "runoff" OR
+"drinking-water" OR "water-resources" OR "fresh-water" OR "water use" OR "water supply") AND
+TS=(sustainab* OR (global* AND (environm* OR health))) ) OR (TS=("Sanitation")) OR (TS=("Untreated
+wastewater") ) OR (TS=("Sewerage") AND TS=(sustainab* OR (global* AND (environm* OR health))) ) OR
+(TS=("Toilets") AND TS=(sustainab* OR (global* AND (environm* OR health))) ) ) 
+
+ODS 7:
+((TS=("biofuel*" OR "biodiesel" OR "biogas" OR "bioethanol" OR "biorefinery" OR "clean fuels") OR
+(SO=("bioresource technology") AND TS=("fuel")) OR (TS=("ethanol-production") AND TS=("fuel*")) OR
+SO=("biomass & bioenergy" OR "algal research-biomass biofuels and bioproducts" OR "biotechnology
+for biofuels" OR "bioenergy research") OR (TS=("fuel*" OR "hydrogen" OR "ethanol") OR SO=("energy &
+fuels")) AND ts=(sustainab* OR (global* AND (environm* OR health))) ) OR (TS=("hydrogen production"
+OR "renewable energy" OR "hydrogen energy" OR "wind power" OR "bioenergy" OR "wind energy" OR
+"solar power*" OR "wind farm" OR "alternative energy" OR "clean energy" OR "offshore wind" OR
+"concentrat* solar power" OR "reliable energy" OR "peak oil" OR (("clean energy" OR "renewable
+energy") NEAR/3 ("research" OR "development" OR "production"))) OR SO=("energy & environmentalscience" OR 
+"renewable sustainable energy reviews") OR TS=("energy" OR "hydrogen" OR "coal" OR "battery" OR "emergy") 
+AND TS=(sustainab* OR (global* AND (environm* OR health))) )) 
+
+ODS 8:
+(((SO="ecological economics" OR TS=("environmental economics" OR “ecological economics”) AND
+TS="develop*") OR TS=(("economic development" OR "human well-being") AND ((“afford*” OR
+“equitable”) AND “access”)) OR TS=("access" NEAR/3 ("affordable" OR "reliable" OR "modern") AND
+"energy service*") OR (TS=("economic-development" OR ("developing-countr*" AND “econom*”) OR
+"economic growth" OR "economic resource*" OR "microfinance" OR "basic services") OR SO=("world
+development")) AND TS=(sustainab* OR (global* AND (environm* OR health))) )) 
+
+ODS 9:
+((TS=("csr" OR "corporate social-responsibility" OR "circular economy*" OR "industrial ecology" OR
+"corporate responsibility" OR "green marketing" OR "corporate sustainability" OR "product
+stewardship" OR "sustainability reporting" OR (access AND ("financial servic*" OR "credit" OR "value
+chain*" OR market*) AND (industr* OR enterprise*))) OR TS=("trade" OR "industry" OR "cooperation"
+OR "companies" OR "supply chain*" OR "competitiveness" OR "entrepreneurship" OR "competitive
+advantage" OR "social-responsibility" OR "value chains" OR "corporate governance"OR "information and
+communication technology") AND TS=(sustainab* OR (global* AND (environm* OR health))) ) OR
+(TS=("green building" OR "passive house*" OR ((sustainable OR resilient) AND infrastructur* AND
+develop*)) OR SO=("journal of green building") OR (TS=("building*" OR "construction" OR
+"infrastructure" OR "concrete" OR "affordable hous*" OR "built environment" OR "cement") OR
+SO=("energy and buildings" OR "building and environment")) AND TS=(sustainab* OR (global* AND
+(environm* OR health))) ) OR (TS=("social entrepreneur*" OR "social innovation" OR "eco-innovation"
+OR "environmental entrepreneur*" OR (“support” AND “innovation” AND "developing countr*")) OR
+TS=("innovation") AND TS=(sustainab* OR (global* AND (environm* OR health))) ) OR (TS=("electric
+vehicle" OR "public transport" OR "travel patterns" OR "plug-in hybrid" OR "electromobility" OR "travel
+mode" OR "travel behaviour" OR "electric car" OR "sustainable mobility" OR "electric bus" OR "hybrid
+car" OR "hybrid bus" OR "regional infrastructure" OR "travel habit*" OR "electri* road" OR "car sharing")
+OR (TS=("urban mobility" OR "roads") OR SO=("transport policy")) AND TS=(sustainab* OR (global* AND
+(environm* OR health))) ) ) 
+
+ODS 10:
+((TS=("human rights" OR "homophobia" OR "affordable housing" OR "ageism" OR "equal opportunity"
+OR "wealth distribution" OR (("developing countr*") AND ("world trade organization" OR "wto" OR
+"world trade organisation")) OR ((social* OR economic* OR politic*) AND inclusion)) OR TS=("equality"
+OR "disabilit*" OR "migration" OR "indigenous" OR "equity" OR "justice" OR "discrimination"OR "race"
+OR ("inequit*")) AND TS=(sustainab* OR (global* AND (environm* OR health))) )) 
+
+ODS 11:
+((TS=("WASTE") ) OR (((TS=("source separation")) OR (TS=("sewage sludge"))) OR (TS=("organic waste")) )
+OR ((((TS=("waste reduction")) OR (TS=("waste management"))) OR (TS=("waste ladder"))) OR
+(TS=("waste hierarchy")) ) OR ((((TS=("municipal solid waste")) OR (TS=("MSW"))) OR (TS=("leachate
+treatment"))) OR (TS=("household waste")) ) OR ((SO=("WASTE MANAGEMENT & RESEARCH")) OR
+(SO=("WASTE MANAGEMENT")) ) OR ((((TS=("waste treatment ") AND TS=(sustainab* OR (global* AND
+(environm* OR health)))) OR (TS=("waste treatment") AND TS=(sustainab* OR (global* AND (environm*
+OR health))))) OR (TS=("SLUDGE") AND TS=(sustainab* OR (global* AND (environm* OR health))))) OR
+(TS=("MANURE") AND TS=(sustainab* OR (global* AND (environm* OR health)))) ) OR
+((((TS=("incineration") AND TS=(sustainab* OR (global* AND (environm* OR health)))) OR
+(TS=("hazardous waste") AND TS=(sustainab* OR (global* AND (environm* OR health))))) OR
+(TS=("composting") AND TS=(sustainab* OR (global* AND (environm* OR health))))) OR
+(TS=("ANAEROBIC-DIGESTION") AND TS=(sustainab* OR (global* AND (environm* OR health)))) )) 
+
+ODS 12:
+((TS=("food waste" OR "consumerism" OR "carbon footprint" OR "ecotourism*" OR "sharing econom*"
+OR "sustainable supply chain" OR "virtual water" OR "water footprint" OR "green consum*" OR
+"degrowth" OR "ecological footprint" OR "overconsum*"OR "green tourism" OR "overconsumption" OR
+("sustainab*" NEAR/3 "tourism*")) OR TS=("consumption" OR "behavior" OR "attitude*" OR "choice" OR
+"materialism" OR "consumer" OR "nudging" OR "footprint" OR "international-trade" OR "food supply"
+OR "retail" OR "willingness-to-pay") AND TS=(sustainab* OR (global* AND (environm* OR health)))) OR
+(TS=("remanufacturing" OR "cleaner production" OR "sustainable design" OR "sustainable
+manufacturing" OR "green manufacturing" OR "ecodesign" OR "green supply chain" OR "product
+stewardship" OR "sustainable supply chain" OR "sustainab* management" OR ("life cycle" AND
+"production") OR ("sustainab*" NEAR/3 "product*") OR ("sustainab*" NEAR/3 ("procurement*" OR
+"buying" OR "policies" OR "policy")) OR (("sustainab*") NEAR/3 ("practice*" OR "information*" OR
+"report*") AND ("compan*" OR "firm*"))) OR SO=("journal of industrial ecology") OR TS=("natural
+resources" OR "logistics" OR "chain management" OR "supply chain management") AND TS=(sustainab*
+OR (global* AND (environm* OR health)))) OR (TS=("Environmental management")) OR
+(TS=("Environmental performance")) OR (TS=("LCA")) OR (TS=("LIFE-CYCLE ASSESSMENT")) OR
+(TS=("SUSTAINABLE DEVELOPMENT")) OR (TS=("MANAGEMENT") AND TS=(sustainab* OR (global* AND
+(environm* OR health)))) OR (SO=("ENVIRONMENTAL MANAGEMENT")) OR (SO=("JOURNAL OF
+CLEANER PRODUCTION")) OR (SO=("RESOURCES CONSERVATION AND RECYCLING")) OR
+(TS=("Sustainable assessment")) ) 
+
+ODS 13:
+((TS= ("environmental change*" OR "paleoclimate" OR "carbon capture" OR "sea level rise" OR “carbon
+footprint*" OR "greenhouse gas" OR "climate warming" OR "extreme weather" OR "kyoto protocol" OR
+"ocean warming" OR "climate impact" OR "climate action" OR "climate-change" OR "climatic change*"
+OR "co2 capture" OR "global warming" OR ("climat*" NEAR/3 ("carbon*" OR "model*" OR "change*" OR
+“variabilit*" OR “regime*" OR "ecolog*" OR "scenario*" OR "polic*" OR "anthropogenic*" OR
+"environm*")) OR ("neutral" NEAR/3 ("co2" OR "carbon dioxide")) OR ("sea level*" AND ("chang*" OR
+"rising")) OR (("greenhouse") AND ("emission*"))) OR SO=("international journal of greenhouse gas
+control" OR "climatic change") OR TS=("co2" OR "weather" OR "carbon-dioxide" OR "carbon
+sequestration" OR "desertification") AND TS=(sustainab* OR (global* AND (environm* OR health))) ) OR
+(TS=("GLOBAL CHANGE")) OR (TS=("Global stability") AND TS=(sustainab* OR (global* AND (environm*
+OR health))))) 
+
+ODS 14:
+((TS=("overfish*" OR "illegal fish*") OR (TS=("fish*" OR "aquaculture" OR "seafood") OR
+SO=("aquaculture")) AND TS=(sustainab* OR (global* AND (environm* OR health))) ) OR
+(TS=("microplastic*" OR "coral bleaching" OR "marine protected area*" OR (("ocean*" OR "marine" OR
+"coast*" OR "seawater*" OR "sea water'") AND ("sustainab*" OR "ecosystem*" OR "protect*" OR
+"preservation*" OR "biodivers*" OR "protected area*" OR "conservation*" OR "ecosystem*" OR
+“environmental degradation” OR “climat* change*” OR "pollut*" OR "eutrophication*" OR
+"acidification*" OR "nutrient pollution*" OR "jurisdiction*" OR "legal" OR "law*"))) OR SO=("marine
+ecology progress series" OR "marine pollution bulletin") OR TS=("surface water*" OR "marine" OR
+"ocean" OR "coastal") AND TS=(sustainab* OR (global* AND (environm* OR health))) ) ) 
+
+ODS 15:
+((TS=("air-pollution" OR "pm2.5" OR "pm10") OR SO=("atmospheric environment" OR "journal of the air
+waste management association" OR "aerosol and air quality research") OR TS=("persistent organic
+pollutant*" OR "atmosphere" OR "ozone" OR "air- quality" OR "aerosol" OR "nox" OR "particulate
+matter" OR "so2" OR "polychlorinated-biphenyls" OR "flame retardant*" OR "voc" OR "polybrominated
+diphenyl ethers") AND ts=(sustainab* OR (global* AND (environm* OR health))) ) OR (TS=("species
+richness" OR "species-diversity" OR "invasive specie*" OR "endangered specie*" OR "species
+distribution*" OR "biological invasion*" OR "indicator specie*" OR "plant diversity" OR "poaching" OR
+"invasive alien specie*" OR "threatened specie*" OR "biodiversity") OR SO=("biodiversity and
+conservation" OR "current opinion in environmental sustainability") OR (TS=("habitat" OR "arable land"
+OR "population-dynamic*" OR "population-structure" OR "genetic resources" OR "biogeography" OR
+"local adaptation" OR "bees") OR SO=("forest ecology AND management")) AND TS=(sustainab* OR
+(global* AND (environm* OR health))) ) OR (TS=("ecosystem services" OR "ecosystem restoration") OR
+((TS="ecosystem" OR SO="ecological modelling") AND TS=(sustainab* OR (global* AND (environm* OR
+health)))) ) OR (TS=("deforestation" OR "afforestation" OR "reforestation" OR "forest health" OR
+"community forestry" OR (("degrodat*" OR "degrad*") NEAR/3 ("woodland" OR "forest" ))) OR
+(TS=("forest*" OR "tree") OR SO=("forest ecology AND management")) AND TS=(sustainab* OR (global*
+AND (environm* OR health)))) OR ((SO=("global change biology") AND TS=(“resilience”)) OR
+TS=("uncertainty" OR "adaptation" OR "resilience" OR "vulnerability" OR "complex adaptive system*"
+OR "redundancy" OR "extinct*" OR "adaptive capacity" OR "tipping point") AND TS=(sustainab* OR
+(global* AND (environm* OR health))) ) OR (TS=("desertification" OR "soil contamination" OR "soil
+pollution") OR TS=("lead" OR "soils" OR "accumulation" OR "contamination" OR "drought" OR
+"sediments" OR "metals" OR "denitrification" OR "land degradation" OR "trace-elements" OR "soil
+health" OR "drylands") AND TS=(sustainab* OR (global* AND (environm* OR health))) ) OR
+(TS=("Environmental impact")) OR (TS=("environmental sustainability")) OR (SO=("CURRENT OPINION IN
+ENVIRONMENTAL SUSTAINABILITY")) OR (SO=("ENVIRONMENT DEVELOPMENT AND SUSTAINABILITY"))
+OR (SO=("ENVIRONMENTAL RESEARCH LETTERS")) OR (SO=("ENVIRONMENTAL SCIENCE &
+TECHNOLOGY")) OR (SO=("GLOBAL CHANGE BIOLOGY")) OR (SO=("GLOBAL ENVIRONMENTAL CHANGE-
+HUMAN AND POLICY DIMENSIONS")) OR (SO=("INTERNATIONAL JOURNAL OF SUSTAINABLE
+DEVELOPMENT AND WORLD ECOLOGY")) OR (SO=("Sustainability")) ) 
+
+ODS 16:
+((TS=("conflict resolution" OR "environmental law" OR "environmental governance" OR "internally
+displaced" OR "armed conflict" OR "civil conflict" OR "civil war" OR "conflict management" OR
+"corruption" OR "ethnic conflict" OR "miscarriage of justice" OR "peace process" OR "terrorism" OR
+(“human” NEAR/3 “trafficking”) OR "organised crime" OR "bribery" OR "human rights" OR "paris
+principles") OR SO=("land use policy" OR "ecology and society" OR "environmental science & policy" OR
+"global environmental change human and policy dimensions") OR TS=("polic*" OR "decision-making" OR
+"politic*" OR "crisis" OR "exploitation" OR "governance" OR "conflict*" OR "equity" OR "discrimination"
+OR "adaptive management" OR "peace" OR "democracy") AND TS=(sustainab* OR (global* AND
+(environm* OR health))) ) OR (TS=("GREEN") AND TS=(sustainab* OR (global* AND (environm* OR
+health)))) ) 
+
+ODS 17:
+(((( TS= ( ( "sustainab*" ) ) ) AND ( TS= ( ( "partner*" OR "cooperation" OR "development assistance" OR
+"development agenda" OR "international support" OR "coordinated polic*" OR "trading system*" OR
+"WTO" OR "world trade organization" ) ) ) AND ( TS= ( ( "government*" OR "private*" OR "public*" OR
+"societ*" OR "stakeholder*" OR "developing countr*" ) ) )) ) OR (TS=("Weighted tariff average")) OR
+(TS=("International support") AND TS=(sustainab* OR (global* AND (environm* OR health)))) OR
+(TS=("Global stability")) OR (TS=("Global partnership")) OR (TS=("Development assistance") AND
+TS=(sustainab* OR (global* AND (environm* OR health)))) OR (TS=("Debt sustainability")) ) 
