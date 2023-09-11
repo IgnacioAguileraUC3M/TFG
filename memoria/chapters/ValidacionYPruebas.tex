@@ -1,0 +1,1763 @@
+Como parte esencial de cualquier desarrollo de un sistema de aprendizaje
+automático está el apartado de validación y pruebas, es aquí donde se ve si
+realmente el trabajo llevado a cabo ha sido fructífero. Y más importante aún, se
+aprecia que cambios y desarrollos son los que mayor impacto han tenido.
+
+Al final se crearon un total de 23 modelos, 10 de ellos basados en una red
+neuronas recurrente mientras que el resto están basados en \gls{BERTa}. De los 23
+modelos finales, 5 de ellos cuentan con una función de activación de salida
+softmax mientras que el resto cuenta con una sigmoid. Los modelos restantes se
+dividen en tres grupos dependiendo del conjunto de datos con los que fueron
+entrenados, están los que se entrenaron con los datos resultados del aumento
+multi-etiqueta, aquellos entrenados únicamente con los textos extraídos de
+\gls{IISDa} \cite{IISDHomepage}, la última página web mencionada, y por
+último aquellos que fueron entrenados juntando todos estos conjuntos, a
+excepción del aumentado que se descartó por motivos de consistencia. 
+
+En total se han llevado a cabo tres tipos de pruebas, la mas extensa y fiable de
+ellas se ha realizado sobre el conjunto de prueba seleccionado. Otro de ellos se
+realizó clasificando textos extraídos manualmente y viendo si los resultados
+cuadran con textos correctamente y finalmente se han clasificado multitud de
+abstracts de publicaciones científicas alojados en la página \gls{WebOfSciencea}, estos fueron
+extraídos siguiendo una serie de consultas publicadas en la literatura, las
+cuales afirmaban seleccionar trabajos de únicamente un \gls{ODSa} cada una.
+
+\section{Conjunto de pruebas}
+Las métricas expuestas en este apartado han sido calculadas clasificando los
+textos del conjunto de pruebas final, la mayoría de los cuales no han sido
+vistos por ningún modelo anteriormente. Esto se debe a la naturaleza secuencial
+del desarrollo, en la última fase se juntaron todos los textos extraídos y se
+realizó una división 75/25 entre el conjunto de entrenamiento y el de pruebas. Es
+probable que alguno de los textos usados para el entrenamiento en modelos
+anteriores acabaran en el conjunto de pruebas final, pudiendo alterar los datos
+recogidos del mismo. La probabilidad de que esto ocurra con una magnitud tal
+como para alterar estas métricas de una manera significativa es relativamente
+baja por lo que estas se asumen como verdaderas y fiables.
+
+En este apartado se muestran las siguientes métricas: precisión, exhaustividad,
+exactitud y valor-F1, estas se calcularon en base a la cantidad de verdaderos
+positivos (tp), verdaderos negativos (tn), falsos positivos (fp) y falsos
+negativos (fn) predecidos por el modelo de la siguiente manera: 
+
+\begin{center}
+    $precision=\frac{tp}{tp + fp}$
+
+    $exhaustibidad=\frac{tp}{tp + fn}$
+
+    $exactutud=\frac{tp+tn}{tp + fp + tn + fn}$
+
+    $valor-F1=2*\frac{precision * exhaustibidad}{precision + exhaustibidad}$
+\end{center}
+
+El conjunto de estas métricas puede revelar la correcta funcionalidad de un
+modelo en tareas de clasificación de una manera profunda y completa ya que se
+cubre todo el rango de posibilidades. 
+
+Con la \textit{precisión} se calcula la capacidad que tiene el modelo para
+predecir clases correctas, esto es, que fracción de las clases que se asignan
+como positivas lo son de verdad. 
+
+Con la \textit{exhaustividad} se comprueba lo contrario que con la precisión,
+esto es cuántos de los datos que son positivos son clasificados como tal por el
+modelo. De esta manera se puede saber que fracción de los datos no es
+clasificada por el modelo.
+
+Con el \textit{valor-F1} se combinan las métricas de precisión y exhaustividad
+en una sola. Tiene especial importancia si ambas métricas son igual de
+relevantes, afirmación que no siempre es verdadera, dependerá exclusivamente del
+objetivo y funcionalidad esperada del modelo. 
+
+Finalmente la \textit{exactitud} mide la fracción de clases que han sido
+asignadas correctamente, tanto las positivas como las negativas. La fiabilidad
+de esta métrica depende de varios factores, uno de los cuales es en nivel de
+balanceo de las clases, si estas están desbalanceadas esta métrica se podrá
+inflar clasificando la clase mayoritaria como verdadera siempre. 
+
+En el caso de este proyecto, pese a que se han calculado todas las métricas, las
+más importantes son la exactitud y el valor-F1. Se han seleccionado estas dos ya
+que en conjunto representan todos los aspectos relevantes del modelo. La
+exactitud es muy útil y es ampliamente usada como métrica pero hay que usarla
+con cuidado y en caso de duda contrastarla con el valor-F1. Esto es debido a
+que, como se ha mencionado, depende del nivel de balanceo de los datos usados.
+En el caso de los conjuntos de entrenamiento y pruebas, y como se puede ver en
+la TABLA \ref{table:Metricas estadisticas de la base de datos final}, se
+obtiene, en conjunto, una desviación estándar de 466. Siendo esta relativamente
+alta para el número de datos total usados, representados en la TABLA
+\ref{table:Numero de datos por objetivo}. Como se aprecia en dicha tabla, las
+clases más desbalanceadas son la del objetivo 17, contando con 2521 datos
+totales, y la del objetivo 4, contando con 552, Más del doble de la media de
+1070.65 en el primer caso y aproximadamente la mitad en el segundo. Si se
+obvian estas dos clases, se obtiene una desviación media de 291.53, un valor
+mucho mas razonable.
+
+Es debido a ese desbalanceo por lo que se ha seleccionado el valor-F1 como una
+métrica relevante. De esta manera se puede validar la fiabilidad de la exactitud
+obtenida por un modelo analizando si esta es fruto de una clasificación
+defectuosa y sesgada y realizar, de esta manera, un análisis más profundo de los
+mismos. 
+
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Modelo & Ocurrencias\\
+        \hline \hline
+        ODS1  & 791\\ \hline
+        ODS2  & 925\\ \hline
+        ODS3  & 1121\\ \hline
+        ODS4  & 552\\ \hline
+        ODS5  & 787\\ \hline
+        ODS6  & 775\\ \hline
+        ODS7  & 875\\ \hline
+        ODS8  & 1076\\ \hline
+        ODS9  & 991\\ \hline
+        ODS10 & 925\\ \hline
+        ODS11 & 750\\ \hline
+        ODS12 & 1127\\ \hline
+        ODS13 & 1969\\ \hline
+        ODS14 & 940\\ \hline
+        ODS15 & 1218\\ \hline
+        ODS16 & 858\\ \hline
+        ODS17 & 2521\\ \hline
+        \textbf{TOTAL} & \textbf{18201}\\ \hline
+    \end{tabular}
+    \caption{Número de datos por objetivo}
+    \label{table:Numero de datos por objetivo}
+\end{table}
+
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Métrica & Valor\\
+        \hline \hline
+        Media            & 1070.65\\ \hline
+        Mediana          & 925.0\\ \hline
+        Desviación media & 466.86\\ \hline
+    \end{tabular}
+    \caption{Métricas estadísticas de la base de datos final}
+    \label{table:Metricas estadisticas de la base de datos final}
+\end{table}
+
+A continuación se muestra la evolución de la métricas de los diferentes modelos
+a medida que se va aumentando el valor del umbral, este valor, como se
+definió en la solución propuesta, representa la facilidad con la
+que el modelo clasificará más de una clase a un mismo texto, siendo un 0 el caso
+extremo en el que se clasificarán todas las clases y un 1 el caso en el que,
+para los modelos con función de activación softmax solo se asignará una etiqueta
+a un texto, y para los modelos con función de activación sigmoid no se
+clasificarán casi ninguna etiqueta ya que es muy raro que esta tenga un 100\% de
+posibilidad asignada. 
+
+A continuación se muestran las métricas obtenidas por los diferentes modelos
+sobre el conjunto de datos de prueba final. Destacar la importancia de
+analizar el eje de abscisas en cada gráfica, puesto que este empieza en valores
+diferentes dependiendo de la gráfica, por lo que dos gráficas similares pueden
+variar en magnitud.
+
+\subsection{Métricas redes recurrentes}En primer lugar se muestran los datos
+obtenidos por los modelos basados en redes recurrentes.
+
+Los resultados de estas pruebas son bastantes similares entre sí, variando
+únicamente y de manera leve en magnitud por lo que a continuación se incluyen
+las dos gráficas más relevantes, el resto se obvian por motivos de reiteración. 
+
+En estas dos gráficas, \cref{Metricas modelo 1,Metricas modelo 2}, se puede apreciar
+una distribución ciertamente horizontal, con poca variación de las métricas en
+relación al valor del umbral. Adicionalmente se observa un valor medio del 70\%
+de exactitud, de 40-50\% de precisión y de menos de 30\% de exhaustividad y
+valor-F1. Esto es lo que se esperaria de estos modelos ya que están diseñados y
+entrenados con datos con una sola etiqueta, los denominados como
+\textit{one-hot} y no se espera un buen rendimiento de ellos en tareas de
+clasificación multi etiqueta. Adicionalmente un valor tan bajo de precisión
+indica una capacidad pobre de los modelos para asignar todos los objetivos
+relacionados con un texto. De todas formas consiguen un valor aceptable de
+exactitud por lo que sirven como una buena base sobre la que desarrollar modelos
+más potentes y comparar los resultados. 
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model1\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 1}
+    \label{Metricas modelo 1}
+\end{figure}
+% \hfill
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{imagenes/model2\_metrics.eps}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 2}
+    \label{Metricas modelo 2}
+\end{figure}
+
+\subsection{Métricas modelos BERT}A continuación se muestran las métricas de
+aquellos modelos basados en \gls{BERTa}.
+
+Estos modelos a su vez se han dividido en tres grupos dependiendo del conjunto
+de datos que se ha usado para entrenarlos. 
+
+\subsubsection[short]{Datos iniciales - \textit{one-hot}}
+En primer lugar se encuentran aquellos entrenados con el primer conjunto de
+todos, aquel que cuenta únicamente con una etiqueta por dato.
+
+De todos los modelos entrenados con estos datos, los primeros a analizar con
+aquellos con función activación sofmax, estos son los modelos 11-13-14.
+
+Como se puede apreciar en las gráficas, \cref{Metricas modelo 11,Metricas modelo
+13,Metricas modelo 14}, se ve como los modelos tienen un rendimiento estable, es
+decir, este no varía casi con el umbral. Esto es debido a la función de
+activación usada ya que esta hace que no suelan asignar muchas clases a las
+entradas, obteniendo así una exhaustividad relativamente baja y esta no varia al
+pasar a valores de umbral mayores que un 0.3 puesto que, pasado este punto, la
+diferencia entre los porcentajes precedidos por el modelo es tal que no se
+suelen asignar muchos. Esto nos indica que las salidas de estos modelos suelen
+ser correctas, pero también se suelen dejar objetivos asociados sin asignar.
+Esto entra en lo que cabía esperar de este tipo de modelos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model11\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 11}
+    \label{Metricas modelo 11}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model13\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 13}
+    \label{Metricas modelo 13}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model14\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 14}
+    \label{Metricas modelo 14}
+\end{figure}
+
+El resto de modelos son aquellos que cuentan con una función de activación
+softmax.
+
+En las gráficas, \cref{Metricas modelo 16,Metricas modelo 17,Metricas modelo 18},
+se puede apreciar que el rendimiento de estos modelos, en la mayoría de los
+casos, es similar a los anteriores, obteniendo unos buenos resultados en
+precisión y exactitud pero unos resultados mediocres en exhaustividad y
+valor-F1. Esto era de esperar debido a que están entrenados con el mismo
+conjunto de datos por lo que aprenderán de la misma manera. Destacar que el
+modelo 16, \cref{Metricas modelo 16}, tiene una gráfica con una forma diferente,
+esta presenta unos resultados más equilibrados, pero a costa de disminuir la
+magnitud de los mismos. Esto es debido a que fue diseñado con una función de
+loss\footnote{Una función de pérdida que mide la discrepancia entre las predicciones de un modelo y los valores reales durante el entrenamiento.} diferente, siendo esta poco adecuada para entrenar
+modelos con función de activación softmax, en concreto se usó
+\textit{Categorical cross entropy}, estando esta función diseñada para datos con
+una codificación \textit{one-hot} como los usados con funciones de activación
+sigmoid.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model16\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 16}
+    \label{Metricas modelo 16}
+\end{figure}
+% \hfill
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model17\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 17}
+    \label{Metricas modelo 17}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model18\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 18}
+    \label{Metricas modelo 18}
+\end{figure}
+
+
+
+\subsubsection{Datos aumentados - multi-etiqueta}
+Los siguientes modelos fueron entrenados con el conjunto de datos aumentado:
+
+En las gráficas, \cref{Metricas modelo 19,Metricas modelo 20,Metricas modelo 21}, se
+puede apreciar que, pese a una gran cantidad de datos nuevos multi-etiquetados
+no obtiene unos resultados generales mucho superiores en cuanto a la magnitud de
+los mismos, de todas formas estos son más equilibrados, siendo superiores en las
+tareas de clasificación multi-etiqueta, como se observa en las métricas de
+exhaustividad y valor-F1, estando estas entre 10 y 20 puntos porcentuales por
+encima de los anteriores modelos. Adicionalmente con valores altos de umbral se
+consigue una precisión extremadamente alta, estando cerca del 100\%, indicando
+esto que las etiquetas a las que se les asigna una probabilidad muy alta son
+en su mayoría correctas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model19\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 19}
+    \label{Metricas modelo 19}
+\end{figure}
+% \hfill
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model20\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 20}
+    \label{Metricas modelo 20}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model21\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 21}
+    \label{Metricas modelo 21}
+\end{figure}
+
+
+\subsubsection{Datos extraídos de publicaciones en \textbf{iisd} -
+multi-etiqueta} \label{ch: Datos iisd} A continuación se creo una nueva base de
+datos extrayendo las publicaciones de \gls{IISDa}, esta tiene una naturaleza multi-etiqueta, se entrenó un
+único modelo que obtuvo unos resultados realmente buenos y equilibrados como se
+observa en las métricas de la gráfica, \cref{fig:Metricas modelo 21}. Es esta se
+puede apreciar como por primera vez se obtiene unos valores buenos en las
+métricas de exhaustividad y valor-F1. Adicionalmente se observa que para un
+valor del umbral de al rededor de 0.25 se obtienen unas métricas realmente
+buenas en general. Esto puede parecer tentador pero se aprecia que el valor del
+la precisión es más bajo de lo habitual, por lo que estas métricas tan buenas de
+valor-F1 y de exhaustividad se obtienen a causa de una precisión más baja, por
+lo que se asignan más objetivos de los adecuados. Esto se considera menos ideal
+que el caso contrario, en el que se asignan menos etiquetas pero con la garantía
+de que estas si están relacionadas.
+
+Destacar que este modelo ha sido entrenado con algunos de los datos usados para
+las pruebas por lo que las métricas pueden estar ciertamente infladas pero
+independientemente de esto las métricas obtenidas son positivas.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model22\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 21}
+    \label{fig:Metricas modelo 21}
+\end{figure}
+
+\subsubsection{Datos finales - multi-etiqueta}
+Finalmente se generaron una serie de modelos con la base de datos conjunta,
+estos modelos son los únicos que no se han entrenado con ninguno de los datos
+incluidos en el conjunto de pruebas usado para el cálculo de las métricas, por
+lo que estas son las mas fiables de todos los modelos. 
+
+Observando las gráficas, \crefrange{Metricas modelo 23}{Metricas modelo 26}, se
+aprecia que estas presentan distribuciones similares, contado con unos resultados
+medios en todas las métricas para umbrales bajos y estas se van dividiendo a
+medida que este aumenta, siendo el punto medio óptimo aquel asociado a un valor
+del umbral de 0.5, apreciable en mayor medida en la \cref{Metricas modelo 26},
+donde todas las métricas menos la de la exactitud se cruzan en este valor, para
+el resto de modelos esta afirmación es, en cierta medida, arbitraria pero
+indudablemente es un punto óptimo para la mayoría.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model23\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 23}
+    \label{Metricas modelo 23}
+\end{figure}
+% \hfill
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model24\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 24}
+    \label{Metricas modelo 24}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model25\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 25}
+    \label{Metricas modelo 25}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.751\textwidth]{model26\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Métricas modelo 26}
+    \label{Metricas modelo 26}
+\end{figure}
+
+Como conclusión, en estas gráficas, \crefrange{Metricas modelo 11}{Metricas modelo 26}, se puede apreciar que para un valor medio del umbral se encuentra el
+punto de mayor equilibro entre las métricas. Es habitual encontrar afirmaciones
+indicando que un valor de 0.5 es lo adecuado cuando se trabaja con salidas
+sigmoid y una clasificación multi-etiqueta. Esto se ve reforzado visualizando la
+\cref{Metricas modelo 26} ya que tres de las 4 métricas se cruzan exactamente en
+este valor. Para el resto no resulta tan fácil apoyar esta afirmación pero si se
+priorizan los valores de precisión y en menor medida, el valor-F1, parece que
+otra vez este valor de umbral es el que consigue unos resultados equilibrados. 
+
+Cuando se habla de las funciones de activación softmax este valor se ve menos
+claro, observando las gráficas podría parecer intuitivo darle un valor
+relativamente bajo pero esto no parece una decisión adecuada ya que se estaría
+siendo muy poco restrictivo sin ningún resultado positivo aparente reflejado en
+las métricas. Debido a esto y por razones de simplicidad se usará un umbral de
+0.5 para todos los modelos, apoyado en el hecho de que las gráficas,
+\crefrange{Metricas modelo 11}{Metricas modelo 14}, no presentan apenas variación en
+las métricas en relación al umbral.
+
+\subsection{Métricas finales}
+Finalmente, seleccionando un umbral medio de 0.5 y calculando la exactitud y
+valor-F1 de todos los modelos sobre el conjunto definido de pruebas se obtienen
+las siguientes gráficas de exactitud, \cref{fig:Exactitud de todos los modelos},
+y valor-F1, \cref{fig:Valor-F1 de todos los modelos}, comparando el rendimiento
+de todos los modelos.
+
+Destacar que esta primera gráfica, \cref{fig:Exactitud de todos los modelos},
+tiene el eje de ordenadas, representando el valor de exactitud, truncado,
+iniciando este en 0.5. Esto es debido a que las diferencias entre los modelos no
+son tan grandes como para ser apreciables en una escala más grande.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{models\_accuracy\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Exactitud de todos los modelos}
+    \label{fig:Exactitud de todos los modelos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{models\_f1\_metrics}
+    \captionsetup{justification=centering}
+    \caption{Valor-F1 de todos los modelos}
+    \label{fig:Valor-F1 de todos los modelos}
+\end{figure}
+
+En la gráfica, \cref{fig:Exactitud de todos los modelos}, se puede observar que la
+exactitud obtenida por los diferentes modelos es relativamente parecida,
+rondando en torno al 80\% en la mayoría de los casos, con alguna que otra
+excepción. Tendencia que se mantiene al analizar el valor-F1, en la
+\cref{fig:Valor-F1 de todos los modelos} aunque en menor magnitud, rondando en
+este caso un valor del 50\%. 
+
+También se puede observar que los modelos con función de activación sigmoid pero
+entrenados con el primer conjunto de datos obtienen un rendimiento peor que los
+modelos entrenados con los mismos datos pero con función de activación softmax.
+Esto puede ser resultado del tipo de datos usados ya que la función softmax está
+diseñada para trabajar con ese tipo de etiquetado, \textit{one-hot}, mientras
+que sigmoid no. Esta tendencia se aprecia en ambas gráficas \cref{fig:Exactitud
+de todos los modelos,fig:Valor-F1 de todos los modelos}. Destacar las métricas
+obtenidas por el modelo 16, este obtiene un valor de exactitud mediocre, del
+60\%, siguiendo el patrón esperado, pero un valor-F1 superior al resto de modelos
+entrenados con el mismo conjunto de datos. Esto cuadra con lo visto en la
+gráfica \cref{Metricas modelo 16}, donde se aprecia que el modelo obtiene unos
+datos menores pero más equilibrados.
+
+Se puede observar una ligera mejora en ambas métricas al usar datos
+multi-etiquetados y función de activación sigmoid, pero en la mayoría de los
+casos esta diferencia no es tan notable. De estos modelos el que mejor exactitud
+presenta es, con diferencia, el 23, obteniendo un 89\%, seguido por el 22
+obteniendo un valor ligeramente menor.
+
+Estas tendencias se ven replicada en la gráfica \cref{fig:Valor-F1 de todos los
+modelos}, done se aprecia que el valor-f1 sigue el mismo patrón pero en este
+caso las diferencias entre los modelos son más drásticas, es debido a esto por
+lo que el eje de ordenadas empieza en un valor de 0, a diferencia de
+\cref{fig:Exactitud de todos los modelos}. Esto hace de modelo 23 un modelo
+aún más superior al resto, puesto que obtiene un valor-F1 significativamente
+superior al resto, estando cerca del 80\%. 
+
+Destacar el buen rendimiento del modelo 22. Esto difiere con lo que se
+esperaria, ya que ha sido entrenado con menos datos que los posteriores a el.
+Esto, como ya se he explicado en \cref{ch: Datos iisd} es debido a que el modelo
+ha sido entrenado con una parte de los datos usados para realizar las pruebas,
+es por esto que las métricas están infladas y no representan del todo el
+rendimiento del modelo.
+
+\subsection{Conclusiones parciales}
+Como conclusión final extraída de los resultados de estas pruebas comentar que
+el hecho de usar técnicas de aumentado de datos para transformar un conjunto de
+datos de tipo \textit{one-hot} en uno multi-etiquetado resultó en un impacto
+positivo en el rendimiento de los modelos, mientras que entrenar un modelo con
+función de activación sigmoid con datos no multi-etiquetados no da buenos
+resultados. Destacar también la importancia de separar los conjuntos de
+entrenamiento y de pruebas, ya que las métricas infladas resultantes pueden
+generar conclusiones erróneas y es una practica poco recomendable y que hay que
+llevar a cabo con cautela. Finalmente destacar la importancia de entrenar varios
+modelos, al menos con conjuntos de datos y problemas pequeños, donde los tiempos
+de entrenamiento y los recursos necesarios no son muy altos ya que la
+aleatoriedad del entrenamiento y los pesos iniciales tiene un impacto alto, como
+se aprecia en las gráficas \cref{fig:Exactitud de todos los modelos,fig:Valor-F1
+de todos los modelos}, donde el modelo 23 obtiene unos resultados
+significativamente superiores al resto, aún siendo entrenado en las mismas
+condiciones que el resto y con los mismos datos que aquellos posteriores a el. 
+
+\section{Textos seleccionados}
+Una parte esencial de la validación del rendimiento de un modelo es analizar las
+salidas generadas sobre datos seleccionados manualmente para analizar, de una
+manera más directa como este procesa las entradas y ``piensa''. De esta manera
+se puede ver que palabras, frases y patrones hacen que el modelo tome ciertas
+decisiones, análisis que, como se explicará más adelante, puede resultar crucial
+en el ultimo apartado de la validación de los modelos.
+
+Se han elegido manualmente una serie de textos para clasificar con el modelo que
+mejores resultados obtuvo en las pruebas anteriores, el 23. De esta manera se
+puede apreciar de una manera directa, como este funciona y razona y se puede
+analizar si es capaz de interpretar correctamente los textos.
+
+Estos textos son fragmentos del abstract de una serie de publicaciones
+científicas escogidas manualmente de Scopus tras una primera búsqueda
+relacionada con algún tema u objetivo en concreto. No se presentan textos
+relacionados con todos los objetivos ya que se consideró que no aportaria
+información relevante analizar aquí en profundidad la literatura referente a
+todos.
+
+A continuación se presentan los textos seguidos de una tabla conteniendo los
+tres objetivos con un mayor porcentaje asignado. No se han incluido los
+asociados a más objetivos porque llegada una determinada magnitud, el porcentaje
+de pertenencia deja de tener sentido.
+
+Se han realizado estas búsquedas como base sobre la que extraer textos
+relevantes, relacionados con sostenibilidad. No se espera que sean clasificados
+acorde a ningún objetivo en concreto, únicamente en base a la búsqueda, si no
+que esto dependerá íntegramente del texto extraído. 
+
+\subsection{Textos Sostenibilidad y sanidad}
+Estos textos han sido sacados de los abstracts resultantes al realizar la
+siguiente búsqueda en \textit{Scopus}: sostenibilidad y sanidad
+
+De entre todas las publicaciones resultantes de la búsqueda se eligieron 3 al
+azar. Teniendo en cuenta la búsqueda realizada se esperaria que el modelo los
+clasificase como relacionados con el objetivo 3.
+
+\subsubsection{Texto 1}
+\begin{center}
+    \textit{``Background: Suriname is a uppermiddle-income country with a relatively
+    high prevalence of preventable pregnancy complications. Access to and usage
+    of high-quality maternity care services are lacking. The implementation of
+    group care (GC) may yield maternal and child health
+    improvements.''}\cite{validationtexts1}
+    \begin{table}[H]
+        % \begin{center}
+                    % \resizebox{\textwidth}{!}{
+            \begin{tabular}{c | c | c }
+                \hline
+                ODS3 & ODS17 & ODS2\\ \hline
+                0.524 & 0.041 & 0.032\\ \hline
+            \end{tabular}%}
+            \caption{Porcentajes texto 1 - sanidad}
+        % \end{center}
+    \end{table}
+\end{center}
+
+El texto extraído habla sobre la importancia del acceso a servicios sanitarios
+por parte de las mujeres embarazadas para mejorar la salud de las madres y los
+infantes. 
+
+Como se esperaba, el modelo le asigna un 52\% de pertenencia al objetivo 3 ya
+que se habla de sanidad. El siguiente objetivo con mas porcentaje asignado es el
+17 con un 4\% y el 2 con un 3\%. Estos últimos pueden ignorarse ya que tienen un
+porcentaje asignado muy bajo, al igual que el resto de objetivos.
+
+\subsubsection{Texto 2}
+\begin{center}
+    \textit{``Globally, forests serve as the largest storehouses for (non)
+    indigenous trees, and are essential for the ecosystems' sustenance, yet,
+    increased deforestation practices associated with activities, such as tree
+    logging, agriculture, and urban expansion continue to put pressure on
+    existing forest areas, leading to massive land use cover
+    change''}\cite{validationtexts2}
+    \begin{table}[H]
+        % \begin{center}
+                    % \resizebox{\textwidth}{!}{
+            \begin{tabular}{c | c | c }
+                \hline
+                ODS15 & ODS11 & ODS13\\ \hline
+                0.997 & 0.047 & 0.041\\ \hline
+            \end{tabular}%}
+            \caption{Porcentajes texto 2 - sanidad}
+        % \end{center}
+    \end{table}
+\end{center}
+
+Este texto habla sobre el peligro de la deforestación sobre los ecosistemas
+terrestres y como esta practica pone en peligro las especies no indígenas.
+
+Pese a ser resultado de una búsqueda sobre sanidad, este texto está altamente
+relacionado con el objetivo 15, el referente a los ecosistemas terrestres. Esto se
+ve reflejado en la predicción del modelo, asignándole a este objetivo un
+porcentaje del 99.7\%, mientras que al resto menos de un 5\%.
+
+\subsubsection{Texto 3}
+\begin{center}
+    \textit{``With high staff vacancies in the health services, it is important
+    to consider pragmatic methods of data collection for implementation
+    evaluation. This paper presents a cross-sectional rapid evaluation of a
+    handheld medical device designed for remote examinations, piloted in
+    Northern England.''}\cite{validationtexts3}
+    \begin{table}[H]
+            \begin{tabular}{c | c | c }
+                \hline
+                ODS3 & ODS17 & ODS16\\ \hline
+                0.906 & 0.093 & 0.019\\ \hline
+            \end{tabular}
+            \caption{Porcentajes texto 3 - sanidad}
+    \end{table}
+\end{center}
+
+Este último texto sobre sanidad si está más relacionado con el tema principal,
+habla sobre un dispositivo médico diseñado para realizar examinaciones en
+remoto.
+
+Como cabe esperas el objetivo 3 tiene asignado un 90\% de pertenencia.
+Adicionalmente le asigna cerca de un 10\% al objetivo 17, esto puede ser debido
+a que se habla de métodos para la recogida de datos, lo cual está más
+relacionado con este objetivo.
+
+\subsection{Textos Sostenibilidad e industria}
+
+En está segunda búsqueda se centro el enfoque en la sostenibilidad y la
+industria.
+
+No se espera ningún objetivo en concreto ya que hay muchos que pueden
+relacionarse con temas industriales, pero los principales son el 7, relacionado
+con energía, 8 relacionado con crecimiento económico, 9 relacionado de manera
+más directa con la industria, el 11 relacionado con las ciudades y finalmente el
+12 relacionado con consumo y producción responsable. 
+
+\subsubsection{Texto 1}
+\begin{center}
+    \textit{``With the world's population continuing to grow exponentially, with
+    many 'food deserts' across the globe, including even in rich countries, food
+    production is more important than ever. Finding alternative ways to produce
+    food, in a sustainable way, is increasingly important and something that is
+    on the minds of scientists, engineers, policy makers, and other
+    professionals.''}\cite{validationtexts4}
+    \begin{table}[H]
+        \begin{tabular}{c | c | c }
+            \hline
+            ODS2 & ODS12 & ODS15\\ \hline
+            0.733 & 0.062 & 0.036\\ \hline
+        \end{tabular}
+        \caption{Porcentajes texto 1 - industria}
+\end{table}
+\end{center}
+
+Este primer texto se escapa ciertamente del tema principal del apartado, la
+industria. Hablando de los llamados desiertos de comida y la importancia de la
+producción e industrie alimenticia, y formas de hacerlas más sostenibles.
+
+Leyendo el texto se ve la relación directa con el objetivo 2, debido a que la
+comida es su tema principal. También se encuentra el objetivo 12, aunque con un
+porcentaje bajo, del 6\%. Esto es menos de lo que se esperaría del texto ya que
+se habla de como conseguir una producción sostenible de comida. Esto puede ser
+resultado de la corta longitud del texto. 
+
+
+\subsubsection{Texto 2}
+\begin{center}
+    \textit{``With rising pollution emissions, it is vital to devise regulatory
+    policies that ensure sustainable development. Green innovation offers an
+    alternative strategy, fostering economic progress and environmental
+    sustainability. While existing literature supports the positive role of
+    green innovation in firm-level decisions, its specific impact on alleviating
+    environmental regulation pressures remains
+    unexplored.''}\cite{validationtexts5}
+    \begin{table}[H]
+        \begin{tabular}{c | c | c }
+            \hline
+            ODS13 & ODS12 & ODS9 \\ \hline
+            0.164 & 0.0888 & 0.056\\ \hline
+        \end{tabular}
+        \caption{Porcentajes texto 2 - industria}
+\end{table}
+\end{center}
+
+Este último texto del apartado de industria habla de la importancia de crear
+políticas regulatorias en referencia al aumento de emisiones. El principal texto
+predecido es el 13, como se esperaría hablando de este tema, pero este tiene
+asignado un porcentaje bajo. Esto puede ser, de nuevo, debido a la longitud del
+texto. 
+
+\subsection{Textos Sostenibilidad e igualdad}
+
+En este apartado se han buscado textos relacionados con sotenibilidad e
+igualdad. Temas mas afines al objetivo 5 y 10.
+
+\subsubsection{Texto 1}
+\begin{center}
+    \textit{``It is hard to establish whether a company supports internal
+    sustainability efforts (ISEs) like gender equality, diversity, and general
+    staff welfare, not least because of a lack of methodologies operationalizing
+    these internal sustainability practices, and of data honestly documenting
+    such efforts. We developed and validated a six-dimension framework
+    reflecting Internal Sustainability Efforts (ISEs), gathered more than 350K
+    employee reviews of 104 major companies across the whole US for the
+    (2008-2020) years, and developed a deep-learning framework scoring these
+    reviews in terms of the six ISEs.''}\cite{validationtexts6}
+    \begin{table}[H]
+        \begin{tabular}{c | c | c }
+            \hline
+            ODS5 & ODS12 & ODS17 \\ \hline
+            0.459 & 0.253 & 0.201\\ \hline
+        \end{tabular}
+        \caption{Porcentajes texto 1 - igualdad}
+\end{table}
+\end{center}
+
+Este primer texto habla sobre las dificultades a la hora de esclarecer si una
+empresa está adoptando medidas a favor de la sostenibilidad, entre ellas
+igualdad de género y como su sistema desarrollado ayuda a determinarlo. 
+
+El principal objetivo clasificado por el modelo es el 5, con un 46\% asignado.
+Esto es lo que se podía esperar leyendo el texto ya que este tiene la igualdad
+de género como tema principal. También le asigna un 20\% a los objetivos 12 y 7,
+metricas que no se esperarían de este texto, más aún cuando la única mención
+posible relacionada es la que se hace a los esfuezos por la sostenibilidad, pero
+esta se hace en un caracter cerrado como se menciona a continuación de la misma
+en el texto.
+
+\subsubsection{Texto 2}
+\begin{center}
+    \textit{``Our aim was to evaluate how well we carried out authentic
+    co-creation of an intervention to support midwives have a dialogue about
+    alcohol consumption with pregnant women. Patient involvement: Recent
+    maternity service users including women with experience of harm due to
+    alcohol during pregnancy provided feedback on the design, conduct and
+    dissemination of the study.''}\cite{validationtexts7}
+    \begin{table}[H]
+        \begin{tabular}{c | c | c }
+            \hline
+            ODS5 & ODS3 & ODS2\\ \hline
+            0.424 & 0.287 & 0.076 \\ \hline
+        \end{tabular}
+        \caption{Porcentajes texto 2 - igualdad}
+\end{table}
+\end{center}
+
+Este texto habla de una iniciativa para concienciar a mujeres embarazadas del
+peligro que acarrea el consumo de alcohol durante el embarazo. 
+
+Los objetivos con más porcentaje asignado por el modelo son el 5 y el 3,
+resultados que cuadran con el texto dado. El 5 es de los dos el que menos podría
+cuadrar dado que no se menciona la igualdad de género, pero siempre que se
+mencioan mujeres este objetivo está presente. El único problema con los
+porcentajes asignados es la magnitud de los mismos, estos son más bajos de lo
+que se esperaría del modelo, lo cual sería un 50\% o más para ambos, mientras
+que los reales son un 42\% y un 28\%.
+
+\subsection{Textos Sostenibilidad y energia}
+Este último grupo de textos están relacionados con al sostenibilidad y la
+energía, dado esto se esperaria una mayor presencia del objetivo 7.
+
+\subsubsection{Texto 1}
+\begin{center}
+    \textit{``Additive Manufacturing (AM) or 3D printing techniques use fused
+    layers of the material to build cross sectional geometry of product. As
+    variable processing parameters have an impact on the product quality, it is
+    crucial to ascertain relationships of AM process parameters, productivity,
+    sustainability, and structure performance.''}\cite{validationtexts8}
+    \begin{table}[H]
+        \begin{tabular}{c | c | c }
+            \hline
+            'ODS12' & 'ODS9' & 'ODS8' \\ \hline
+            0.713 & 0.473 & 0.102\\ \hline
+        \end{tabular}
+        \caption{Porcentajes texto 1 - energía}
+\end{table}
+\end{center}
+
+Este primer texto habla de un tipo de manufacturación aditiva y los impactos en
+sostenibilidad, productividad y rendimiento que tiene. 
+
+Las predicciones de este modelo son lo que se podría esperar de un texto así,
+una mayor presencia del objetivo 12, con un 71\% de pertenencia ya que se habla
+de sotenibilidad en un entorno industrial y de consumo y el 9, con un 47\%, que,
+pese a quedarse por debajo del umbral, al ser la diferencia de 3 puntos
+porcentuales se puede considerar como asignado para motivos de análisis. La
+asignación de este último objetivo resulta esperable y adecuada estando este
+relacionado con la industria y la innovación en la misma. 
+
+
+\subsubsection{Texto 2}
+\begin{center}
+    \textit{``Electric Vehicles are a suitable solution for sustainability in
+    transportation applications. The era of wireless power transfer in free
+    space began with the evolution of Tesla coils being energized by microwaves.
+    High-frequency inverters act as the electrifier for high power wireless
+    charging. DC-DC converters play an indispensable role in converting the AC
+    power from a high-frequency inverter to DC power to the battery or the
+    energy storage system in the vehicle.''}\cite{validationtexts9}
+    \begin{table}[H]
+        \begin{tabular}{c | c | c }
+            \hline
+            ODS9 & ODS7 & ODS11\\ \hline
+            0.261 & 0.147 & 0.090 \\ \hline
+        \end{tabular}
+        \caption{Porcentajes texto 2 - energía}
+\end{table}
+\end{center}
+
+Este texto habla sobre la transferencia inalámbrica de potencia eléctrica y del
+papel de los coches eléctricos como solución sostenible a los problemas de
+transporte.
+
+Los porcentajes asignados a este texto son muy bajas, probablemente debido a la
+cantidad de tecnicismos usados y a que estos no están directamente relacionados
+con el vocabulario que se esperaría en un contexto de sostenibilidad. De todas
+formas los objetivos con mayor porcentaje si que son los que se espera de un
+texto como este, siendo el 9, con un 26\% y el 7 con un 15\%, estando el primero
+relacionado con la industria y el segundo con la energía eléctrica.
+
+\subsubsection{Texto 3}
+\begin{center}
+    \textit{``Aquaculture is a form of agriculture that is practised in the
+    Sistan region. This practice not only enhances water usage efficiency but
+    also generates additional income for the local farmers. The extensive
+    dependence of the aquaculture sector on energy and chemicals poses a
+    jeopardises environmental stability and endangers the sustainability of
+    production in the long run.''}\cite{validationtexts10}
+    \begin{table}[H]
+        \begin{tabular}{c | c | c }
+            \hline
+            ODS6 & ODS12 & ODS7\\ \hline
+            0.315 & 0.251 & 0.230\\ \hline
+        \end{tabular}
+        \caption{Porcentajes texto 3 - energía}
+\end{table}
+\end{center}
+
+Este último texto habla sobre la práctica denominada \textit{Aquaculture} y como
+esta afecta al consumo de agua y a la sotenibilidad.
+
+Este texto es de los más ambiguos, de todas formas si se analizan los objetivos
+predecidos estos tienen bastante sentido, siendo el que mayor porcentaje ha
+obtenido el 6, con un 32\%, seguido del 12 con un 25\% y el 7 con un 23\%. Estos
+están correctamente asignados, estando el primero relacionado con el consumo de
+agua, el segundo con consumo y producción sostenible y el último con la energía.
+
+\subsection{Conclusiones parciales}
+Como conclusión de estos análisis destacar la importancia de la aparición de
+ciertas palabras en el texto, como por ejemplo \textit{mujer} a la hora de
+clasificar el objetivo 5. 
+
+Adicionalmente destacar la excelente capacidad del modelo a la hora de
+identificar aparte del tema principal de un texto, temas secundarios que son
+mencionados de manera superficial. 
+
+\section{Literatura científica}
+
+La ultima validación de los modelos se realizó usando un corpus de literatura
+científica, en concreto los abstracts de publicaciones realizadas en
+\gls{WebOfSciencea}. Dichos abstracts fueron extraídos por medio de unas
+consultas publicadas en un trabajo de la universidad de Estocolmo \cite{SDGQueries}. En
+dicho trabajo los autores proporcionan 17 de estas consultas especializadas,
+cada una en un objetivo, para resultar en publicaciones relacionadas con cada
+uno en concreto. La fiabilidad de estas métricas se discutirá más adelante pero
+sirven como una buena base para analizar el rendimiento de los modelos en un
+entrono similar al final.
+
+Se extrajeron un total de 1000 publicaciones de cada objetivo, siendo este el
+máximo permitido por la propia plataforma, destacar que no todas las
+publicaciones vienen con abstract incluido por lo que el número de textos
+clasificados es menor de 1000. Posteriormente los abstracts de dichas
+publicaciones se clasificaron usando el modelo y se contó el numero total de
+objetivos asignados a cada consulta. Se espera que haya cerca de 1000 objetivos
+asignados correctamente por consulta.
+
+\subsection{Modelos de redes recurrentes}
+De todos los modelos generados se muestran los resultados de los más relevantes,
+\cref{table:Clasificaciones de cada modelo recurrente por objetivo}, esto se
+calculó realizando la media de etiquetas asignadas entre los 17 objetivos por
+cada modelo, representadas en \cref{table:Media de clasificaciones por modelo
+recurrente}, y seleccionando los 4 mejores, estos coinciden con los 4 primeros.
+
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Modelo & Media de clasificaciones\\
+        \hline \hline
+        1  & \textbf{165.82}\\ \hline
+        2  & \textbf{139.94}\\ \hline
+        3  & \textbf{149.76}\\ \hline
+        4  & \textbf{134.29}\\ \hline
+        5  & 100.88\\ \hline
+        6  & 113.29\\ \hline
+        7  & 108.70\\ \hline
+        8  & 85.94\\ \hline
+        9  & 97.58\\ \hline
+        10 & 74.58\\ \hline        
+    \end{tabular}
+    \caption{Media de clasificaciones por modelo recurrente}
+    \label{table:Media de clasificaciones por modelo recurrente}
+\end{table}
+
+En la tabla, \cref{table:Clasificaciones de cada modelo recurrente por objetivo}
+se muestra el número de objetivos asignados por cada modelo basado en una red
+recurrente a todos los textos científicos extraídos, en ella se puede apreciar
+que el número es relativamente bajo para todos, siendo el que mayor rendimiento
+muestra el modelo 1, aunque esto no se ve reflejado en todos los objetivos.
+Demostrando así la poca fiabilidad de estos modelos a la hora de realizar un
+estudio cuantitativo ya que, aunque no se espere que se clasifiquen los 1000
+textos de manera correcta, se obtienen unos resultados muy pobres, clasificando,
+en el mejor de los casos, 576 textos y de media 117 por objetivo, estando muy
+lejos de los 1000.
+
+\begin{table}[H]
+    \begin{tabular}{| c || c | c  | c  | c | c |}
+        \hline
+        Objetivo & Modelo 1 & Modelo2 & Modelo3 & Modelo4 & ODSsTotales\\
+        \hline \hline
+        ODS1  & 576 & 416 & 294 & 381 & 855\\ \hline
+        ODS2  & 59  & 140 & 98  & 143 & 913\\ \hline
+        ODS3  & 128 & 110 & 90  & 22  & 284\\ \hline
+        ODS4  & 56  & 41  & 21  & 35  & 145\\ \hline
+        ODS5  & 345 & 256 & 315 & 154 & 619\\ \hline
+        ODS6  & 169 & 78  & 63  & 211 & 851\\ \hline
+        ODS7  & 24  & 129 & 43  & 256 & 788\\ \hline
+        ODS8  & 31  & 42  & 5   & 93  & 975\\ \hline
+        ODS9  & 31  & 178 & 31  & 40  & 965\\ \hline
+        ODS10 & 81  & 54  & 64  & 67  & 831\\ \hline
+        ODS11 & 328 & 233 & 175 & 341 & 987\\ \hline
+        ODS12 & 231 & 16  & 67  & 173 & 830\\ \hline
+        ODS13 & 99  & 134 & 566 & 21  & 914\\ \hline
+        ODS14 & 18  & 115 & 171 & 58  & 983\\ \hline
+        ODS15 & 169 & 224 & 320 & 62  & 978\\ \hline
+        ODS16 & 247 & 44  & 196 & 173 & 777\\ \hline
+        ODS17 & 227 & 169 & 27  & 53  & 994\\ \hline
+    \end{tabular}
+    \caption{Clasificaciones de cada modelo recurrente por objetivo}
+    \label{table:Clasificaciones de cada modelo recurrente por objetivo}
+\end{table}
+
+\subsection{Modelos de BERT}
+
+A continuación, \crefrange{table:Clasificaciones modelos
+softmax}{table:Clasificaciones modelos sigmoid - datos extraidos de internet/finales} se muestran las clasificaciones realizadas por los modelos
+basados en \gls{BERTa}, de estos se espera un mejor rendimiento ya que son más capaces
+a la hora de entender los textos.
+
+\subsubsection{Modelos softmax}
+En primera instancia, \cref{table:Clasificaciones modelos softmax}, se muestran
+las clasificaciones de los modelos con función de activación softmax, entrenados
+con los mismos datos que los modelos basados en redes recurrentes,
+\cref{table:Clasificaciones de cada modelo recurrente por objetivo}, se puede
+observar que, en la mayoría de los casos se obtienen unos resultados muy
+superiores, con unas notables excepciones, presentes en todos los modelos. Estas
+son en los objetivos del 8 al 17. En estos últimos se clasifican correctamente
+muy pocos textos, siendo en todos los casos menos de la mitad de los textos
+totales. Esto puede ser debido a un problema en las consultas, tema abordado al
+final del apartado, o un problema con los modelos. Si resulta ser un problema
+con las consultas, este patrón se apreciará en el resto de tablas, si resulta
+ser un problema con los modelos este patrón solo estará presente en esta tabla. 
+
+\begin{table}[H]
+    \begin{tabular}{| c || c | c  | c  | c  | c |}
+        \hline
+        Objetivo & Modelo 11 & Modelo13 & Modelo14 & Modelo15 & ODSsTotales\\
+        \hline \hline
+        ODS1  & 742 & 670 & 737 & 693 & 855\\ \hline
+        ODS2  & 796 & 808 & 795 & 786 & 913\\ \hline
+        ODS3  & 261 & 269 & 258 & 277 & 284\\ \hline
+        ODS4  & 127 & 126 & 118 & 127 & 145\\ \hline
+        ODS5  & 573 & 566 & 580 & 528 & 619\\ \hline
+        ODS6  & 461 & 457 & 504 & 479 & 851\\ \hline
+        ODS7  & 543 & 601 & 741 & 649 & 788\\ \hline
+        ODS8  & 52  & 99  & 39  & 39  & 975\\ \hline
+        ODS9  & 158 & 229 & 105 & 330 & 965\\ \hline
+        ODS10 & 74  & 107 & 55  & 252 & 831\\ \hline
+        ODS11 & 93  & 166 & 179 & 248 & 987\\ \hline
+        ODS12 & 126 & 101 & 145 & 144 & 830\\ \hline
+        ODS13 & 56  & 65  & 81  & 65  & 914\\ \hline
+        ODS14 & 189 & 131 & 91  & 323 & 983\\ \hline
+        ODS15 & 414 & 376 & 383 & 459 & 978\\ \hline
+        ODS16 & 388 & 350 & 422 & 561 & 777\\ \hline
+        ODS17 & 292 & 161 & 162 & 285 & 994\\ \hline
+    \end{tabular}
+    \caption{Clasificaciones modelos softmax}
+    \label{table:Clasificaciones modelos softmax}
+\end{table}
+
+\subsubsection{Modelos sigmoid}
+Las siguientes clasificaciones son las de los modelos con función de activación
+sigmoid pero entrenados con los datos iniciales, los \textit{one-hot}, como se
+puede observar en la tabla \cref{table:Clasificaciones modelos sigmoid - datos
+iniciales} estos no obtienen unos resultados buenos a excepción del modelo 16
+que obtiene un número de clasificaciones excelente. De todas formas, y como se
+analizó en la gráfica \cref{Metricas modelo 16}, este modelo, aún obteniendo una
+buena métrica de exhaustividad, tiende a asignar muchos objetivos pero con menos
+acierto.
+
+Adicionalmente la tendencia observada en los datos anteriores,
+\cref{table:Clasificaciones modelos softmax}, sigue presente, aunque se aprecia
+menos ya que dos de los modelos clasifican muy pocos objetivos y el otro
+restante clasifica de más. De todas formas se sigue observando una reducción en
+el número de objetivos clasificados a partir del 8.
+
+\subsubsection{Entrenado con datos one-hot}
+\begin{table}[H]
+    \begin{tabular}{| c || c | c  | c  | c  | c |}
+        \hline
+        Objetivo & Modelo 16 & Modelo17 & Modelo18 & ODSsTotales\\
+        \hline \hline
+        ODS1   & 845 & 321 & 287 & 855\\ \hline
+        ODS2   & 902 & 55  & 213 & 913\\ \hline
+        ODS3   & 284 & 71  & 104 & 284\\ \hline
+        ODS4   & 144 & 34  & 88  & 145\\ \hline
+        ODS5   & 615 & 162 & 317 & 619\\ \hline
+        ODS6   & 846 & 236 & 235 & 851\\ \hline
+        ODS7   & 755 & 176 & 487 & 788\\ \hline
+        ODS8   & 417 & 1   & 7   & 975\\ \hline
+        ODS9   & 903 & 0   & 78  & 965\\ \hline
+        ODS10  & 562 & 0   & 11  & 831\\ \hline
+        ODS11  & 422 & 5   & 6   & 987\\ \hline
+        ODS12  & 740 & 0   & 17  & 830\\ \hline
+        ODS13  & 772 & 1   & 3   & 914\\ \hline
+        ODS14  & 954 & 2   & 47  & 983\\ \hline
+        ODS15  & 625 & 69  & 345 & 978\\ \hline
+        ODS16  & 582 & 143 & 170 & 777\\ \hline
+        ODS17  & 859 & 1   & 47  & 994\\ \hline
+    \end{tabular}
+    \caption{Clasificaciones modelos sigmoid - datos iniciales}
+    \label{table:Clasificaciones modelos sigmoid - datos iniciales}
+\end{table}
+
+
+\subsubsection{Entrenado con datos aumentados}
+A partir de este punto se muestran los datos obtenidos por los modelos
+entrenados con datos multi-etiqueta, siendo estos primeros aquellos entrenados
+con los datos iniciales aumentados.
+
+En la tabla \cref{table:Clasificaciones modelos sigmoid - datos aumentados} se
+puede apreciar un buen rendimiento general de todos los modelos, destacando el
+obtenido por el modelo 21, ya que este obtiene un buen numero de clasificaciones
+para todos los objetivos. Esto contrasta con el resto de métricas analizadas,
+\cref{fig:Exactitud de todos los modelos,fig:Valor-F1 de todos los modelos}, en
+las que este modelo no obtiene unos resultados destacables. La explicación de esta
+mejora no está clara y pueden ser causada por varios factores. Destacar también
+que las clasificaciones de los tres modelos para todos los objetivos anteriores
+al 8 son bastante similares, destacando ligeramente el rendimiento del modelo
+21, pero en una medida que cabria esperar, sobre todo siendo su valor-F1
+ligeramente superior que el del resto.  
+
+Adicionalmente indicar que le patrón analizado de una disminución en el numero
+de clasificaciones a partir del objetivo 8 sigue estando presente en estas
+métricas, obteniendo estos objetivos un número de clasificaciones cercano a la
+mitad de los esperado en la mayoría de los casos. 
+
+\begin{table}[H]
+    \begin{tabular}{| c || c | c  | c  | c  | c |}
+        \hline
+        Objetivo & Modelo 19 & Modelo20 & Modelo21 & ODSsTotales\\
+        \hline \hline
+        ODS1   & 536 & 465 & 705 & 855\\ \hline
+        ODS2   & 797 & 849 & 859 & 913\\ \hline
+        ODS3   & 247 & 257 & 280 & 284\\ \hline
+        ODS4   & 138 & 135 & 141 & 145\\ \hline
+        ODS5   & 579 & 605 & 608 & 619\\ \hline
+        ODS6   & 529 & 593 & 509 & 851\\ \hline
+        ODS7   & 711 & 638 & 631 & 788\\ \hline
+        ODS8   & 26  & 139 & 96  & 975\\ \hline
+        ODS9   & 291 & 198 & 497 & 965\\ \hline
+        ODS10  & 137 & 60  & 377 & 831\\ \hline
+        ODS11  & 172 & 199 & 628 & 987\\ \hline
+        ODS12  & 175 & 409 & 348 & 830\\ \hline
+        ODS13  & 317 & 486 & 659 & 914\\ \hline
+        ODS14  & 229 & 204 & 531 & 983\\ \hline
+        ODS15  & 448 & 444 & 420 & 978\\ \hline
+        ODS16  & 506 & 540 & 536 & 777\\ \hline
+        ODS17  & 322 & 435 & 357 & 994\\ \hline
+    \end{tabular}
+    \caption{Clasificaciones modelos sigmoid - datos aumentados}
+    \label{table:Clasificaciones modelos sigmoid - datos aumentados}
+\end{table}
+
+
+\subsubsection{Entrenado con datos aumentados extraídos de internet}
+Finalmente se presentan las clasificaciones generadas por los últimos modelos,
+aquellos entrenados con los datos finales, a excepción del modelo 22 que fue
+entrenado únicamente con los datos multi-etiqueta extraídos de internet. 
+
+Estos modelos, como se presenta en la tabla, \cref{table:Clasificaciones modelos
+sigmoid - datos extraidos de internet/finales}, y a diferencia de lo que cabria
+esperar y de lo que indica las métricas de las gráficas, \cref{fig:Exactitud de
+todos los modelos,fig:Valor-F1 de todos los modelos}, presentan un rendimiento
+menor que los modelos anteriores, \cref{table:Clasificaciones modelos sigmoid -
+datos aumentados}. 
+
+De todos los modelos, es el 23 el que obtiene los mejores resultados,
+presentando, en este caso, una diferencia notable con el modelo 22 confirmando
+así que las métricas de este último, representadas en las gráficas,
+\cref{fig:Exactitud de todos los modelos,fig:Valor-F1 de todos los modelos},
+estaban infladas debido a que se entrenó con parte de los datos presentes en el
+conjunto de pruebas usado para calcularlas.
+
+Destacar finalmente la reiteración del patrón identificado en el resto de tablas
+anteriores, obteniendo un número de clasificaciones menor en todos los objetivos
+a partir del 8. En este caso es ciertamente más sutil, con casos como el
+objetivo 16, en el que se clasifican casi tantos textos como en el 7. Y el
+objetivo 15, obteniendo una fracción menor de textos clasificados pero aún así
+es ciertamente superior al resto de objetivos del patrón.
+
+\begin{table}[H]
+    \begin{tabular}{| c || c | c  | c  | c  | c  | c  | c |}
+        \hline
+        Objetivo & Modelo 22 & Modelo23 & Modelo24 & Modelo25 & Modelo26 & ODSsTotales\\
+        \hline \hline
+        ODS1   & 180 & 765 & 208 & 139 & 232 & 855\\ \hline
+        ODS2   & 408 & 811 & 342 & 545 & 781 & 913\\ \hline
+        ODS3   & 194 & 275 & 119 & 234 & 233 & 284\\ \hline
+        ODS4   & 11  & 105 & 8   & 52  & 36  & 145\\ \hline
+        ODS5   & 430 & 603 & 347 & 512 & 364 & 619\\ \hline
+        ODS6   & 379 & 436 & 238 & 381 & 499 & 851\\ \hline
+        ODS7   & 304 & 442 & 174 & 249 & 277 & 788\\ \hline
+        ODS8   & 21  & 112 & 57  & 82  & 129 & 975\\ \hline
+        ODS9   & 31  & 184 & 33  & 59  & 160 & 965\\ \hline
+        ODS10  & 4   & 31  & 8   & 14  & 48  & 831\\ \hline
+        ODS11  & 1   & 202 & 1   & 7   & 8   & 987\\ \hline
+        ODS12  & 165 & 125 & 229 & 130 & 314 & 830\\ \hline
+        ODS13  & 241 & 360 & 195 & 236 & 281 & 914\\ \hline
+        ODS14  & 59  & 118 & 66  & 56  & 72  & 983\\ \hline
+        ODS15  & 366 & 411 & 342 & 390 & 380 & 978\\ \hline
+        ODS16  & 174 & 407 & 100 & 414 & 266 & 777\\ \hline
+        ODS17  & 313 & 298 & 326 & 392 & 452 & 994\\ \hline
+    \end{tabular}
+    \caption{Clasificaciones modelos sigmoid - datos extraídos de internet/finales}
+    \label{table:Clasificaciones modelos sigmoid - datos extraidos de internet/finales}
+\end{table}
+
+\subsection{Análisis de los datos}
+Como se ha explicado en el apartado anterior, se ha identificado un patrón en
+las clasificaciones, a partir del objetivo 8 se identifican significativamente
+menos textos asignados a cada objetivo. Esto podría ser problema de los modelos
+o de los datos usados para el entrenamiento, de todas formas esta posibilidad
+pasa a un segundo plano ya que la presencia del mismo patrón, en mayor o menor
+medida, independientemente de la arquitectura del modelo y de los datos usados
+para su entrenamiento hace de esto una posibilidad remota. Es por esto por lo
+que se ha decidido analizar los datos extraídos haciendo uso de la herramienta
+\textit{VosViewer} \cite{VOSViewer}. Esta herramienta, a partir de un corpus de
+artículos científicos exportados de bases de datos científicas como  \gls{WebOfSciencea}, genera
+una gráfica de agrupación con todos los términos con mayor presencia entre los
+documentos, junto con las relaciones y magnitudes de los mismos. De esta manera
+se puede analizar la taxonomía de un corpus científico de manera rápida y
+sencilla. 
+
+A continuación se muestran los mapas de dispersión generados para todos los
+objetivos a partir del 8, con el fin de analizar la taxonomía presente en cada
+uno y esclarecer el porque del patrón. Si en estos mapas se aprecia una
+taxonomía diferente a la que se esperaria para cada objetivo, serviría como
+justificación para la aparición de este tipo de patrón. Adicionalmente se puede
+analizar que otros objetivos se clasifican cuando se le presentan estos textos a
+los modelos como validación final de los mismos ya que si clasifican los
+objetivos relacionados con la taxonomía extraída se demostrará el correcto
+funcionamiento de los mismos.
+
+\subsubsection{Análisis objetivo 8}
+Esta primera gráfica, \cref{Mapa de relaciones del objetivo 8}, muestra las ocurrencias y
+relaciones de  palabras, términos y expresiones presentes en los textos
+relacionados con el objetivo 8. Estando este objetivo relacionado con el
+crecimiento económico y el trabajo decente se esperaría encontrar en mayor o
+menor magnitud, términos económicos y relacionados con el trabajo.
+
+Analizando el mapa generado por VosViewer se puede ver que los términos más
+cunes son \textit{effect}, \textit{access}, \textit{management} y
+\textit{health}. Siendo estos los términos principales se puede entender que los
+modelos no fueran capaces de clasificar correctamente los textos  ya que son
+términos muy generales y poco relacionados con el objetivo 8. Analizando más en
+profundidad la figura, se puede apreciar algún término relacionado con la
+economía y el trabajo como puede ser \textit{income} o \textit{employment}.
+Adicionalmente analizado las agrupaciones generadas por el programa se
+identifican cinco grupos diferentes, ninguno de los cuales directamente
+relacionado con el objetivo 8:
+\begin{itemize}
+    \item \textbf{Grupo amarillo}: Este primer grupo está poco relacionado con
+    los temas principales del objetivo 8, estando más directamente relacionado
+    con la energía. De todas formas, estos son términos que podrían estar, en
+    ocasiones, ligeramente relacionados con el crecimiento económico, siendo la
+    energía parte esencial del mismo.
+    \item \textbf{Grupo azul}: Este grupo es de todos el menos relacionado,
+    incluyendo términos relacionados con la salud. Al igual que en el caso
+    anterior son términos que podrían encontrarse a la par de temas económicos
+    pero en ningún caso se esperaria encontrarlos en un primer plano.
+    \item \textbf{Grupo rojo}: Este grupo tiene una relación algo más directa,
+    siendo, a su vez, de carácter más general. Incluyendo términos de gestión,
+    planificación y metodología, lo cual no choca con lo que se esperaria si se
+    hablara de economía y trabajo.
+    \item \textbf{Grupo verde}: Este es de todos, el grupo más grande,
+    conteniendo como término principal \textit{effect}. La alta presencia de
+    este término es difícil de interpretar, pudiendo hacer referencia a estudios
+    que analizan el efecto de medidas o investigaciones. Si se analizan las
+    conexiones se puede ver que las mayorías son entre este grupo y el amarillo,
+    pudiendo esto indicar un alto número de trabajos investigando el efecto de
+    avances o políticas en el ámbito energético. Adicionalmente la presencia de
+    términos como \textit{income} o \textit{gdp} puede indicar una mayor
+    relación entre este grupo y el objetivo 8. De todas formas la presencia de
+    estos términos en menor medida y relacionados con otros altamente
+    especializados, como son los del grupo amarillo pude relevar al objetivo 8 a
+    un segundo plano en cuanto a la clasificación.
+    \item \textbf{Grupo morado}: Este último y menor grupo se encuentra en una
+    posición más central en el diagrama indicando su presencia más general. Este
+    está altamente relacionado con los recursos naturales y la comida. Términos
+    que, como ya se ha visto con otros grupos, no extrañaría verlos de la mano
+    de otros hablando de crecimiento económico.
+\end{itemize}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg8}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 8}
+    \label{Mapa de relaciones del objetivo 8}
+\end{figure}
+
+En general este diagrama, \cref{Mapa de relaciones del objetivo 8}, confirma que la
+taxonomía de este conjunto está altamente dividida, de hecho se identifican
+términos relacionados con más objetivos, como los son el 2 (relacionado con la
+alimentación), el 7 (relacionado con la energía), el 3 (relacionado con la
+salud) e incluso el 17 (relacionado con la gestión y las regulaciones). Es por
+esto por lo que se decidió realizar un análisis más profundo.
+
+Debido a la heterogeneidad identificada en los términos, se
+decidió analizar el numero de clasificaciones totales generadas por el modelo 23
+sobre el conjunto de datos del objetivo 8. Métricas representadas en la tabla,
+\cref{table:Clasificaciones asbtracts ODS8 - modelo 23}. Como se puede apreciar
+en esta, el número de clasificaciones está muy repartido
+entre varios objetivos, destacando los objetivos, 3, 7, 8, 9, 12 y 17,
+obteniendo más de 100 clasificaciones. Este patrón encaja casi a la perfección
+con las conclusiones extraídas del mapa generado por VosViewer, \cref{Mapa de
+relaciones del objetivo 8}, en el que se identificaron todos estos objetivos, a
+excepción del 9 y el 12, en la taxonomía. Destacar también la presencia, aunque
+en menor medida, del objetivo 2, obteniendo 93 clasificaciones, lo cual coincide
+con la presencia del quinto grupo identificado en la \cref{Mapa de relaciones
+del objetivo 8}.
+
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Objetivo & Clasificaciones \\
+        \hline \hline
+        ODS1   & 45  \\ \hline
+        ODS2   & 93  \\ \hline
+        ODS3   & 126 \\ \hline
+        ODS4   & 18  \\ \hline
+        ODS5   & 23  \\ \hline
+        ODS6   & 33  \\ \hline
+        ODS7   & 173 \\ \hline
+        \textbf{ODS8}   & \textbf{112} \\ \hline
+        ODS9   & 137 \\ \hline
+        ODS10  & 21  \\ \hline
+        ODS11  & 75  \\ \hline
+        ODS12  & 121 \\ \hline
+        ODS13  & 81  \\ \hline
+        ODS14  & 19  \\ \hline
+        ODS15  & 63  \\ \hline
+        ODS16  & 12  \\ \hline
+        ODS17  & 127 \\ \hline
+    \end{tabular}
+    \caption{Clasificaciones asbtracts ODS8 - modelo 23}
+    \label{table:Clasificaciones asbtracts ODS8 - modelo 23}
+\end{table}
+
+
+\subsubsection{Análisis objetivo 9}
+A continuación se muestra, en al ráfica, \cref{Mapa de relaciones del objetivo 9}, el
+diagrama relacionado con el objetivo 9, este obtuvo, en la clasificaciones del
+objetivo 23, \cref{table:Clasificaciones modelos sigmoid - datos extraidos de
+internet/finales}, un resultado ligeramente superior al del objetivo 8, por lo
+que se esperaría encontrar una taxonomía mas relacionada con el objetivo 9,
+conteniendo términos relacionados con la industria, innovación e
+infraestructura. 
+
+Analizando la figura \cref{Mapa de relaciones del objetivo 9} se pueden identificar unos
+términos principales como \textit{relationship}, \textit{literature},
+\textit{affordable housing} y \textit{building} divididos en cuatro grupos:
+\begin{itemize}
+    \item \textbf{Grupo rojo}: este grupo incluye términos relacionados con las
+    corporaciones y relaciones. De el diagrama no se puede extraer un tema
+    concreto de este grupo. 
+    \item \textbf{Grupo verde}: este grupo habla de temas como las cadenas de
+    producción y en un primer plano, el termino ``literatura''. Esto resulta
+    ciertamente extraño ya que es un término que, aunque pudiendo tener un papel
+    central en cuanto a número de ocurrencias, no está directamente relacionado
+    con ningún objetivo.
+    \item \textbf{Grupo azul}: este es uno de los dos grupos más claros y con un
+    tema principal más identificable, en este caso este tema es la viviendo, en
+    concreto la vivienda asequible, la construcción y la infraestructura. Temas
+    más directamente relacionados con el objetivo 9 aunque la se podría
+    argumentar que la vivienda está más relacionada con el objetivo 11.
+    \item \textbf{Grupo amarillo}: este último grupo es el más pequeño de todos,
+    contando con términos sobre energía, construcciones y viviendas pero desde
+    un puto de vista diferente al azul. Este también se podría identificar como
+    relacionado con el objetivo 9 pero al igual que el azul también se podría
+    argumentar que esta relación es más directa con otros objetivos como el 7
+    o el 11.
+\end{itemize}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg9}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 9}
+    \label{Mapa de relaciones del objetivo 9}
+\end{figure}
+
+Como análisis final de este objetivo se analizaron las clasificaciones generadas
+por el modelo 23, de igual manera que se hizo con el objetivo 8. Estás,
+representadas en la tabla \cref{table:Clasificaciones asbtracts ODS9 - modelo
+23}, muestran unos objetivos principales que son el 12 y el 17 pudiendo estar
+relacionados con los grupos verde y rojo respectivamente ya que los términos
+presentes en estos están más relacionados con estos dos objetivos que con el
+resto. También destacar las clasificaciones asignadas a los objetivos 9 y 11,
+esto coincide con lo analizado en los grupos amarillo y azul, en los cuales se
+identificaron términos relacionados con estos objetivos. También mencionar que la
+presencia de términos energéticos en el grupo amarillo se ve reflejada en las
+clasificaciones del objetivo 7. 
+
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Objetivo & Clasificaciones \\
+        \hline \hline
+        ODS1   & 6   \\ \hline
+        ODS2   & 46  \\ \hline
+        ODS3   & 27  \\ \hline
+        ODS4   & 0   \\ \hline
+        ODS5   & 2   \\ \hline
+        ODS6   & 5   \\ \hline
+        ODS7   & 84  \\ \hline
+        ODS8   & 27  \\ \hline
+        \textbf{ODS9}   & \textbf{184} \\ \hline
+        ODS10  & 2   \\ \hline
+        ODS11  & 140 \\ \hline
+        ODS12  & 302 \\ \hline
+        ODS13  & 42  \\ \hline
+        ODS14  & 4   \\ \hline
+        ODS15  & 13  \\ \hline
+        ODS16  & 5   \\ \hline
+        ODS17  & 215 \\ \hline
+    \end{tabular}
+    \caption{Clasificaciones asbtracts ODS9 - modelo 23}
+    \label{table:Clasificaciones asbtracts ODS9 - modelo 23}
+\end{table}
+
+
+\subsubsection{Análisis objetivo 10}
+Este objetivo es el más importante de analizar ya que es el que menos
+clasificaciones tiene asignadas por el modelo 23, un total de 31,
+\cref{table:Clasificaciones modelos sigmoid - datos extraidos de
+internet/finales}. Este objetivo tiene como tema principal la reducción de las
+desigualdades por lo que se esperaria encontrar términos sociales. 
+
+Como se puede apreciar en el diagrama, \cref{Mapa de relaciones del objetivo 10}, hay
+multitud de términos relacionados, divididos en cuatro grupos aunque se
+encuentran distribuidos de una manera más homogénea,  demostrando que no hay
+tantos temas diferenciados. Estos 4 grupos principales son los siguientes:
+\begin{itemize}
+    \item \textbf{Grupo verde}: Este primer grupo es de los más extensos,
+    incluyendo términos como \textit{China}, \textit{export} y \textit{tariff}
+    indicando un tema muy diferente al objetivo 10, estando este más relacionado
+    con las relaciones internacionales, tema principal del objetivo 17 e
+    incluyendo términos como industria y agricultura, propios de los objetivos 8
+    y 2 respectivamente.
+    \item \textbf{Grupo rojo}: este grupo tiene una estructura un tanto caótica,
+    estando poco aglomerado, las ocurrencias de los términos de este grupo son
+    menores que las del resto y, al no tener un tema en concreto, no se espera
+    que tenga un impacto muy relevante en las clasificaciones.
+    \item \textbf{Grupo amarillo}: este es el segundo grupo poco aglomerado,
+    estando en su mayoría entrelazado con el rojo. Presenta términos más
+    relevantes y menos generales como lo son \textit{countries},
+    \textit{dispute} y \textit{participation}. Estos términos tampoco están muy
+    relacionados con el objetivo 10, haciendo referencia a temas más
+    diplomáticos propios de otros objetivos, principalmente el 17. 
+    \item \textbf{Grupo azul}: este grupo final tiene un elemento central
+    \textit{access} relacionado con otros términos como \textit{protección} o
+    \textit{intelectual propery}. El tema principal de este grupo no está tan
+    claro ya que no hay ningún termino principal que lo aclare, si no uno
+    mayoritario que conecta multitud de términos diferentes.
+\end{itemize}
+
+Como da a entender esta figura, la taxonomía presente en los datos del objetivo
+10 no incluyen términos relacionados con igualdad ni con acciones sociales. Es
+por esto por lo que los modelos no clasifican ninguno de los textos incluidos
+en este conjunto como relacionados con el objetivo 10.
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg10}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 10}
+    \label{Mapa de relaciones del objetivo 10}
+\end{figure}
+
+Como análisis adicional y para confirmar el análisis de los términos revelados
+en la \cref{Mapa de relaciones del objetivo 10}, se incluyen en la tabla,
+\cref{table:Clasificaciones asbtracts ODS10 - modelo 23}, las clasificaciones
+totales generadas por el modelo 23 sobre los datos del objetivo 10. En esta se
+aprecia como solo 31 textos son clasificados como relacionados con el objetivo
+10, mientras que al rededor de 100 son asignados a los modelos 2 y 8 estando
+estos relacionados en mayor o menor medida con los términos presentes en el
+grupo verde. Finalmente 564 son clasificados como relacionados con el objetivo
+17, esto concuerda con gran parte de la taxonomía identificada. 
+
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Objetivo & Clasificaciones \\
+        \hline \hline
+        ODS1   & 10  \\ \hline
+        ODS2   & 115 \\ \hline
+        ODS3   & 81  \\ \hline
+        ODS4   & 2   \\ \hline
+        ODS5   & 1   \\ \hline
+        ODS6   & 3   \\ \hline
+        ODS7   & 4   \\ \hline
+        ODS8   & 111 \\ \hline
+        ODS9   & 83  \\ \hline
+        \textbf{ODS10}  & \textbf{31}  \\ \hline
+        ODS11  & 1   \\ \hline
+        ODS12  & 21  \\ \hline
+        ODS13  & 18  \\ \hline
+        ODS14  & 5   \\ \hline
+        ODS15  & 10  \\ \hline
+        ODS16  & 12  \\ \hline
+        ODS17  & 564 \\ \hline
+    \end{tabular}
+    \caption{Clasificaciones asbtracts ODS10 - modelo 23}
+    \label{table:Clasificaciones asbtracts ODS10 - modelo 23}
+\end{table}
+
+
+\subsubsection{Análisis objetivo 11}
+A continuación se analizarán los datos asignados con el objetivo 11, este es un
+objetivo curioso ya que, como se aprecia en la tabla \cref{table:Clasificaciones
+modelos sigmoid - datos extraidos de internet/finales}, el modelo 23 asigna más
+de 200 textos a este objetivo mientras que el resto no asigna más que 8 en el
+mejor de las casos. Haciendo referencia a la misma tabla, la cual contiene los
+mejores modelos conseguidos. 
+
+Analizando la figura \cref{Mapa de relaciones del objetivo 11} se puede observar una
+taxonomía con tres términos principales \textit{digestion}, \textit{scenario} y
+\textit{municipal solid waste management}, estas, a priori, si están ciertamente
+relacionadas con el objetivo 11, igual no de una forma común pero es indudable
+que una buena gestión de los residuos es una tarea esencial si se desea
+conseguir ciudades y comunidades sostenibles, tema principal del objetivo 11.
+Adicionalmente se identifican tres grupos principales y un cuarto minoritario:
+\begin{itemize}
+    \item \textbf{Grupo verde}: Este grupo contiene términos relacionados con
+    la recolección, transporte y gestión de residuos. Términos relacionados
+    principalmente con el objetivo 12 pero, en menor medida, relacionados con el 11.
+    \item \textbf{Grupo azul}: La taxonomía presente en este grupo está definida
+    por términos como sistema gestor de residuos, reciclaje y calentamiento
+    global. Este también está relacionado con el objetivo 12 pero de igual
+    manera relacionado con el 11.
+    \item \textbf{Grupo rojo}: Este es e último grupo principal, en el se
+    definen términos como digestión, compost, salud, comida y biomasa. términos
+    altamente relacionados con el resto de grupos, principalmente la gestión de
+    residuos, y al igual que el resto relacionados con el objetivo 12 y en
+    menor medida con el 11. 
+    \item \textbf{Grupo amarillo}: Este último grupo está presente en mucha
+    menor medida que el resto, analizarlo con al resolución generada no es
+    posible ya que no se pueden identificar correctamente los términos.
+\end{itemize}
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg11}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 11}
+    \label{Mapa de relaciones del objetivo 11}
+\end{figure}
+
+Para confirmar las conclusiones extraídas de la \cref{Mapa de relaciones
+del objetivo 11}, se han incluido las clasificaciones totales del modelo 23
+sobre todos los textos del objetivo 11, \cref{table:Clasificaciones asbtracts
+ODS11 - modelo 23}. En esta tabla se aprecia como casi 800 textos han sido
+clasificados como relacionados con el objetivo 12, mientras que 202 con el 11.
+Esto aunque dentro de lo que se esperaba, no se esperaba una diferencia tan
+grande. Destacar el numero de clasificaciones asignadas al objetivo 7, al
+rededor de 160, en este caso, en la taxonomía no se puede apreciar ningún
+termino relacionado con la energía, posiblemente sea fruto de múltiples
+publicaciones sobre generación de energía por medio de los residuos, pero esto
+es únicamente especulación.
+
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Objetivo & Clasificaciones \\
+        \hline \hline
+        ODS1   & 0   \\ \hline
+        ODS2   & 27  \\ \hline
+        ODS3   & 48  \\ \hline
+        ODS4   & 2   \\ \hline
+        ODS5   & 0   \\ \hline
+        ODS6   & 28  \\ \hline
+        ODS7   & 164 \\ \hline
+        ODS8   & 5   \\ \hline
+        ODS9   & 10  \\ \hline
+        ODS10  & 1   \\ \hline
+        \textbf{ODS11}  & \textbf{202} \\ \hline
+        ODS12  & 782 \\ \hline
+        ODS13  & 35  \\ \hline
+        ODS14  & 5   \\ \hline
+        ODS15  & 9   \\ \hline
+        ODS16  & 0   \\ \hline
+        ODS17  & 21  \\ \hline
+    \end{tabular}
+    \caption{Clasificaciones asbtracts ODS11 - modelo 23}
+    \label{table:Clasificaciones asbtracts ODS11 - modelo 23}
+\end{table}
+
+
+\subsubsection{Análisis objetivo 12}
+El caso de este objetivo es el contrario al anterior, el 11. En este el modelo
+23 asigna este objetivo a menos textos que el resto de modelos. En este caso la
+gráfica, \cref{Mapa de relaciones del objetivo 12}, indica que la taxonomía de los datos de
+este modelo está altamente relacionada con temas de investigación, siendo la mayoría de los
+términos principales relacionados con este tema. A pesar de estar divididos en
+cuatro grupos, los temas de todos son similares. 
+
+De esta taxonomía no se puede sacar conclusiones claras, no teniendo términos
+significativos relacionados con ningún objetivo. La única explicación posible es
+que las publicaciones extraídas sean de temas muy diversos y no haya ningún
+tema principal entre ellas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg12}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 12}
+    \label{Mapa de relaciones del objetivo 12}
+\end{figure}
+
+En la tabla \cref{table:Clasificaciones asbtracts ODS12 - modelo 23} se aprecian
+todas las clasificaciones asignadas a los datos del objetivo 12. En estas se
+aprecia que se clasifican sobre todo los objetivos 8, 9, 12 y mayoritariamente
+el 17. En este caso no se identifica ninguna relación significativa entre la
+taxonomía extraída de los datos y las clasificaciones ya que esta primera es
+altamente ambigua y no aporta casi información relacionada con los objetivos.
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Objetivo & Clasificaciones \\
+        \hline \hline
+        ODS1   & 2   \\ \hline
+        ODS2   & 9   \\ \hline
+        ODS3   & 8   \\ \hline
+        ODS4   & 2   \\ \hline
+        ODS5   & 11  \\ \hline
+        ODS6   & 2   \\ \hline
+        ODS7   & 14  \\ \hline
+        ODS8   & 224 \\ \hline
+        ODS9   & 189 \\ \hline
+        ODS10  & 3   \\ \hline
+        ODS11  & 40  \\ \hline
+        \textbf{ODS12}  & \textbf{125} \\ \hline
+        ODS13  & 4   \\ \hline
+        ODS14  & 0   \\ \hline
+        ODS15  & 8   \\ \hline
+        ODS16  & 2   \\ \hline
+        ODS17  & 311 \\ \hline
+    \end{tabular}
+    \caption{Clasificaciones asbtracts ODS12 - modelo 23}
+    \label{table:Clasificaciones asbtracts ODS12 - modelo 23}
+\end{table}
+
+
+\subsubsection{Análisis objetivo 13}
+Este objetivo consigue un número de clasificaciones mayor que los abordados
+hasta ahora. Es por esto que no se ha considerado necesario realizar un análisis
+tan en profundidad. Analizando la \cref{Mapa de relaciones del objetivo 13} se
+aprecia que uno de los 3 grupos, y a su vez el más grande en cuanto a magnitud,
+está directamente relacionado con este objetivo, incluyendo términos como cambio
+climático e impacto. Adicionalmente la existencia de otros dos grupos
+minoritarios con temas diferentes como lo son la vegetación, o los depósitos y
+sedimentación explica que se hayan clasificado un número tan relativamente bajo
+de textos como relacionados con el objetivo 13.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg13}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 13}
+    \label{Mapa de relaciones del objetivo 13}
+\end{figure}
+
+\subsubsection{Análisis objetivo 14}
+Estees el último de los objetivos que tiene una clasificación baja, 118 textos
+asignados por el modelo 23, \cref{table:Clasificaciones modelos sigmoid - datos
+extraidos de internet/finales}. Esto contrasta con lo visto en la
+\cref{Mapa de relaciones del objetivo 14} ya que en esta se aprecia como la mayoría de
+los términos están relacionados con el agua, aún divididos en cuatro grupos,
+todos ellos están relacionados con este tema.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg14}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 14}
+    \label{Mapa de relaciones del objetivo 14}
+\end{figure}
+
+Como explicación se han incluido, \cref{table:Clasificaciones asbtracts ODS14 -
+modelo 23}, las clasificaciones de todos los textos relacionados con el objetivo
+11. Es esta tabla se aprecia como la mayoría de los textos han sido
+clasificados como relacionados con el objetivo 6, aquel que habla sobre el la
+calidad y saneamiento del agua. Viendo esto y analizando de nuevo la
+\cref{Mapa de relaciones del objetivo 14} se puede entender el porque de este numero de
+clasificaciones tan bajo, ya que la taxonomía extraída no hace referencia a los
+ecosistemas ni ningún tipo de vida acuática por lo que está mas relacionado con
+el objetivo 6 que con el 11, estando este último relacionado con los ecosistemas
+y vida submarina.
+
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Objetivo & Clasificaciones \\
+        \hline \hline
+        ODS1   & 1   \\ \hline
+        ODS2   & 35  \\ \hline
+        ODS3   & 64  \\ \hline
+        ODS4   & 0   \\ \hline
+        ODS5   & 0   \\ \hline
+        ODS6   & 589 \\ \hline
+        ODS7   & 5   \\ \hline
+        ODS8   & 0   \\ \hline
+        ODS9   & 9   \\ \hline
+        ODS10  & 1   \\ \hline
+        \textbf{ODS11}  & \textbf{43}  \\ \hline
+        ODS12  & 58  \\ \hline
+        ODS13  & 97  \\ \hline
+        ODS14  & 118 \\ \hline
+        ODS15  & 65  \\ \hline
+        ODS16  & 1   \\ \hline
+        ODS17  & 4   \\ \hline
+    \end{tabular}
+    \caption{Clasificaciones asbtracts ODS14 - modelo 23}
+    \label{table:Clasificaciones asbtracts ODS14 - modelo 23}
+\end{table}
+
+
+\subsubsection{Análisis objetivo 15}
+Este objetivo consigue un número más alto de clasificaciones, 411,
+\cref{table:Clasificaciones modelos sigmoid - datos extraidos de
+internet/finales}. Esta, aunque alta, es más baja de lo que sería ideal. Esto
+como se aprecia en la \cref{Mapa de relaciones del objetivo 15}, puede ser debido
+a la división de la taxonomía en dos grandes grupos. Además esto concuerda con
+la cantidad de textos asignados, ya que estos son aproximadamente la mitad del
+total. Unos de los dos grupos, el verde, habla de especies y cambio climático,
+temas que se podrían considerar como relacionados al objetivo 15. Adicionalmente
+el otro grupo, el rojo, contiene términos como sistema complejo y adaptativo y
+sostenibilidad, los cuales se pueden considerara más genéricos.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg15}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 15}
+    \label{Mapa de relaciones del objetivo 15}
+\end{figure}
+
+
+\subsubsection{Análisis objetivo 16}
+Este objetivo obtiene, al igual que el 15, unos resultados positivos, más aún si
+se tiene en cuenta que el número total de textos es menor, pero el número de
+clasificaciones es similar, \cref{table:Clasificaciones modelos sigmoid - datos
+extraidos de internet/finales}. Esto está reforzado por la \cref{Mapa de
+relaciones del objetivo 16}, en la cual se aprecia una taxonomía altamente
+relaciona con el objetivo 16, cubriendo temas como los conflictos armados,
+guerras civiles, entre otros. Esto cuadra correctamente con los resultados
+obtenidos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg16}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 16}
+    \label{Mapa de relaciones del objetivo 16}
+\end{figure}
+
+\subsubsection{Análisis objetivo 17}
+Este último objetivo, he obtenido unas métricas razonables pero aún así
+relativamente bajas, \cref{table:Clasificaciones modelos sigmoid - datos
+extraidos de internet/finales}. Esto se ve reflejado en la \cref{Mapa de
+relaciones del objetivo 17}, presentando este una taxonomía altamente
+diversificada, tocando temas de todos los tipos como lo son la industria, el
+comercio, la pobreza y de todos ellos, el único realmente relacionado con el
+objetivo 17 es la colaboración, presente en un segundo plano en el grupo rojo de
+la figura.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.85]{Vos\_Sdg17}
+    \captionsetup{justification=centering}
+    \caption{Mapa de relaciones del objetivo 17}
+    \label{Mapa de relaciones del objetivo 17}
+\end{figure}
+
+Para confirmar la diversidad en la taxonomía de los textos de este objetivo, se
+han incluido, en la tabla, \cref{table:Clasificaciones asbtracts ODS17 - modelo
+23}, las clasificaciones del modelo 23 de todos los textos pertenecientes al
+conjunto de datos de este objetivo. En esta se ve como hay multitud de objetivos
+con en torno a 100-150 textos asignados y de todos el que más tiene es el 17
+contando con cerca de 300. Esto concuerda correctamente con lo visto en la
+taxonomía, \cref{Mapa de relaciones del objetivo 17}, siendo esta bastante variada.
+
+\begin{table}[H]
+    \begin{tabular}{| c | c |}
+        \hline
+        Objetivo & Clasificaciones \\
+        \hline \hline
+        ODS1   & 43  \\ \hline
+        ODS2   & 95  \\ \hline
+        ODS3   & 159 \\ \hline
+        ODS4   & 21  \\ \hline
+        ODS5   & 9   \\ \hline
+        ODS6   & 47  \\ \hline
+        ODS7   & 93  \\ \hline
+        ODS8   & 68  \\ \hline
+        ODS9   & 125 \\ \hline
+        ODS10  & 16  \\ \hline
+        ODS11  & 65  \\ \hline
+        ODS12  & 109 \\ \hline
+        ODS13  & 129 \\ \hline
+        ODS14  & 23  \\ \hline
+        ODS15  & 59  \\ \hline
+        ODS16  & 5   \\ \hline
+        ODS17  & 298 \\ \hline
+    \end{tabular}
+    \caption{Clasificaciones asbtracts ODS17 - modelo 23}
+    \label{table:Clasificaciones asbtracts ODS17 - modelo 23}
+\end{table}
+
+\subsection{Conclusiones parciales}
+Gracias a estas pruebas podemos destacar el rendimiento del modelo 23,
+obteniendo este unas clasificaciones, en la mayoría de los casos correctas y  en
+las que no, un posterior análisis de los datos usados demostró que realmente el
+modelo funcionaba según lo esperado pero los conjuntos no contenían datos
+relacionados con el objetivo esperado. Este último análisis también ha ayudado a
+determinar que resultados excepcionalmente buenos, como el del modelo 21,
+\cref{table:Clasificaciones modelos sigmoid - datos aumentados}, realmente eran
+demasiado buenos como para ser verdad, analizando únicamente la tabla puede
+parecer que este modelo destaca por su rendimiento excepcional, obteniendo una
+métricas muy superiores al resto, pero si se analizan las taxonomías de los
+conjunto de datos , \crefrange{Mapa de relaciones del objetivo 8}{Mapa de
+relaciones del objetivo 17}, se observa que realmente un comportamiento correcto
+mostraría menos textos clasificados de manera correcta.
+
+\section{Conclusiones generales}
+Las pruebas realizadas pueden considerarse, en gran medida, como
+satisfactorias, alojando luz sobre el funcionamiento y razonamiento detrás de
+cada modelo. Han ayudado a determinar si las métricas obtenidas por los modelos
+son correctas o no y finalmente ayudando a determinar cual de todos los modelos
+presenta un comportamiento superior, como es el caso del modelo 23. 
+
+Se puede argumentar que tal nivel de pruebas y de análisis puede llegar a ser
+excesivo pero si el objetivo finales realizar un análisis cuantitativo, como es
+el caso, la validez de los datos finales presentados depende directamente de la
+validación realizada y, como es obvio de los resultados de la misma, y de que
+esta sea suficientemente extensa y detallada. 

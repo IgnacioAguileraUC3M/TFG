@@ -1,0 +1,160 @@
+Esta sección tiene como objetivo definir las bases contextuales y motivadoras
+detrás del proyecto, de manera adicional se presenta el marco regulador que lo
+enmarca y una enumeración de las diferentes secciones que componen el resto del
+documento.
+
+Destacar que el contexto sobre el que se basa el proyecto son las publicaciones
+científicas, es por esto por lo que se incluirá y hará referencia a multitud de
+textos en inglés. Esto es debido a que esta es la lengua predominante en las
+publicaciones científicas de alto impacto.
+
+\section{Introducción al tema}
+Hoy en día la humanidad se enfrenta al que posiblemente sea el problema más
+difícil de su larga historia, frenar de forma contundente y efectiva los efectos
+del cambio climático. Este, ocasionado de forma directa por la actividad
+humana, descontrolada y sin ningún tipo de regulación, ignorando las múltiples
+señales y consecuencias que vienen aconteciendo durante años, se presenta como
+una fuerza imparable que está empezando a mostrar la cruda realidad que aguarda.
+
+Para conseguir efectos paliativos significativos sobre las consecuencias del
+cambio climático es esencial una colaboración global sin precedentes,
+concienciando a todas las naciones para centrar el esfuerzo de manera colectiva
+y organizada para conseguirlo. Es por esto, y con esta meta común en el punto de
+mira, por lo que las Naciones Unidas como institución, formalizaron los
+\gls{ODSg} (\gls{ODSa}), poniendo así sobre el papel una serie de
+directivas a seguir para asegurar un futuro digno para las próximas
+generaciones.
+
+El que seguramente sea el esfuerzo fundamental a la hora alcanzar cualquier meta
+que la sociedad como conjunto se proponga es el constante desarrollo de un
+entorno investigador y científico activo y eficaz, que se encargue de guiar el
+progreso en materia de conocimiento por el camino correcto, desarrollando
+tecnologías relevantes a la vez que sostenibles.
+
+\section{Problema}
+Los \gls{ODSa}s, una vez se presta la atención
+necesaria, están presentes en casi todos los aspectos del día a día. Las
+corporaciones e instituciones más grandes los llevan por bandera. Afirmando y
+publicitando multitud de esfuerzos y políticas desarrolladas con estos en mente.
+Estos esfuerzos deben ser monitorizados para confirmar o desmentir lo que estas
+pregonan.
+
+El principal problema a la hora de monitorizar el progreso hacia el cumplimiento
+de los objetivos es la dificultad de analizar la cantidad, sin precedentes, de
+información generada de manera continua. Esta, teniendo una naturaleza
+heterogénea y siendo el lenguaje natural, punto central de este trabajo, por
+naturaleza, variable y costoso de analizar, crea una necesidad latente de
+procesar, catalogar y entender de manera automática y fiable textos de este
+carácter.
+
+\section{Motivación}
+El monitoreo constante de los esfuerzos que se llevan, o no, a cabo por cumplir
+dichos objetivos es una tarea esencial y, que como todo buen monitoreo, debe de
+realizarse de manera independiente y autónoma. Esta tarea es del tipo perfecto
+para ser automatizada por una serie de técnicas muy variadas. Una de estas
+técnicas, cada vez más popular, es el aprendizaje automático, y más
+concretamente el aprendizaje profundo.
+
+El modelo de aprendizaje profundo desarrollado en este trabajo tiene, como
+motivación, proporcionar la capacidad de analizar textos de manera fiable y
+automática, habilitando la posibilidad de realizar análisis cuantitativos,
+basándose en un conjunto de datos cualitativos y, en cierta medida, subjetivos,
+ya que la presencia de un tema en concreto en un texto es un una decisión
+puramente subjetiva, naciendo esta del conocimiento almacenado por cada
+individuo y su experiencia, vivencia e intereses pueden afectar de manera
+significativa a esta decisión. 
+
+Eliminar este factor humano que proporciona puntos de conflicto es, con la
+realización de un estudio cuantitativo y objetivo en mente, un requisito
+fundamental que cumplir si se quiere legitimar los resultados.
+
+\section{Objetivo}
+El objetivo principal que engloba este proyecto es el poder clasificar textos de acorde a los \gls{ODSa} relacionados con el mismo. Esta tarea, para poder llevarse a cabo de una manera correcta requiere de una serie de metas más específicas, la primera de las cuales es la extracción de datos de internet relacionados con los \gls{ODSa} y etiquetados de acorde a estos objetivos presentes en el texto. En segundo  lugar se  encuentra el diseño y entrenamiento de un modelo de aprendizaje profundo  que sea capaz de extraer la información almacenada en los datos recolectados e identificar los diferentes patrones para que posteriormente, dado un texto nuevo, sea capaz de identificar los diferentes objetivos relacionados con el mismo. Como última tarea está la validación de dicho modelo, esta tiene como finalidad llevar a cabo una serie de pruebas controladas sobre el modelo para analizar si su rendimiento es el adecuado y puede ser usado de manera fiable en tareas de análisis de datos. 
+
+Como objetivo adicional está el llevar a cabo un estudio cuantitativo sobre un corpus textual extraído de bases de datos académicas en base a las clasificaciones generadas por el modelo. De esta manera se estará usando el modelo desarrollado en un entorno real a la vez que se lleva a cabo un estudio que puede arrojar luz sobre el panorama científico actual y como se están distribuyendo los esfuerzos.
+
+Adicionalmente el trabajo realizado para el desarrollo de este modelo, estando este publicado en \textit{github} \cite{ignacioaguileratfg} \footnote{La disponibilidad de una versión actualizada no está garantizad debido a la dificultad de adjuntar modelos de alto tamaño}, puede ser
+usado como referencia para desarrollar modelos clasificadores de textos en otros
+ámbitos. Experimentando con datos y modelos de diferentes tipos.
+
+\section{Marco regulador}
+El trabajo desarrollado consta de un modelo clasificador de textos cuya base de
+conocimiento ha sido extraída de internet y tiene como objetivo clasificar una
+serie de textos provenientes de bases de datos académicas como scopus. Es esta
+extracción de datos el principal aspecto del proyecto que debe adecuarse a las
+regulaciones. En el caso de España, lugar donde se ha realizado dicho proyecto,
+aplica de manera directa toda aquella legislación y normativa recogida en el
+marco jurídico español. Aún así este se amolda a la legislación europea, que,
+por medio de directivas y reglamentos guían a las instituciones jurídicas de los
+estados miembros por un camino común hacia la creación de un marco regulador en
+cierta medida homogéneo en el entorno europeo.
+
+Como primer punto a comentar, el uso de técnicas de web scraping y el posterior
+tratamiento de los datos extraídos, con el objetivo de entrenar modelos de
+Aprendizaje Automático, particularmente en el ámbito de clasificación de textos
+relacionados con los \gls{ODSg}, debe ajustarse a las
+regulaciones existentes relacionadas con la propiedad intelectual, protección de
+datos y derechos de autor. En España, esto se rige bajo varias leyes y
+regulaciones, detalladas a continuación:
+
+\begin{enumerate}
+    \item \textbf{Ley Orgánica de Protección de Datos Personales y garantía de
+    los derechos digitales (LOPDGDD)}: Esta ley, aunque centrada principalmente
+    en la protección de datos personales, es relevante en cuanto a la extracción
+    de datos de internet ya que puede ser extraída información personal. Aunque
+    la extracción de información de esta índole se haga de manera no
+    intencionada se estaría incumpliendo la ley, por lo que el correcto filtrado
+    y trato de información personal es requerido.\cite{BOE1}
+
+    \item \textbf{Real Decreto Legislativo 1/1996, de 12 de abril, por el que se
+    aprueba el texto refundido de la Ley de Propiedad Intelectual,
+    regularizando, aclarando y armonizando las disposiciones legales vigentes
+    sobre la materia.}: Este real decreto enmarca toda la legislación española
+    relacionada con la propiedad intelectual, definiendo los derechos de autor,
+    la protección que estos derechos le brindan a las obras y las excepciones y
+    limitaciones de dichos derechos. Cualquier proyecto que trate con datos
+    tiene que regirse a la normativa expuesta en este
+    decreto.\cite{BOE2}
+
+    \item \textbf{Legislación de la UE}: En harmonía con la legislación
+    europea, el marco jurídico español se ha amoldado de tal forma que incorpora
+    aspectos provenientes de instituciones europeas en su legislación propia.
+    Esta legislación europea tiene dos formatos, los reglamentos y las
+    directivas. Los reglamentos son directamente aplicables a todos los estados
+    miembros de manera directa, por otro lado las directivas no son directamente
+    aplicables y no a todos los estados, pero, en el caso de que aplique, la
+    legislación española tiene que, dentro de un plazo marcado, incorporar estas
+    directivas en la ley. En materia de protección de la propiedad intelectual
+    existen múltiples directivas y reglamentos, algunos de los cuales aplicables
+    a este proyecto son:
+    \begin{itemize}
+        \item Directiva (UE) 2019/790 del Parlamento Europeo y del Consejo, de
+        17 de abril de 2019, sobre los derechos de autor y derechos afines en el
+        mercado único digital y por la que se modifican las Directivas 96/9/CE y
+        2001/29/CE (Texto pertinente a efectos del EEE.). \cite{EU1}
+        \item DIRECTIVA 2004/48/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 29 de
+        abril de 2004 relativa al respeto de los derechos de propiedad
+        intelectual (Texto pertinente a efectos del EEE). \cite{EU2}
+        \item Directiva 2011/77/UE del Parlamento Europeo y del Consejo, de 27
+        de septiembre de 2011 , por la que se modifica la Directiva 2006/116/CE
+        relativa al plazo de protección del derecho de autor y de determinados
+        derechos afines. \cite{EU3}
+    \end{itemize}
+    Estas directivas, aunque no directamente aplicables ya que no forman parte
+    directa de la legislación española, establecen una base legal que las
+    instituciones de los países miembros deben adoptar en su marco regulador en
+    un plazo determinado de tiempo. Es por esto por lo que hay que actuar con
+    estas directivas en mente ya que el eventual efecto legal de estas es
+    inevitable.
+\end{enumerate}
+
+\section{Estructura del documento}
+
+\begin{itemize}
+    \item \textbf{Estado de la cuestión}: Esta sección aborda la situación actual del campo de estudio y presenta el contexto teórico en el que se enmarca el proyecto. Aquí se analizan y presentan las investigaciones previas y las teorías existentes relevantes al tema. 
+    \item \textbf{Solución propuesta/método}: En esta parte del trabajo se detalla la metodología y enfoque utilizado para abordar la pregunta de investigación y resolver el problema planteado. Se describe cómo se recopilaron y analizaron los datos, qué técnicas y herramientas se utilizaron y por qué se eligió esta metodología en particular.
+    \item \textbf{Validación y pruebas}: En esta sección, se detallan los procedimientos utilizados para validar la metodología empleada en el desarrollo y se exponen los resultados de las pruebas realizadas. La validación se llevó a cabo con el fin de garantizar la confiabilidad y precisión de los datos obtenidos.
+    \item \textbf{Resultados}: En esta sección se presentan los hallazgos y resultados de la investigación. Dichos resultados se presentan de manera clara y concisa, por medio de tablas y gráficos.
+    \item \textbf{Gestión del proyecto}: Esta sección se centra en aspectos relacionados con la planificación y ejecución del proyecto de investigación. Incluye las diferentes fases del desarrollo, el presupuesto del mismo e incluye la sección del impacto socio-económico del proyecto.
+    \item \textbf{Conclusiones}: En el apartado de conclusiones se presenta un resumen detallado del desarrollo y los resultados alcanzados en la investigación, se discuten las limitaciones encontradas durante el estudio y se proponen posibles direcciones para futuras investigaciones en el tema.
+\end{itemize}
