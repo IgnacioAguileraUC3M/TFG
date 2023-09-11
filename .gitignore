@@ -3,5 +3,5 @@ desktop.ini
 *venv*
 *test*
 models/*
-!models
+!test_ds.csv
 
