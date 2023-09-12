@@ -1,0 +1,8 @@
+ 
+
+
+If creating a BERT model you get this error: 
+    "ValueError: Trying to load a model of incompatible/unknown type.
+    'C:\Users\XXXX\AppData\Local\Temp\tfhub_modules\1f5e738ed9ca6065b4aaa28282bd62775ebbff2e'
+    contains neither 'saved_model.pb' nor 'saved_model.pbtxt'." 
+    go to tfhub_modules directory and delete all folders.

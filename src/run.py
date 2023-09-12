@@ -6,15 +6,14 @@ except:
 from keras.models import load_model
 import tensorflow
 from tensorflow.python.framework.errors_impl import InvalidArgumentError
-from src import normalizer, Summarizer
-from src import requests_scraper
+from src.normalizer import normalizer, Summarizer
+from src.scraper import requests_scraper
 import numpy as np
 import pandas as pd
 from io import StringIO
 import sys
 import os
 import json
-from src import requests_scraper
 import random
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
@@ -148,14 +147,14 @@ class model_execution:
                 datum_probabilities = []
                 baseline = percentages[0]
                 for sdg, probability in zip(predictions, percentages):
-                    if self.sigmoid:
-                        belonging_condition = probability >= self.threshold
-                    else:
-                        belonging_condition=  probability >= baseline*self.threshold
-
+                    belonging_condition = probability >= self.threshold
                     if belonging_condition:
                         datum_sdgs.append(sdg)
                         datum_probabilities.append(probability)
+                if len(datum_sdgs) == 0:
+                    datum_sdgs.append(predictions[0])
+                    datum_probabilities.append(percentages[0])
+                
                 classifications.append(datum_sdgs)
                 classifications_percentages.append(datum_probabilities)
             return classifications, classifications_percentages
@@ -203,7 +202,6 @@ class model_execution:
         '''
 
         test_dataset = pd.read_csv(test_data, encoding='cp1252', converters={'CLASS': pd.eval})
-        test_dataset = test_dataset.sample(frac=1)
         correct = 0
         # total = len(test_dataset)
         total = 0
@@ -212,48 +210,90 @@ class model_execution:
         n = normalizer()
         s = Summarizer()
 
-        # For every occurence in the dataset get it predictions and add them to the report
-        for index, row in test_dataset.iterrows():
-            if total > 200:
-                break
-            print(total, end='\r')
-            text = row['TEXT']
-            # expected_class = row['ODS']
-            expected_class = row['CLASS']
 
-            predictions, percentages = self.get_prediction(text)
-            
-            for test_ods in row['CLASS']:
-                if test_ods in predictions:
-                    correct +=1
-                total += 1
-            # if f'ODS{expected_class}' in predictions:
-            #     correct += 1
+        texts = []
+        classes = []
+        # For every occurence in the ds classify it and update the tp,fp and fn metrics
+        for i, row in test_dataset.iterrows():
+            text = str(row['TEXT'])
 
-            if verbose:
-                if summarized:
-                    report_text = s.summarize(text)
-                else: report_text = text
+            if len(text) < 15:
+                continue
 
-                report += f'''{n.normalize_string(report_text)}
+            else:
+                texts.append(text)
+                classes.append(row['CLASS'])
 
-Expected class: {expected_class}
-Predicted classes: {predictions}
-Percentages labels: {percentages}
-'''
-                if index == total-1:
-                    report += '\n===============================\n\n'
+        total_entries = len(texts)
+        classifications, percentages = self.get_prediction(texts)
+
+        tp = 0  # True Positives
+        fp = 0  # False Positives
+        fn = 0  # False Negatives
+
+        for i, params  in enumerate(zip(classifications, classes, percentages)):
+            classification = params[0]
+            data_classes = params[1]
+            data_percentages = params[2]
+
+            for sdg in classification:
+                sdg_num = sdg
+
+                # If the label belongs to the text +1 to true positives
+                if sdg_num in data_classes:
+                    tp += 1
+                
+                # If the label does not belong to the text +1 to the false positives
                 else:
-                    report += '\n--------------------------------\n'
-        try:
-            accuracy = (correct/total)*100
-        except ZeroDivisionError:
-            accuracy = 0
+                    fp += 1
 
-        report += f'Model test accuracy: {accuracy}%\n'
-        report += f'Total test entries: {total}\n'
-        report += f'Correctly classified entries: {correct}\n'
-        report += f'Wrongly classified entries: {total-correct}'
+            # For every label belonging to the text
+            for sdg_num in data_classes:
+                sdg = sdg_num
+
+                # If the label is not classified by the model +1 to the false negatives
+                if sdg not in classification:
+                    fn += 1
+                
+            report += n.normalize_string(texts[i]) + '\n\n'
+            report += f'Expected classes: {str(classes[i])}\n'
+            report += f'Predicted classes: {str(classification)}\n'
+            report += f'Predicted percentages: {str(data_percentages)}\n\n'
+            report += f'=========================================\n'
+            report += f'=========================================\n\n'
+
+
+        try:
+            precission = tp / (tp + fp)
+        except ZeroDivisionError:
+            precission = 0
+
+        try:
+            recall = tp / (tp + fn)
+        except ZeroDivisionError:
+            recall = 0
+
+        try:
+            f1_s = 2*((precission * recall) / (precission + recall))
+        except ZeroDivisionError: 
+            f1_s = 0
+
+        tn = (total_entries*17)-(tp+fn+fp)
+
+        accuracy = (tp+tn) / (tp + fp + tn + fn)
+
+        report += f'Total test entries: {total_entries}\n'
+
+        report += f'fp= {fp}\n'
+        report += f'tp= {tp}\n'
+        report += f'fn= {fn}\n'
+        report += f'tn= {tn}\n'
+
+
+        report += f'Precission= {precission}\n'
+        report += f'Recall= {recall}\n'
+        report += f'Accuracy= {accuracy}\n'
+        report += f'F1 score= {f1_s}'
 
         if not save_report:
             print(report)
